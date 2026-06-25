@@ -4,11 +4,15 @@
 ## Datasets and Platforms
 
 
-- M3L-20M / Binge Watch dataset, Zenodo record: multimodal MovieLens extension with text, image, audio and video features.
+- Spillo, G., Petruzzelli, A., Musto, C., de Gemmis, M., Lops, P., & Semeraro, G. (2026). *Binge Watch: Reproducible Multimodal Benchmarks Datasets for Large-Scale Movie Recommendation on MovieLens-10M and 20M* (Version v1) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.18499145. Used for M3L-20M interaction data and MPNet / CLIP feature inputs. Licence: CC BY 4.0.
 
-- MovieLens 20M / GroupLens: movie metadata, links and ratings.
+- GroupLens Research. (2016). *MovieLens 20M Dataset README*. https://files.grouplens.org/datasets/movielens/ml-20m-README.html. Used for MovieLens movie metadata, ratings, tags, genome files and identifier bridge. Raw data is not redistributed.
 
-- Wikidata: SPARQL Query Service and CC0 metadata, including country/language/production-company properties.
+- Harper, F. M., & Konstan, J. A. (2015). *The MovieLens Datasets: History and Context*. ACM Transactions on Interactive Intelligent Systems, 5(4), Article 19. https://doi.org/10.1145/2827872. Used as the formal MovieLens dataset citation.
+
+- Wikidata contributors. (2026). *Wikidata:Data access*. https://www.wikidata.org/wiki/Wikidata:Data_access. Used for country, language and production metadata; structured Wikidata data is CC0.
+
+- Wikimedia Foundation. (2026). *Wikidata Query Service/User Manual*. https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual. Used for SPARQL query-service documentation.
 
 - EU Audiovisual Media Services Directive and digital-strategy materials for cultural-diversity governance framing.
 
@@ -22,11 +26,11 @@
 
 - Wang/Jin and related fairness surveys on recommender exposure and item/provider fairness.
 
-- Spillo et al., Binge Watch / M3L multimodal movie recommendation benchmark.
+- Spillo et al. (2026), Binge Watch / M3L multimodal movie recommendation benchmark.
 
 - Lesota, Geiger, Walder, Kowald and Schedl (2024), recommender feedback-loop methodology and country-representation dynamics.
 
-- MovieLens dataset documentation and papers.
+- Harper and Konstan (2015), MovieLens dataset paper; GroupLens Research (2016), MovieLens 20M README.
 
 
 ## Reused Code

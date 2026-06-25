@@ -55,7 +55,21 @@ Raw MovieLens and M3L/Binge Watch files are not redistributed. To reproduce from
 - Wikidata enrichment via SPARQL, cached in `data/interim/`
 
 
-See `data/README_data.md` for exact links and commands.
+See `DATA_SOURCES.md`, `data/README_data.md` and `references.bib` for exact source citations, links, access notes and licence constraints.
+
+
+## Data Citations
+
+
+The empirical analysis is based on three source layers:
+
+- **M3L-20M / Binge Watch** provides the main recommender-system interaction data and the MPNet / CLIP multimodal feature basis. It is a Zenodo dataset by Spillo, Petruzzelli, Musto, de Gemmis, Lops and Semeraro (2026), DOI: `10.5281/zenodo.18499145`, licensed as CC BY 4.0.
+
+- **MovieLens 20M** provides movie titles, genres, ratings, tags, genome tags and the `links.csv` identifier bridge. The official GroupLens README documents the dataset contents and terms; dataset use should cite Harper and Konstan (2015), DOI: `10.1145/2827872`.
+
+- **Wikidata and the Wikidata Query Service** provide country, language, production-company, director and related metadata through SPARQL queries. Wikidata structured data is CC0; query-service use is documented by Wikimedia.
+
+The full citation and reuse details are kept in `DATA_SOURCES.md`, `CITATION_AND_REUSE_LEDGER.md` and `references.bib`.
 
 
 ## Setup

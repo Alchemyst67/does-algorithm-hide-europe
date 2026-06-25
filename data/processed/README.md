@@ -11,4 +11,4 @@ The files are included so the main results can be inspected without downloading 
 - feedback-loop and re-ranking outputs,
 - the final research-question answer table.
 
-Raw MovieLens and M3L/Binge Watch files are not redistributed in this repository. Reproduction from raw data requires downloading those datasets from their original providers as described in `../README_data.md`.
+Raw MovieLens and M3L/Binge Watch files are not redistributed in this repository. Reproduction from raw data requires downloading those datasets from their original providers as described in `../README_data.md`. Formal source citations are listed in `../../DATA_SOURCES.md` and `../../references.bib`.
