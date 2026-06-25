@@ -1,0 +1,6 @@
+field,share,count
+movies with TMDb ID bridge,0.9907617860546961,27026
+movies with deep Wikidata DNA row,0.017413300095314905,475
+DNA rows with director citizenship,0.9957894736842106,473
+DNA rows with filming-location country,0.42526315789473684,202
+DNA rows with award count,1.0,475

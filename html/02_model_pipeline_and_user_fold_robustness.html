@@ -7482,7 +7482,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Recommender-Pipeline-and-Cross-Validation">Recommender Pipeline and Cross-Validation<a class="anchor-link" href="#Recommender-Pipeline-and-Cross-Validation">¶</a></h1><h2 id="Does-the-Algorithm-Hide-Europe?">Does the Algorithm Hide Europe?<a class="anchor-link" href="#Does-the-Algorithm-Hide-Europe?">¶</a></h2><p><strong>Team:</strong> Max Priessnitz &amp; Nico [surname]<br/>
+<h1 id="Recommender-Pipeline-and-Cross-Validation">Recommender Pipeline and User-Fold Robustness<a class="anchor-link" href="#Recommender-Pipeline-and-Cross-Validation">¶</a></h1><h2 id="Does-the-Algorithm-Hide-Europe?">Does the Algorithm Hide Europe?<a class="anchor-link" href="#Does-the-Algorithm-Hide-Europe?">¶</a></h2><p><strong>Team:</strong> Max Priessnitz &amp; Nico Zandomeneghi<br/>
 <strong>Purpose:</strong> focused modelling notebook for the cultural-prominence audit</p>
 <p>This notebook documents the actual recommendation pipeline and the cross-validation robustness check. It is intentionally narrower than the proposal notebook: it focuses on model implementation, validation design, model comparison and interpretation.</p>
 </div>
@@ -7598,7 +7598,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="3.-Cross-Validation-Protocol">3. Cross-Validation Protocol<a class="anchor-link" href="#3.-Cross-Validation-Protocol">¶</a></h2><p>This is a <strong>user-fold robustness check</strong>, not a random interaction split. A random interaction split would mix user histories in a way that is less faithful to recommendation. Instead, the fold unit is the user: each fold rebuilds the model pipeline on a different set of real users and evaluates against their M3L test items.</p>
+<h2 id="3.-Cross-Validation-Protocol">3. User-Fold Robustness Protocol<a class="anchor-link" href="#3.-Cross-Validation-Protocol">¶</a></h2><p>This is a <strong>user-fold robustness check</strong>, not a random interaction split. A random interaction split would mix user histories in a way that is less faithful to recommendation. Instead, the fold unit is the user: each fold rebuilds the model pipeline on a different set of real users and evaluates against their M3L test items.</p>
 </div>
 </div>
 </div>

@@ -2,22 +2,23 @@
   "repo_folder": "/Users/maxpriessnitz/Desktop/DS AI 2/final_submission/does_algorithm_hide_europe_github_repo",
   "zip_path": "/Users/maxpriessnitz/Desktop/DS AI 2/final_submission/does_algorithm_hide_europe_github_repo.zip",
   "notebooks": [
-    "00_project_roadmap_and_final_answers.ipynb",
     "01_data_foundation_movies_db.ipynb",
     "02_model_pipeline_and_user_fold_robustness.ipynb",
     "03_feedback_loop_and_mitigation.ipynb",
     "04_final_research_story_executed.ipynb",
-    "04_final_research_story_source.ipynb"
+    "04_final_research_story_source.ipynb",
+    "05_research_answers_and_roadmap.ipynb"
   ],
   "html_exports": [
-    "00_project_roadmap_and_final_answers.html",
     "01_data_foundation_movies_db.html",
     "02_model_pipeline_and_user_fold_robustness.html",
     "03_feedback_loop_and_mitigation.html",
-    "04_final_research_story_executed.html"
+    "04_final_research_story_executed.html",
+    "05_research_answers_and_roadmap.html"
   ],
   "raw_data_included": false,
-  "note": "Raw MovieLens/M3L data and presentation files are excluded. Data links and reproduction instructions are in data/README_data.md.",
+  "note": "Raw MovieLens/M3L data are excluded; derived CSV tables are included under data/processed. Data links and reproduction instructions are in data/README_data.md.",
   "presentations_included": false,
-  "github_target": "Alchemyst67/does-algorithm-hide-europe"
+  "github_target": "Alchemyst67/does-algorithm-hide-europe",
+  "processed_data_included": true
 }

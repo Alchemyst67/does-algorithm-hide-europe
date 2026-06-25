@@ -3,7 +3,7 @@ window.AUDIT_DATA = {
   "scope": {
     "title": "Does the Algorithm Hide Europe?",
     "subtitle": "A multimodal audit of cultural prominence bias in movie recommender systems",
-    "team": "Max Priessnitz & Nico [surname]",
+    "team": "Max Priessnitz & Nico Zandomeneghi",
     "course": "Data Science and Artificial Intelligence II: Data and Algorithmic Governance",
     "run": "Full audit run: 5,000 real users, 12,012 candidate items, no synthetic fallback",
     "rawDataPolicy": "Raw MovieLens and M3L files are not redistributed; the UI uses derived outputs only."

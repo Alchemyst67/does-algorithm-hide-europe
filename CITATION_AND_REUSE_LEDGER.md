@@ -35,7 +35,7 @@
 No third-party project code was copied into the repository. The implementation uses standard public Python and JavaScript libraries listed in `requirements.txt` and package docs. Concepts and methods from the literature are cited in the notebooks and described in the methodology.
 
 
-## AI-Assisted Code
+## Tool-Assisted Drafting
 
 
-Some code and documentation were drafted with OpenAI Codex/ChatGPT assistance and reviewed by the project team. See `AI_USE_DISCLOSURE.md`.
+OpenAI Codex/ChatGPT supported selected wording, code-review checks and small refactoring suggestions. The project team reviewed and adapted the material. See `AI_USE_DISCLOSURE.md`.

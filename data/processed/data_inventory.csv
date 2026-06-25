@@ -1,0 +1,15 @@
+source_name,expected_file,resolved_path,exists,file_size_mb,role,used_in_analysis,required
+MovieLens movies,MovieLens 20M Dataset/movie.csv | data/archive/movie.csv | archive/movie.csv,/Users/maxpriessnitz/Desktop/DS AI 2/MovieLens 20M Dataset/movie.csv,True,1.42,Movie titles and genres,True,True
+MovieLens ratings,MovieLens 20M Dataset/rating.csv | data/archive/rating.csv | archive/rating.csv,/Users/maxpriessnitz/Desktop/DS AI 2/MovieLens 20M Dataset/rating.csv,True,658.37,Raw ratings/interactions with timestamps,True,True
+MovieLens links,MovieLens 20M Dataset/link.csv | data/archive/link.csv | archive/link.csv,/Users/maxpriessnitz/Desktop/DS AI 2/MovieLens 20M Dataset/link.csv,True,0.51,IMDb/TMDb bridge,True,True
+MovieLens tags,MovieLens 20M Dataset/tag.csv | data/archive/tag.csv | archive/tag.csv,/Users/maxpriessnitz/Desktop/DS AI 2/MovieLens 20M Dataset/tag.csv,True,20.72,User tags,True,False
+Genome scores,MovieLens 20M Dataset/genome_scores.csv | data/archive/genome_scores.csv | archive/genome_scores.csv,/Users/maxpriessnitz/Desktop/DS AI 2/MovieLens 20M Dataset/genome_scores.csv,True,204.39,Genome relevance scores,True,False
+Genome tags,MovieLens 20M Dataset/genome_tags.csv | data/archive/genome_tags.csv | archive/genome_tags.csv,/Users/maxpriessnitz/Desktop/DS AI 2/MovieLens 20M Dataset/genome_tags.csv,True,0.02,Genome tag names,True,False
+M3L interactions,m3l-20m/m3l-20m.inter | data/m3l-20m/m3l-20m.inter,/Users/maxpriessnitz/Desktop/DS AI 2/m3l-20m/m3l-20m.inter,True,265.74,M3L split interactions,True,True
+M3L to MovieLens map,data/interim/m3l_internal_to_movielens.csv,/Users/maxpriessnitz/Desktop/DS AI 2/data/interim/m3l_internal_to_movielens.csv,True,0.2,M3L internal item to MovieLens movieId bridge,True,True
+MPNet matrix,m3l-20m/text/mpnet.npy,/Users/maxpriessnitz/Desktop/DS AI 2/m3l-20m/text/mpnet.npy,True,111.38,M3L MPNet plot embeddings,True,False
+CLIP image matrix,m3l-20m/image/clip_image.npy,/Users/maxpriessnitz/Desktop/DS AI 2/m3l-20m/image/clip_image.npy,True,74.25,M3L CLIP poster embeddings,True,False
+MPNet JSON folder,TEXT_mpnet,/Users/maxpriessnitz/Desktop/DS AI 2/TEXT_mpnet,True,,Per-movie MPNet JSON feature availability,True,False
+CLIP image JSON folder,IMG_clip-image,/Users/maxpriessnitz/Desktop/DS AI 2/IMG_clip-image,True,,Per-movie CLIP-image JSON feature availability,True,False
+Wikidata cache,data/interim/wikidata_movie_metadata_extended.csv | data/interim/wikidata_movie_metadata.csv,/Users/maxpriessnitz/Desktop/DS AI 2/data/interim/wikidata_movie_metadata_extended.csv,True,2.55,Cached country/language/production metadata,True,True
+Wikidata DNA cache,data/interim/wikidata_visibility_dna_extra.csv,/Users/maxpriessnitz/Desktop/DS AI 2/data/interim/wikidata_visibility_dna_extra.csv,True,0.05,"Optional deeper Wikidata DNA metadata: director citizenship, filming location and awards",False,False

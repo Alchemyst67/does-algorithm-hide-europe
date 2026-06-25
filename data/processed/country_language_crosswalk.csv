@@ -1,0 +1,1534 @@
+country_label,language_label,movie_count,train_like_interactions
+United States,English,12345,848123.0
+United Kingdom,English,2388,132706.0
+France,French,923,13105.0
+France,English,724,36449.0
+Canada,English,706,18585.0
+Germany,English,615,36909.0
+Japan,Japanese,513,9876.0
+Australia,English,436,25238.0
+Italy,Italian,390,8147.0
+Germany,German,332,6131.0
+Italy,English,312,13286.0
+Spain,Spanish,227,2833.0
+United States,Spanish,171,14378.0
+Italy,French,166,2867.0
+Spain,English,151,3435.0
+United States,French,148,15111.0
+France,Italian,143,3123.0
+South Korea,Korean,140,945.0
+Hong Kong,Cantonese,126,1840.0
+United States,German,124,9460.0
+Ireland,English,121,5009.0
+Sweden,Swedish,121,1412.0
+Japan,English,120,8149.0
+India,Hindi,117,129.0
+Germany,French,115,3053.0
+Belgium,French,113,803.0
+France,Spanish,107,2524.0
+France,German,106,2502.0
+United Kingdom,French,94,5376.0
+Mexico,Spanish,87,2503.0
+Finland,Finnish,81,215.0
+United States,Italian,75,6002.0
+Sweden,English,73,1160.0
+Denmark,Danish,71,557.0
+Argentina,Spanish,71,206.0
+Belgium,English,67,611.0
+Russia,Russian,67,452.0
+Canada,French,66,1974.0
+Denmark,English,65,1186.0
+United States,Japanese,63,6242.0
+United States,Russian,61,6018.0
+Mexico,English,61,4831.0
+United Kingdom,German,61,4573.0
+Netherlands,English,60,2042.0
+South Africa,English,57,1699.0
+Iran,Persian,52,165.0
+New Zealand,English,51,8779.0
+Germany,Italian,50,2251.0
+Austria,German,50,408.0
+Brazil,Portuguese,49,273.0
+Soviet Union,Russian,48,419.0
+People's Republic of China,Mandarin,47,1828.0
+Poland,Polish,47,508.0
+Switzerland,French,44,1609.0
+France,Russian,42,1499.0
+Italy,Spanish,42,1068.0
+France,Arabic,42,705.0
+Netherlands,Dutch,42,268.0
+Italy,German,41,2060.0
+Norway,Norwegian,41,240.0
+Israel,Hebrew,41,144.0
+Czech Republic,English,37,5651.0
+Spain,Italian,37,1449.0
+India,English,37,962.0
+Romania,Romanian,37,50.0
+Germany,Spanish,35,1027.0
+United Kingdom,Spanish,33,3082.0
+Germany,Russian,33,1424.0
+Norway,English,33,951.0
+Turkey,Turkish,33,64.0
+United Kingdom,Italian,32,1190.0
+Switzerland,English,32,615.0
+France,Hebrew,32,559.0
+Hong Kong,English,31,3494.0
+Austria,English,30,992.0
+Spain,French,30,812.0
+Hungary,English,30,430.0
+Greece,Greek,30,52.0
+Finland,English,29,331.0
+People's Republic of China,Standard Chinese,28,1703.0
+United States,Arabic,27,2770.0
+Luxembourg,English,26,817.0
+Thailand,Thai,25,142.0
+Romania,English,25,116.0
+Hong Kong,Mandarin,24,1503.0
+People's Republic of China,English,24,837.0
+Poland,English,24,749.0
+Hungary,Hungarian,24,60.0
+United Kingdom,Russian,23,1134.0
+Hong Kong,Chinese,22,1899.0
+People's Republic of China,Chinese,22,1299.0
+France,Portuguese,22,277.0
+United States,Hebrew,21,1840.0
+Denmark,Swedish,21,444.0
+Sweden,Danish,21,340.0
+Belgium,Dutch,21,86.0
+Norway,Swedish,20,233.0
+Luxembourg,French,20,231.0
+Israel,English,20,111.0
+Russia,English,19,335.0
+Hong Kong,Yue Chinese,19,152.0
+Hong Kong,Standard Chinese,18,1455.0
+Germany,Hebrew,18,360.0
+South Korea,English,18,143.0
+Switzerland,German,18,98.0
+France,Japanese,17,668.0
+Spain,Catalan,17,439.0
+Sweden,German,17,112.0
+Portugal,Portuguese,17,7.0
+France,Romanian,16,12.0
+Taiwan,Mandarin,15,1575.0
+Iceland,English,15,534.0
+People's Republic of China,Cantonese,15,268.0
+Germany,Turkish,15,256.0
+Argentina,English,15,221.0
+Austria,French,15,149.0
+Brazil,English,15,63.0
+Indonesia,Indonesian,15,42.0
+Chile,Spanish,15,12.0
+Japan,French,14,1115.0
+United States,American English,14,1051.0
+Germany,Swedish,14,362.0
+Germany,Arabic,14,294.0
+Iceland,Icelandic,14,51.0
+Sweden,Norwegian,14,42.0
+Italy,Russian,13,396.0
+Netherlands,French,13,315.0
+France,Turkish,13,237.0
+Czech Republic,Czech,13,195.0
+Colombia,Spanish,13,114.0
+Netherlands,Spanish,13,30.0
+France,Persian,13,29.0
+Czechoslovakia,Czech,13,6.0
+Poland,French,12,1550.0
+Canada,German,12,1078.0
+Weimar Republic,German,12,538.0
+Greece,English,12,31.0
+United Kingdom,Japanese,11,1137.0
+United States,Hindi,11,424.0
+France,Swedish,11,126.0
+Spain,German,11,103.0
+France,Dutch,11,90.0
+India,Bangla,11,66.0
+Sweden,French,11,59.0
+Serbia,Serbian,11,11.0
+Poland,German,10,555.0
+United Kingdom,Arabic,10,480.0
+Canada,Spanish,10,473.0
+Germany,Finnish,10,214.0
+France,Mandarin,10,146.0
+Sweden,Finnish,10,31.0
+Taiwan,Standard Taiwanese Mandarin,10,30.0
+United States,Mandarin,9,2103.0
+United States,Standard Chinese,9,1901.0
+United States,Romanian,9,776.0
+Germany,Japanese,9,418.0
+France,Polish,9,416.0
+Germany,Hungarian,9,223.0
+Netherlands,German,9,82.0
+Germany,Danish,9,69.0
+Norway,Danish,9,55.0
+Finland,Swedish,9,16.0
+Brazil,Spanish,9,7.0
+United States,Greek,8,1136.0
+Canada,Italian,8,1080.0
+Japan,Russian,8,465.0
+United States,Persian,8,323.0
+France,Latin,8,320.0
+France,Catalan,8,299.0
+Austria,Russian,8,219.0
+Czech Republic,German,8,79.0
+Denmark,German,8,69.0
+Cuba,Spanish,8,65.0
+United States,Korean,8,63.0
+France,Greek,8,50.0
+Israel,Arabic,8,41.0
+United Kingdom,Swedish,8,38.0
+Russia,German,8,27.0
+Uruguay,Spanish,8,3.0
+Belgium,Italian,7,694.0
+West Germany,English,7,655.0
+United States,Vietnamese,7,566.0
+Canada,Arabic,7,429.0
+United States,Portuguese,7,378.0
+France,Finnish,7,225.0
+United States,Cantonese,7,216.0
+Australia,German,7,183.0
+Belgium,German,7,178.0
+United Kingdom,Czech,7,155.0
+United States,Hungarian,7,148.0
+Yugoslavia,English,7,123.0
+France,Danish,7,120.0
+Sweden,Russian,7,118.0
+France,Standard Chinese,7,75.0
+Germany,Portuguese,7,73.0
+Yugoslavia,Serbo-Croatian,7,70.0
+Romania,French,7,45.0
+Italy,Portuguese,7,44.0
+Czech Republic,French,7,36.0
+Japan,Spanish,7,35.0
+Portugal,Spanish,7,33.0
+Germany,Romanian,7,28.0
+Denmark,Norwegian,7,10.0
+Portugal,English,7,9.0
+Taiwan,Standard Chinese,6,1227.0
+Japan,German,6,1107.0
+United Kingdom,Hindi,6,884.0
+Philippines,English,6,784.0
+Belgium,Spanish,6,651.0
+United States,Yue Chinese,6,583.0
+Australia,French,6,571.0
+Germany,Latin,6,462.0
+Japan,Korean,6,357.0
+Thailand,English,6,320.0
+Switzerland,Russian,6,263.0
+Germany,Czech,6,252.0
+Hong Kong,Japanese,6,113.0
+Italy,Arabic,6,94.0
+Singapore,English,6,69.0
+Brazil,French,6,56.0
+France,Hungarian,6,48.0
+Denmark,French,6,38.0
+Hungary,French,6,37.0
+Slovakia,Czech,6,36.0
+Finland,German,6,32.0
+Finland,Russian,6,27.0
+Soviet Union,English,6,25.0
+Taiwan,Taiwanese Hokkien,6,25.0
+Germany,Norwegian,6,24.0
+Sweden,Spanish,6,21.0
+South Korea,Standard Chinese,6,19.0
+Turkey,English,6,18.0
+United Kingdom,Portuguese,6,13.0
+Bulgaria,English,6,7.0
+Germany,Polish,6,6.0
+Morocco,Arabic,6,5.0
+Tunisia,French,6,4.0
+Germany,Persian,6,1.0
+Chile,English,6,0.0
+Latvia,Latvian,6,0.0
+United States,Chinese,5,1467.0
+United Kingdom,Hebrew,5,1282.0
+Poland,Russian,5,762.0
+United Kingdom,Greek,5,613.0
+United States,Czech,5,437.0
+France,Serbian,5,341.0
+Italy,Latin,5,313.0
+Canada,Russian,5,270.0
+Ireland,Spanish,5,204.0
+France,Korean,5,105.0
+France,Vietnamese,5,105.0
+Vietnam,Vietnamese,5,103.0
+Netherlands,Japanese,5,97.0
+Germany,Mandarin,5,92.0
+People's Republic of China,Japanese,5,75.0
+Austria,Italian,5,63.0
+Algeria,French,5,62.0
+Hungary,German,5,52.0
+Belgium,Hebrew,5,41.0
+Japan,Mandarin,5,36.0
+Denmark,Icelandic,5,34.0
+Germany,Icelandic,5,33.0
+Norway,German,5,32.0
+Palestine,Arabic,5,24.0
+France,Kurdish,5,23.0
+Iran,English,5,23.0
+Israel,German,5,19.0
+Belgium,Flemish Dutch,5,18.0
+Israel,French,5,16.0
+United Kingdom,Danish,5,16.0
+United States,Indonesian,5,11.0
+India,Tamil,5,10.0
+United Kingdom,Polish,5,10.0
+Egypt,Arabic,5,8.0
+Morocco,French,5,7.0
+Spain,Portuguese,5,7.0
+People's Republic of China,Putonghua,5,3.0
+Latvia,English,5,2.0
+Belgium,Arabic,5,1.0
+Italy,Greek,5,1.0
+Portugal,French,5,1.0
+Socialist Federal Republic of Yugoslavia,Serbo-Croatian,5,1.0
+Bolivia,Spanish,5,0.0
+Philippines,Tagalog,5,0.0
+United States,Latin,4,954.0
+United Kingdom,Latin,4,700.0
+West Germany,Italian,4,613.0
+South Africa,Afrikaans,4,591.0
+Germany,Hindi,4,372.0
+British Hong Kong,English,4,361.0
+United States,Ukrainian,4,295.0
+United States,Thai,4,184.0
+United States,Icelandic,4,173.0
+Ireland,Irish,4,171.0
+France,Czech,4,142.0
+United Kingdom,Finnish,4,141.0
+United States,Afrikaans,4,133.0
+Denmark,Russian,4,100.0
+Slovakia,English,4,100.0
+Bosnia and Herzegovina,Bosnian,4,98.0
+Spain,Latin,4,98.0
+Germany,Greek,4,92.0
+Australia,Japanese,4,66.0
+South Korea,Japanese,4,61.0
+Peru,Spanish,4,58.0
+Turkey,German,4,57.0
+United States,Swedish,4,48.0
+Czech Republic,Russian,4,40.0
+South Africa,Zulu,4,39.0
+Switzerland,Italian,4,28.0
+Denmark,Spanish,4,27.0
+Soviet Union,Italian,4,24.0
+United Arab Emirates,English,4,23.0
+Canada,Hindi,4,21.0
+Italy,Turkish,4,19.0
+Ireland,French,4,18.0
+Hong Kong,French,4,16.0
+People's Republic of China,German,4,12.0
+France,Georgian,4,11.0
+Jamaica,English,4,9.0
+Estonia,Estonian,4,8.0
+Georgia,Georgian,4,8.0
+Norway,Russian,4,8.0
+United Kingdom,Persian,4,8.0
+Hungary,Russian,4,7.0
+Germany,Serbian,4,5.0
+France,Bambara,4,4.0
+Italy,Hebrew,4,4.0
+Palestine,Hebrew,4,4.0
+Switzerland,Swiss German,4,4.0
+France,Norwegian,4,2.0
+Hong Kong,Putonghua,4,2.0
+Portugal,German,4,2.0
+Senegal,French,4,2.0
+Tunisia,Arabic,4,2.0
+Germany,Bosnian,4,1.0
+Yugoslavia,Serbian,4,1.0
+Mexico,French,3,673.0
+United States,Bulgarian,3,560.0
+United States,Irish,3,431.0
+United Kingdom,Punjabi,3,417.0
+Canada,Hebrew,3,405.0
+United Kingdom,Standard Chinese,3,319.0
+United States,Yiddish,3,315.0
+United Kingdom,Vietnamese,3,266.0
+United States,Serbian,3,249.0
+Italy,Hungarian,3,210.0
+Germany,Ukrainian,3,200.0
+New Zealand,Māori,3,188.0
+Slovenia,English,3,176.0
+Australia,Italian,3,165.0
+United Kingdom,Irish,3,154.0
+United States,American Sign Language,3,146.0
+Germany,Vietnamese,3,143.0
+Norway,French,3,125.0
+Italy,Serbo-Croatian,3,110.0
+United Kingdom,Serbo-Croatian,3,110.0
+Australia,Russian,3,109.0
+Colombia,English,3,109.0
+France,Croatian,3,105.0
+Russia,French,3,103.0
+Slovenia,Serbian,3,98.0
+France,Bosnian,3,97.0
+Slovenia,German,3,97.0
+Australia,Spanish,3,83.0
+Luxembourg,Italian,3,81.0
+Netherlands,Italian,3,81.0
+Estonia,English,3,74.0
+France,Chinese,3,60.0
+Netherlands,Russian,3,60.0
+Spain,Galician,3,60.0
+Italy,Swedish,3,51.0
+United States,Polish,3,48.0
+Germany,Mongolian,3,45.0
+Netherlands,Danish,3,42.0
+United States,Norwegian,3,40.0
+Egypt,English,3,38.0
+Italy,Czech,3,36.0
+Germany,Dutch,3,35.0
+Germany,Standard Chinese,3,33.0
+Kazakhstan,Russian,3,27.0
+Romania,German,3,25.0
+Taiwan,English,3,25.0
+Morocco,English,3,24.0
+Netherlands,Arabic,3,22.0
+Iran,French,3,18.0
+Netherlands,Flemish Dutch,3,18.0
+France,Hindi,3,17.0
+Italy,Neapolitan,3,17.0
+Afghanistan,Persian,3,16.0
+South Korea,Mandarin,3,16.0
+Czech Republic,Danish,3,13.0
+Iran,Kurdish,3,13.0
+Lebanon,Arabic,3,13.0
+Yugoslavia,Italian,3,13.0
+France,Armenian,3,12.0
+Soviet Union,Georgian,3,11.0
+Iraq,Kurdish,3,9.0
+United Kingdom,Indonesian,3,8.0
+Germany,Thai,3,6.0
+Italy,Persian,3,6.0
+Spain,Quechua,3,6.0
+Finland,Danish,3,5.0
+Germany,Georgian,3,4.0
+Indonesia,English,3,4.0
+Ukraine,Russian,3,4.0
+Denmark,Polish,3,3.0
+Palestine,English,3,3.0
+Austria,Slovak,3,2.0
+Croatia,Serbian,3,2.0
+France,Slovak,3,2.0
+France,Thai,3,2.0
+Greece,Turkish,3,2.0
+Senegal,Wolof,3,2.0
+Turkey,Greek,3,2.0
+France,Wolof,3,1.0
+Greece,French,3,1.0
+Greece,German,3,1.0
+Poland,Spanish,3,1.0
+Socialist Federal Republic of Yugoslavia,Serbian,3,1.0
+South Korea,Chinese,3,1.0
+Taiwan,Cantonese,3,1.0
+Denmark,Finnish,3,0.0
+Denmark,Italian,3,0.0
+Lithuania,Lithuanian,3,0.0
+Luxembourg,German,3,0.0
+Slovenia,Slovene,3,0.0
+Sweden,Italian,3,0.0
+Taiwan,Japanese,3,0.0
+Turkey,Kurdish,3,0.0
+United States,Dutch,3,0.0
+West Germany,German,2,654.0
+Canada,Japanese,2,618.0
+United Kingdom,Romanian,2,549.0
+Botswana,Afrikaans,2,535.0
+Botswana,English,2,535.0
+United States,Punjabi,2,412.0
+United Kingdom,Serbian,2,340.0
+Malta,English,2,285.0
+Italy,Romani,2,267.0
+United Kingdom,Romani,2,267.0
+Canada,Standard Chinese,2,254.0
+France,Albanian,2,246.0
+United States,Albanian,2,244.0
+Austria,Hungarian,2,209.0
+Japan,Italian,2,197.0
+Germany,Swahili,2,191.0
+United Kingdom,Swahili,2,191.0
+France,Cantonese,2,170.0
+France,Serbo-Croatian,2,153.0
+United States,Finnish,2,141.0
+Germany,Chinese,2,129.0
+Kingdom of Great Britain,English,2,124.0
+Ecuador,Spanish,2,110.0
+Ireland,Czech,2,106.0
+Peru,German,2,106.0
+Mexico,German,2,104.0
+Yugoslavia,German,2,104.0
+United Kingdom,Scottish Gaelic,2,103.0
+Norway,Polish,2,102.0
+Italy,Bosnian,2,98.0
+Italy,Serbian,2,98.0
+Slovenia,French,2,97.0
+Vietnam,English,2,90.0
+United States,Kinyarwanda,2,88.0
+West Germany,French,2,82.0
+Luxembourg,Japanese,2,81.0
+Estonia,Russian,2,75.0
+Germany,Korean,2,75.0
+Estonia,Swedish,2,74.0
+Italy,Japanese,2,64.0
+United States,Somali,2,60.0
+Algeria,Arabic,2,58.0
+Japan,Cantonese,2,58.0
+Federal Republic of Yugoslavia,Serbo-Croatian,2,57.0
+United States,Dari,2,57.0
+United States,Pashto,2,57.0
+Germany,Serbo-Croatian,2,56.0
+People's Republic of China,French,2,48.0
+Brazil,German,2,46.0
+Italy,Danish,2,41.0
+Spain,Danish,2,41.0
+Ireland,German,2,40.0
+United Kingdom,Zulu,2,37.0
+United Kingdom,Dutch,2,35.0
+British Hong Kong,Standard Chinese,2,34.0
+Hungary,Italian,2,34.0
+Hungary,Latin,2,34.0
+France,Icelandic,2,33.0
+Canada,Inuktitut,2,30.0
+France,Tibetan,2,30.0
+Switzerland,Spanish,2,30.0
+Switzerland,Tibetan,2,30.0
+Germany,Catalan,2,27.0
+Czech Republic,Italian,2,26.0
+Czech Republic,Slovak,2,26.0
+Italy,Slovak,2,26.0
+Slovakia,Italian,2,26.0
+Slovakia,Slovak,2,26.0
+Kingdom of Italy,Italian,2,24.0
+Norway,Icelandic,2,23.0
+Japan,Persian,2,22.0
+Soviet Union,German,2,21.0
+United States,Yucatec Maya,2,20.0
+France,Yiddish,2,19.0
+Japan,Standard Chinese,2,19.0
+Hong Kong,Spanish,2,18.0
+Mongolia,Mongolian,2,18.0
+Netherlands,Latin,2,18.0
+Norway,Finnish,2,18.0
+New Zealand,Japanese,2,15.0
+South Korea,German,2,15.0
+Dominican Republic,Spanish,2,13.0
+Iran,Spanish,2,13.0
+Yugoslavia,Romani,2,13.0
+Canada,Armenian,2,12.0
+Indonesia,Japanese,2,11.0
+British Hong Kong,Cantonese,2,10.0
+Cyprus,English,2,10.0
+Denmark,Czech,2,10.0
+Turkey,Italian,2,10.0
+Denmark,Indonesian,2,8.0
+Norway,Indonesian,2,8.0
+Serbia,English,2,8.0
+Iran,Arabic,2,7.0
+Romania,Russian,2,7.0
+United States,Zulu,2,7.0
+France,Flemish Dutch,2,6.0
+Japan,Arabic,2,6.0
+Mexico,Hebrew,2,6.0
+Spain,Turkish,2,6.0
+Austria,Czech,2,5.0
+Belgium,Portuguese,2,5.0
+Canada,Icelandic,2,5.0
+Spain,Russian,2,5.0
+United States,Georgian,2,5.0
+Canada,Indonesian,2,4.0
+Federal Republic of Yugoslavia,English,2,4.0
+Finland,French,2,4.0
+Germany,Croatian,2,4.0
+Italy,Albanian,2,4.0
+Italy,Polish,2,4.0
+Mexico,Italian,2,4.0
+Portugal,Italian,2,4.0
+Slovakia,German,2,4.0
+Burkina Faso,Bambara,2,3.0
+Hong Kong,Korean,2,3.0
+Israel,Russian,2,3.0
+Monaco,French,2,3.0
+People's Republic of China,Finnish,2,3.0
+Spain,Serbian,2,3.0
+Argentina,Italian,2,2.0
+Belarus,German,2,2.0
+Belarus,Russian,2,2.0
+Burkina Faso,French,2,2.0
+Croatia,Bosnian,2,2.0
+France,Tagalog,2,2.0
+German Reich,German,2,2.0
+Hungary,Polish,2,2.0
+Ireland,Polish,2,2.0
+Jordan,Arabic,2,2.0
+Norway,Arabic,2,2.0
+Peru,Quechua,2,2.0
+Poland,Yiddish,2,2.0
+Rwanda,Kinyarwanda,2,2.0
+Thailand,Korean,2,2.0
+United Kingdom,Hungarian,2,2.0
+Albania,Albanian,2,1.0
+Austria,Arabic,2,1.0
+Austria,Portuguese,2,1.0
+Canada,Quebec French,2,1.0
+Denmark,Dutch,2,1.0
+Federal Republic of Yugoslavia,Serbian,2,1.0
+Finland,Spanish,2,1.0
+France,Indonesian,2,1.0
+France,Neapolitan,2,1.0
+Georgia,Russian,2,1.0
+Germany,Indonesian,2,1.0
+Greece,Russian,2,1.0
+Greece,Spanish,2,1.0
+Hungary,Greek,2,1.0
+Hungary,Spanish,2,1.0
+India,Urdu,2,1.0
+Iran,German,2,1.0
+Italy,Dutch,2,1.0
+Lithuania,English,2,1.0
+Mali,French,2,1.0
+Montenegro,Serbian,2,1.0
+People's Republic of China,Spanish,2,1.0
+Poland,Italian,2,1.0
+Soviet Union,Armenian,2,1.0
+Spain,Finnish,2,1.0
+Spain,Greek,2,1.0
+Spain,Hebrew,2,1.0
+Spain,Mandarin,2,1.0
+Switzerland,Hungarian,2,1.0
+Syria,Arabic,2,1.0
+United Kingdom,Slovak,2,1.0
+United Kingdom,Turkish,2,1.0
+United States,Danish,2,1.0
+Armenia,Armenian,2,0.0
+Austria,Indonesian,2,0.0
+Austria,Mandarin,2,0.0
+Austria,Persian,2,0.0
+Austria,Spanish,2,0.0
+Belgium,Lithuanian,2,0.0
+Bolivia,Aymara,2,0.0
+Bolivia,English,2,0.0
+Brazil,Polish,2,0.0
+British Hong Kong,Chinese,2,0.0
+Bulgaria,Bulgarian,2,0.0
+Chile,French,2,0.0
+Czech Republic,Greek,2,0.0
+Czech Republic,Swedish,2,0.0
+Empire of Japan,Japanese,2,0.0
+Estonia,German,2,0.0
+Finland,Italian,2,0.0
+France,Lithuanian,2,0.0
+France,Sicilian,2,0.0
+German Democratic Republic,German,2,0.0
+Germany,Kurdish,2,0.0
+Germany,Lithuanian,2,0.0
+Germany,Swiss German,2,0.0
+Hungary,Czech,2,0.0
+Hungary,Turkish,2,0.0
+Iceland,Swedish,2,0.0
+India,Malayalam,2,0.0
+Ireland,Danish,2,0.0
+Ireland,Finnish,2,0.0
+Israel,Italian,2,0.0
+Italy,Sicilian,2,0.0
+Latvia,German,2,0.0
+Lithuania,German,2,0.0
+Mauritania,French,2,0.0
+Morocco,Moroccan Arabic,2,0.0
+Netherlands,Swedish,2,0.0
+Netherlands,Turkish,2,0.0
+People's Republic of China,Taiwanese Hokkien,2,0.0
+Philippines,Filipino,2,0.0
+Poland,Portuguese,2,0.0
+Portugal,Polish,2,0.0
+Soviet Union,Latvian,2,0.0
+Spain,Dutch,2,0.0
+Sweden,Arabic,2,0.0
+Switzerland,Japanese,2,0.0
+United States,Esperanto,2,0.0
+Venezuela,Spanish,2,0.0
+United States,Sicilian,1,1347.0
+United Kingdom,Nadsat,1,1241.0
+United States,Nadsat,1,1241.0
+Taiwan,Chinese,1,1227.0
+United States,Egyptian,1,859.0
+The Bahamas,English,1,640.0
+United States,Mohawk,1,632.0
+United Kingdom,Bulgarian,1,548.0
+Botswana,Juǀʼhoansi,1,459.0
+South Africa,Juǀʼhoansi,1,459.0
+United States,Na'vi,1,457.0
+Australia,Australian English,1,430.0
+United States,Tok Pisin,1,405.0
+Germany,Punjabi,1,369.0
+Switzerland,Polish,1,260.0
+Canada,Romani,1,254.0
+Italy,Standard Chinese,1,254.0
+United Kingdom,Albanian,1,243.0
+Sweden,Latin,1,226.0
+United States,Quechua,1,208.0
+United Kingdom,parseltongue,1,184.0
+United States,parseltongue,1,184.0
+Germany,Māori,1,181.0
+Canada,American Sign Language,1,145.0
+Japan,Finnish,1,140.0
+Japan,Brazilian Portuguese,1,128.0
+United Kingdom,Somali,1,125.0
+Canada,Vietnamese,1,116.0
+United States,Atlantean,1,114.0
+United States,Spanglish,1,111.0
+Canada,Chinese,1,110.0
+Canada,Tibetan,1,110.0
+United States,Tibetan,1,110.0
+Ecuador,English,1,109.0
+Thailand,Cantonese,1,106.0
+Ireland,Scottish Gaelic,1,103.0
+United States,Scottish Gaelic,1,103.0
+United States,Klingon,1,102.0
+Belgium,Bosnian,1,97.0
+Belgium,Croatian,1,97.0
+Belgium,Serbian,1,97.0
+Belgium,Serbo-Croatian,1,97.0
+Bosnia and Herzegovina,Croatian,1,97.0
+Bosnia and Herzegovina,English,1,97.0
+Bosnia and Herzegovina,French,1,97.0
+Bosnia and Herzegovina,German,1,97.0
+Bosnia and Herzegovina,Serbian,1,97.0
+Bosnia and Herzegovina,Serbo-Croatian,1,97.0
+Italy,Croatian,1,97.0
+Slovenia,Bosnian,1,97.0
+Slovenia,Croatian,1,97.0
+Slovenia,Serbo-Croatian,1,97.0
+United Kingdom,Bosnian,1,97.0
+United Kingdom,Croatian,1,97.0
+Liechtenstein,English,1,91.0
+United States,Tamil,1,90.0
+Australia,Afrikaans,1,86.0
+United States,Catalan,1,81.0
+United States,Crow,1,79.0
+United States,Salish–Spokane–Kalispel,1,79.0
+Australia,Vietnamese,1,77.0
+Vietnam,French,1,77.0
+Canada,artistic language,1,68.0
+France,artistic language,1,68.0
+France,Yue Chinese,1,64.0
+Germany,Cantonese,1,64.0
+Italy,Cantonese,1,64.0
+Italy,Mandarin,1,64.0
+Luxembourg,Standard Chinese,1,64.0
+Luxembourg,Yue Chinese,1,64.0
+Netherlands,Standard Chinese,1,64.0
+Netherlands,Yue Chinese,1,64.0
+United Kingdom,Yue Chinese,1,64.0
+Australia,Chinese,1,59.0
+Australia,Portuguese,1,59.0
+Algeria,English,1,58.0
+Bulgaria,Serbo-Croatian,1,56.0
+Czech Republic,Serbo-Croatian,1,56.0
+Germany,Asháninka,1,56.0
+Hungary,Serbo-Croatian,1,56.0
+Peru,Asháninka,1,56.0
+Peru,English,1,56.0
+United States,Urdu,1,56.0
+North Macedonia,English,1,50.0
+United States,Inuktitut,1,50.0
+France,American English,1,48.0
+Morocco,American English,1,48.0
+Mexico,Japanese,1,47.0
+Mexico,Yue Chinese,1,47.0
+Australia,Urdu,1,39.0
+United Kingdom,Urdu,1,39.0
+Japan,Polish,1,38.0
+France,Ukrainian,1,37.0
+Canada,Czech,1,35.0
+France,Corsican,1,35.0
+Italy,Corsican,1,35.0
+Netherlands,Hebrew,1,35.0
+Austria,Hebrew,1,34.0
+Austria,Latin,1,34.0
+Canada,Latin,1,34.0
+Hungary,Hebrew,1,34.0
+France,Ancient Greek,1,33.0
+Italy,Ancient Greek,1,33.0
+Czech Republic,Korean,1,32.0
+Czechoslovakia,French,1,31.0
+Italy,Catalan,1,27.0
+Kazakhstan,Mandarin,1,27.0
+Kazakhstan,Mongolian,1,27.0
+Kazakhstan,Standard Chinese,1,27.0
+Russia,Mandarin,1,27.0
+Russia,Mongolian,1,27.0
+Russia,Standard Chinese,1,27.0
+Singapore,Chinese,1,27.0
+Thailand,Standard Chinese,1,27.0
+United Kingdom,Catalan,1,27.0
+Iceland,Czech,1,26.0
+Iceland,Italian,1,26.0
+Iceland,Slovak,1,26.0
+United States,Slovak,1,26.0
+Japan,Standard Taiwanese Mandarin,1,25.0
+Japan,Taiwanese Hokkien,1,25.0
+Panama,English,1,24.0
+Denmark,Serbian,1,22.0
+Occupied Palestinian territories,Arabic,1,20.0
+Soviet Union,Belarusian,1,20.0
+Australia,Greek,1,19.0
+Australia,Mayan,1,19.0
+Australia,Yucatec Maya,1,19.0
+Germany,Mayan,1,19.0
+Germany,Yucatec Maya,1,19.0
+United States,Mayan,1,19.0
+Belgium,Irish,1,17.0
+France,Irish,1,17.0
+Soviet Union,Tatar,1,17.0
+United Kingdom,Tibetan,1,17.0
+Afghanistan,Dari,1,16.0
+Afghanistan,Pashto,1,16.0
+Ireland,Dari,1,16.0
+Ireland,Pashto,1,16.0
+Ireland,Persian,1,16.0
+Japan,Dari,1,16.0
+Japan,Pashto,1,16.0
+Netherlands,Dari,1,16.0
+Netherlands,Pashto,1,16.0
+Netherlands,Persian,1,16.0
+Russia,Finnish,1,16.0
+Russia,Northern Sami,1,16.0
+Sweden,Hebrew,1,16.0
+Denmark,Hindi,1,15.0
+Germany,Syriac,1,15.0
+Mexico,Standard Chinese,1,15.0
+Mexico,Wolof,1,15.0
+Norway,Hindi,1,15.0
+Spain,Standard Chinese,1,15.0
+Spain,Wolof,1,15.0
+Sweden,Hindi,1,15.0
+United States,Syriac,1,15.0
+Argentina,Portuguese,1,14.0
+Japan,Afrikaans,1,14.0
+South Africa,Spanish,1,14.0
+United States,Sioux,1,14.0
+Germany,Tibetan,1,13.0
+India,Tibetan,1,13.0
+Italy,Tibetan,1,13.0
+Canada,Turkish,1,12.0
+United Kingdom,Yiddish,1,12.0
+Lebanon,French,1,11.0
+Canada,Norwegian,1,10.0
+Czechoslovakia,Slovak,1,10.0
+Czechoslovakia,Yiddish,1,10.0
+Hong Kong,Hakka Chinese,1,10.0
+Iceland,Russian,1,10.0
+Italy,Icelandic,1,10.0
+Sweden,Icelandic,1,10.0
+Weimar Republic,French,1,10.0
+People's Republic of China,Korean,1,9.0
+Singapore,French,1,9.0
+France,Picard,1,8.0
+Germany,German Sign Language,1,8.0
+Serbia,Swedish,1,8.0
+South Korea,French,1,8.0
+United States,Gullah,1,8.0
+Cuba,English,1,7.0
+Cuba,Russian,1,7.0
+France,Zulu,1,7.0
+Israel,Yiddish,1,7.0
+New Zealand,Croatian,1,7.0
+South Africa,Portuguese,1,7.0
+Soviet Union,Spanish,1,7.0
+United Arab Emirates,Romanian,1,7.0
+Belgium,Belgian Dutch,1,6.0
+Belgium,Georgian,1,6.0
+Belgium,Latin,1,6.0
+Belgium,Russian,1,6.0
+Czech Republic,Finnish,1,6.0
+Egypt,French,1,6.0
+Egypt,Hebrew,1,6.0
+Egypt,Persian,1,6.0
+Egypt,Spanish,1,6.0
+Georgia,French,1,6.0
+Hong Kong,Vietnamese,1,6.0
+Iran,Hebrew,1,6.0
+Japan,Hebrew,1,6.0
+Mexico,Arabic,1,6.0
+Mexico,Persian,1,6.0
+United Kingdom,Norwegian,1,6.0
+United States,Embera,1,6.0
+United States,Gujarati,1,6.0
+Brazil,Hebrew,1,5.0
+Brazil,Yiddish,1,5.0
+Canada,Romanian,1,5.0
+Canada,Serbian,1,5.0
+France,Pashto,1,5.0
+Iran,Italian,1,5.0
+Iran,Pashto,1,5.0
+Iran,Polish,1,5.0
+Romania,Arabic,1,5.0
+United Kingdom,Icelandic,1,5.0
+United States,Khmer,1,5.0
+Bulgaria,Russian,1,4.0
+Denmark,Tagalog,1,4.0
+Denmark,Thai,1,4.0
+France,Quechua,1,4.0
+Germany,Tagalog,1,4.0
+Israel,Georgian,1,4.0
+Mexico,Quechua,1,4.0
+Sweden,Tagalog,1,4.0
+Sweden,Thai,1,4.0
+Switzerland,Persian,1,4.0
+Australia,Polish,1,3.0
+Belgium,Albanian,1,3.0
+Belgium,Classical Arabic,1,3.0
+Czechoslovakia,German,1,3.0
+France,Classical Arabic,1,3.0
+France,Herero,1,3.0
+France,Mongolian,1,3.0
+Germany,Albanian,1,3.0
+Italy,Classical Arabic,1,3.0
+Monaco,Arabic,1,3.0
+Monaco,English,1,3.0
+Monaco,Japanese,1,3.0
+Monaco,Mandarin,1,3.0
+Monaco,Spanish,1,3.0
+Morocco,Hebrew,1,3.0
+Spain,Classical Arabic,1,3.0
+United Arab Emirates,French,1,3.0
+United States,Malayalam,1,3.0
+Austria,Croatian,1,2.0
+Belgium,Romanian,1,2.0
+Bosnia and Herzegovina,Turkish,1,2.0
+Cameroon,Bambara,1,2.0
+Cameroon,French,1,2.0
+Canada,Polish,1,2.0
+Canada,Sichuanese,1,2.0
+Canada,Ukrainian,1,2.0
+Canada,Yiddish,1,2.0
+Denmark,Burmese,1,2.0
+France,Dari,1,2.0
+France,Kinyarwanda,1,2.0
+Germany,Yiddish,1,2.0
+Hong Kong,Standard Taiwanese Mandarin,1,2.0
+Hong Kong,Turkish,1,2.0
+Hungary,Arabic,1,2.0
+Iran,Azerbaijani,1,2.0
+Ireland,Arabic,1,2.0
+Israel,Tagalog,1,2.0
+Italy,Dari,1,2.0
+Japan,Thai,1,2.0
+Lebanon,Hebrew,1,2.0
+Morocco,Bambara,1,2.0
+Norway,Burmese,1,2.0
+Poland,Arabic,1,2.0
+Poland,Ukrainian,1,2.0
+Qatar,English,1,2.0
+Rwanda,English,1,2.0
+Saudi Arabia,Arabic,1,2.0
+Senegal,Bambara,1,2.0
+Soviet Union,Ukrainian,1,2.0
+Spain,Albanian,1,2.0
+Spain,Flemish Dutch,1,2.0
+Sweden,Burmese,1,2.0
+Tunisia,Bambara,1,2.0
+United Arab Emirates,Arabic,1,2.0
+United Arab Emirates,Hindi,1,2.0
+United Kingdom,Burmese,1,2.0
+United Kingdom,Welsh,1,2.0
+Australia,Lao,1,1.0
+Australia,Warlpiri,1,1.0
+Australia,Yolŋu,1,1.0
+Austria,Austrian German,1,1.0
+Austria,Bosnian,1,1.0
+Austria,Romanian,1,1.0
+Austria,Thai,1,1.0
+Azerbaijan,German,1,1.0
+Azerbaijan,Russian,1,1.0
+Brazil,Arabic,1,1.0
+Brazil,Russian,1,1.0
+Brazil,Slovak,1,1.0
+Burkina Faso,Baoulé,1,1.0
+Croatia,English,1,1.0
+Croatia,Italian,1,1.0
+Denmark,Hungarian,1,1.0
+Denmark,Japanese,1,1.0
+Denmark,Javanese,1,1.0
+Estonia,Georgian,1,1.0
+Federal Republic of Yugoslavia,Bulgarian,1,1.0
+Federal Republic of Yugoslavia,Greek,1,1.0
+Finland,Indonesian,1,1.0
+Finland,Japanese,1,1.0
+Finland,Javanese,1,1.0
+Finland,Mandarin,1,1.0
+France,Baoulé,1,1.0
+France,Bulgarian,1,1.0
+France,Isan,1,1.0
+France,Javanese,1,1.0
+France,Plautdietsch,1,1.0
+France,Putonghua,1,1.0
+France,Senufo,1,1.0
+France,Standard Taiwanese Mandarin,1,1.0
+Georgia,Estonian,1,1.0
+Germany,Javanese,1,1.0
+Germany,Plautdietsch,1,1.0
+Greece,Bulgarian,1,1.0
+Guatemala,English,1,1.0
+Iceland,Danish,1,1.0
+India,Bhojpuri,1,1.0
+India,Rajasthani,1,1.0
+Indonesia,Danish,1,1.0
+Indonesia,Javanese,1,1.0
+Italy,Bambara,1,1.0
+Italy,Baoulé,1,1.0
+Italy,Bulgarian,1,1.0
+Italy,Lombard,1,1.0
+Italy,Thai,1,1.0
+Japan,Hungarian,1,1.0
+Japan,Indonesian,1,1.0
+Kingdom of the Netherlands,Spanish,1,1.0
+Lebanon,English,1,1.0
+Libya,Arabic,1,1.0
+Libya,English,1,1.0
+Mali,Bambara,1,1.0
+Mali,English,1,1.0
+Mali,Senufo,1,1.0
+Mali,Wolof,1,1.0
+Mexico,Plautdietsch,1,1.0
+Netherlands,Finnish,1,1.0
+Netherlands,Indonesian,1,1.0
+Netherlands,Javanese,1,1.0
+Netherlands,Mandarin,1,1.0
+Netherlands,Plautdietsch,1,1.0
+North Macedonia,Serbian,1,1.0
+Norway,Japanese,1,1.0
+Norway,Javanese,1,1.0
+Norway,Northern Sami,1,1.0
+Polish People's Republic,Polish,1,1.0
+Romania,Italian,1,1.0
+Russia,Ukrainian,1,1.0
+Serbia,Czech,1,1.0
+Serbia,Torlakian,1,1.0
+Serbia and Montenegro,Serbian,1,1.0
+South Africa,American English,1,1.0
+South Korea,Cantonese,1,1.0
+South Korea,Hindi,1,1.0
+South Korea,Yue Chinese,1,1.0
+Soviet Union,Hungarian,1,1.0
+Soviet Union,Polish,1,1.0
+Spain,Bosnian,1,1.0
+Switzerland,Bambara,1,1.0
+Switzerland,Baoulé,1,1.0
+Switzerland,Latin,1,1.0
+Syria,English,1,1.0
+Tajikistan,Russian,1,1.0
+Thailand,Isan,1,1.0
+Tunisia,English,1,1.0
+Tunisia,Persian,1,1.0
+Tunisia,Spanish,1,1.0
+Turkey,Persian,1,1.0
+United Kingdom,Afrikaans,1,1.0
+United Kingdom,Javanese,1,1.0
+United Kingdom,Mandarin,1,1.0
+United Kingdom,Xhosa,1,1.0
+United States,Bambara,1,1.0
+United States,Jamaican Patois,1,1.0
+United States,Javanese,1,1.0
+United States,Kuna,1,1.0
+United States,Nahuatl,1,1.0
+United States,Senufo,1,1.0
+United States,Turkish,1,1.0
+United States,Wolof,1,1.0
+United States,Xhosa,1,1.0
+United States,Zoroastrian Dari,1,1.0
+Algeria,Italian,1,0.0
+Algeria,Norwegian,1,0.0
+Argentina,Arhuaco,1,0.0
+Argentina,French,1,0.0
+Argentina,German,1,0.0
+Argentina,Mandarin,1,0.0
+Argentina,Norwegian,1,0.0
+Argentina,Palenquero,1,0.0
+Argentina,Polish,1,0.0
+Argentina,Wayuu,1,0.0
+Armenia,English,1,0.0
+Armenia,French,1,0.0
+Armenia,German,1,0.0
+Armenia,Kurdish,1,0.0
+Armenia,Russian,1,0.0
+Austria,Danish,1,0.0
+Austria,Dutch,1,0.0
+Austria,Greek,1,0.0
+Austria,Kurdish,1,0.0
+Austria,Lithuanian,1,0.0
+Austria,Luxembourgish,1,0.0
+Austria,Maltese,1,0.0
+Austria,Pashto,1,0.0
+Austria,Polish,1,0.0
+Austria,Shuwa,1,0.0
+Austria,Slovene,1,0.0
+Austria,Swahili,1,0.0
+Austria,Swedish,1,0.0
+Austria,Taiwanese Hokkien,1,0.0
+Austria,Turkish,1,0.0
+Austria,Yoruba,1,0.0
+Bangladesh,Bangla,1,0.0
+Belgium,Ayacucho Quechua,1,0.0
+Belgium,Czech,1,0.0
+Belgium,Danish,1,0.0
+Belgium,Eastern Canadian Inuktitut,1,0.0
+Belgium,Finnish,1,0.0
+Belgium,Greek,1,0.0
+Belgium,Luxembourgish,1,0.0
+Belgium,Maltese,1,0.0
+Belgium,Persian,1,0.0
+Belgium,Polish,1,0.0
+Belgium,Shuwa,1,0.0
+Belgium,Slovak,1,0.0
+Belgium,Slovene,1,0.0
+Belgium,Swedish,1,0.0
+Belgium,Turkish,1,0.0
+Brazil,Catalan,1,0.0
+Brazil,Dutch,1,0.0
+Brazil,Tupi,1,0.0
+British Hong Kong,Mandarin,1,0.0
+Bulgaria,Turkish,1,0.0
+Burkina Faso,Mooré,1,0.0
+Cambodia,French,1,0.0
+Canada,Afrikaans,1,0.0
+Canada,Bangla,1,0.0
+Canada,Mandarin,1,0.0
+Canada,Thai,1,0.0
+Chad,Arabic,1,0.0
+Chad,French,1,0.0
+Chile,Polish,1,0.0
+Colombia,Arhuaco,1,0.0
+Colombia,Palenquero,1,0.0
+Colombia,Wayuu,1,0.0
+Croatia,German,1,0.0
+Croatia,Slovene,1,0.0
+Cyprus,Czech,1,0.0
+Cyprus,Danish,1,0.0
+Cyprus,Dutch,1,0.0
+Cyprus,French,1,0.0
+Cyprus,German,1,0.0
+Cyprus,Greek,1,0.0
+Cyprus,Italian,1,0.0
+Cyprus,Lithuanian,1,0.0
+Cyprus,Luxembourgish,1,0.0
+Cyprus,Maltese,1,0.0
+Cyprus,Polish,1,0.0
+Cyprus,Portuguese,1,0.0
+Cyprus,Slovak,1,0.0
+Cyprus,Slovene,1,0.0
+Cyprus,Spanish,1,0.0
+Cyprus,Swedish,1,0.0
+Cyprus,Turkish,1,0.0
+Czech Republic,Abkhaz,1,0.0
+Czech Republic,Dutch,1,0.0
+Czech Republic,Georgian,1,0.0
+Czech Republic,Lithuanian,1,0.0
+Czech Republic,Luxembourgish,1,0.0
+Czech Republic,Maltese,1,0.0
+Czech Republic,Polish,1,0.0
+Czech Republic,Portuguese,1,0.0
+Czech Republic,Slovene,1,0.0
+Czech Republic,Spanish,1,0.0
+Czech Republic,Turkish,1,0.0
+Czechoslovakia,English,1,0.0
+Democratic Republic of the Congo,English,1,0.0
+Democratic Republic of the Congo,French,1,0.0
+Democratic Republic of the Congo,Swahili,1,0.0
+Denmark,Greek,1,0.0
+Denmark,Korean,1,0.0
+Denmark,Lithuanian,1,0.0
+Denmark,Luxembourgish,1,0.0
+Denmark,Maltese,1,0.0
+Denmark,Portuguese,1,0.0
+Denmark,Slovak,1,0.0
+Denmark,Slovene,1,0.0
+Denmark,Turkish,1,0.0
+Egypt,Egyptian Arabic,1,0.0
+Estonia,Czech,1,0.0
+Estonia,Danish,1,0.0
+Estonia,Dutch,1,0.0
+Estonia,Finnish,1,0.0
+Estonia,French,1,0.0
+Estonia,Greek,1,0.0
+Estonia,Italian,1,0.0
+Estonia,Latvian,1,0.0
+Estonia,Lithuanian,1,0.0
+Estonia,Luxembourgish,1,0.0
+Estonia,Maltese,1,0.0
+Estonia,Polish,1,0.0
+Estonia,Portuguese,1,0.0
+Estonia,Slovak,1,0.0
+Estonia,Slovene,1,0.0
+Estonia,Spanish,1,0.0
+Estonia,Turkish,1,0.0
+Finland,Czech,1,0.0
+Finland,Dutch,1,0.0
+Finland,Greek,1,0.0
+Finland,Kurdish,1,0.0
+Finland,Lithuanian,1,0.0
+Finland,Luxembourgish,1,0.0
+Finland,Maltese,1,0.0
+Finland,Norwegian,1,0.0
+Finland,Polish,1,0.0
+Finland,Portuguese,1,0.0
+Finland,Slovak,1,0.0
+Finland,Slovene,1,0.0
+Finland,Turkish,1,0.0
+France,Abkhaz,1,0.0
+France,Chechen,1,0.0
+France,Hassaniya Arabic,1,0.0
+France,Judeo-Moroccan,1,0.0
+France,Kaqchikel,1,0.0
+France,Luxembourgish,1,0.0
+France,Maltese,1,0.0
+France,Mooré,1,0.0
+France,Moroccan Arabic,1,0.0
+France,Occitan,1,0.0
+France,Romani,1,0.0
+France,Shuwa,1,0.0
+France,Slovene,1,0.0
+France,Songhay,1,0.0
+France,Swahili,1,0.0
+France,Taiwanese Hokkien,1,0.0
+France,Tuareg,1,0.0
+Georgia,Abkhaz,1,0.0
+Georgia,English,1,0.0
+Germany,Abkhaz,1,0.0
+Germany,American English,1,0.0
+Germany,Arhuaco,1,0.0
+Germany,Armenian,1,0.0
+Germany,Ayacucho Quechua,1,0.0
+Germany,Bavarian,1,0.0
+Germany,Dari,1,0.0
+Germany,Judeo-Moroccan,1,0.0
+Germany,Kazakh,1,0.0
+Germany,Luxembourgish,1,0.0
+Germany,Maltese,1,0.0
+Germany,Northern Sotho,1,0.0
+Germany,Occitan,1,0.0
+Germany,Palenquero,1,0.0
+Germany,Pashto,1,0.0
+Germany,Slovak,1,0.0
+Germany,Slovene,1,0.0
+Germany,Wayuu,1,0.0
+Germany,Yoruba,1,0.0
+Greece,Czech,1,0.0
+Greece,Danish,1,0.0
+Greece,Dutch,1,0.0
+Greece,Italian,1,0.0
+Greece,Lithuanian,1,0.0
+Greece,Luxembourgish,1,0.0
+Greece,Maltese,1,0.0
+Greece,Polish,1,0.0
+Greece,Portuguese,1,0.0
+Greece,Slovak,1,0.0
+Greece,Slovene,1,0.0
+Greece,Swedish,1,0.0
+Guatemala,Kaqchikel,1,0.0
+Guatemala,Spanish,1,0.0
+Hong Kong,Arabic,1,0.0
+Hong Kong,Russian,1,0.0
+Hungary,Danish,1,0.0
+Hungary,Dutch,1,0.0
+Hungary,Lithuanian,1,0.0
+Hungary,Luxembourgish,1,0.0
+Hungary,Maltese,1,0.0
+Hungary,Portuguese,1,0.0
+Hungary,Romanian,1,0.0
+Hungary,Slovak,1,0.0
+Hungary,Slovene,1,0.0
+Hungary,Swedish,1,0.0
+Iceland,Finnish,1,0.0
+Iceland,Norwegian,1,0.0
+India,American English,1,0.0
+India,Arabic,1,0.0
+India,Hebrew,1,0.0
+India,Italian,1,0.0
+India,Japanese,1,0.0
+India,Marathi,1,0.0
+India,Punjabi,1,0.0
+India,Russian,1,0.0
+India,Spanish,1,0.0
+India,Swedish,1,0.0
+Iran,Iranian Persian,1,0.0
+Iraq,Arabic,1,0.0
+Iraq,Persian,1,0.0
+Iraq,Swedish,1,0.0
+Ireland,Catalan,1,0.0
+Ireland,Dutch,1,0.0
+Ireland,Greek,1,0.0
+Ireland,Italian,1,0.0
+Ireland,Japanese,1,0.0
+Ireland,Lithuanian,1,0.0
+Ireland,Luxembourgish,1,0.0
+Ireland,Maltese,1,0.0
+Ireland,Norwegian,1,0.0
+Ireland,Portuguese,1,0.0
+Ireland,Slovak,1,0.0
+Ireland,Slovene,1,0.0
+Ireland,Swedish,1,0.0
+Ireland,Turkish,1,0.0
+Israel,Dutch,1,0.0
+Israel,Judeo-Moroccan,1,0.0
+Israel,Romanian,1,0.0
+Italy,Armenian,1,0.0
+Italy,Kurdish,1,0.0
+Italy,Lithuanian,1,0.0
+Italy,Luxembourgish,1,0.0
+Italy,Macedonian,1,0.0
+Italy,Maltese,1,0.0
+Italy,Norwegian,1,0.0
+Italy,Romanian,1,0.0
+Italy,Slovene,1,0.0
+Japan,Hindi,1,0.0
+Japan,Romani,1,0.0
+Jordan,English,1,0.0
+Kazakhstan,Abkhaz,1,0.0
+Kazakhstan,Georgian,1,0.0
+Kazakhstan,Kazakh,1,0.0
+Kenya,English,1,0.0
+Kingdom of Great Britain,Swedish,1,0.0
+Latvia,Czech,1,0.0
+Latvia,Danish,1,0.0
+Latvia,Dutch,1,0.0
+Latvia,French,1,0.0
+Latvia,Greek,1,0.0
+Latvia,Italian,1,0.0
+Latvia,Japanese,1,0.0
+Latvia,Lithuanian,1,0.0
+Latvia,Luxembourgish,1,0.0
+Latvia,Maltese,1,0.0
+Latvia,Polish,1,0.0
+Latvia,Portuguese,1,0.0
+Latvia,Russian,1,0.0
+Latvia,Slovak,1,0.0
+Latvia,Slovene,1,0.0
+Latvia,Spanish,1,0.0
+Latvia,Swedish,1,0.0
+Latvia,Turkish,1,0.0
+Lithuania,Czech,1,0.0
+Lithuania,Danish,1,0.0
+Lithuania,Dutch,1,0.0
+Lithuania,French,1,0.0
+Lithuania,Greek,1,0.0
+Lithuania,Italian,1,0.0
+Lithuania,Luxembourgish,1,0.0
+Lithuania,Maltese,1,0.0
+Lithuania,Polish,1,0.0
+Lithuania,Portuguese,1,0.0
+Lithuania,Slovak,1,0.0
+Lithuania,Slovene,1,0.0
+Lithuania,Spanish,1,0.0
+Lithuania,Swedish,1,0.0
+Lithuania,Turkish,1,0.0
+Luxembourg,Czech,1,0.0
+Luxembourg,Danish,1,0.0
+Luxembourg,Dutch,1,0.0
+Luxembourg,Greek,1,0.0
+Luxembourg,Hebrew,1,0.0
+Luxembourg,Lithuanian,1,0.0
+Luxembourg,Luxembourgish,1,0.0
+Luxembourg,Maltese,1,0.0
+Luxembourg,Polish,1,0.0
+Luxembourg,Portuguese,1,0.0
+Luxembourg,Romanian,1,0.0
+Luxembourg,Slovak,1,0.0
+Luxembourg,Slovene,1,0.0
+Luxembourg,Spanish,1,0.0
+Luxembourg,Swedish,1,0.0
+Luxembourg,Turkish,1,0.0
+Malaysia,Taiwanese Hokkien,1,0.0
+Malta,Czech,1,0.0
+Malta,Danish,1,0.0
+Malta,Dutch,1,0.0
+Malta,French,1,0.0
+Malta,German,1,0.0
+Malta,Greek,1,0.0
+Malta,Italian,1,0.0
+Malta,Lithuanian,1,0.0
+Malta,Luxembourgish,1,0.0
+Malta,Maltese,1,0.0
+Malta,Polish,1,0.0
+Malta,Portuguese,1,0.0
+Malta,Slovak,1,0.0
+Malta,Slovene,1,0.0
+Malta,Spanish,1,0.0
+Malta,Swedish,1,0.0
+Malta,Turkish,1,0.0
+Mauritania,Arabic,1,0.0
+Mauritania,Bambara,1,0.0
+Mauritania,English,1,0.0
+Mauritania,Hassaniya Arabic,1,0.0
+Mauritania,Songhay,1,0.0
+Mauritania,Standard Chinese,1,0.0
+Mauritania,Tuareg,1,0.0
+Nazi Germany,German,1,0.0
+Netherlands,Arhuaco,1,0.0
+Netherlands,Czech,1,0.0
+Netherlands,Greek,1,0.0
+Netherlands,Icelandic,1,0.0
+Netherlands,Lingala,1,0.0
+Netherlands,Lithuanian,1,0.0
+Netherlands,Luxembourgish,1,0.0
+Netherlands,Maltese,1,0.0
+Netherlands,Palenquero,1,0.0
+Netherlands,Polish,1,0.0
+Netherlands,Portuguese,1,0.0
+Netherlands,Slovak,1,0.0
+Netherlands,Slovene,1,0.0
+Netherlands,Ukrainian,1,0.0
+Netherlands,Ukrainian Sign Language,1,0.0
+Netherlands,Wayuu,1,0.0
+Netherlands,West Frisian,1,0.0
+Netherlands,no linguistic content,1,0.0
+Nigeria,English,1,0.0
+North Korea,Korean,1,0.0
+North Macedonia,Macedonian,1,0.0
+Norway,Italian,1,0.0
+Norway,Spanish,1,0.0
+Occupied Palestinian territories,English,1,0.0
+Pakistan,English,1,0.0
+Palestine,Italian,1,0.0
+Papua New Guinea,English,1,0.0
+Paraguay,Guarani,1,0.0
+Paraguay,Spanish,1,0.0
+People's Republic of Bulgaria,Bulgarian,1,0.0
+People's Republic of Bulgaria,German,1,0.0
+People's Republic of Bulgaria,Russian,1,0.0
+People's Republic of China,Arabic,1,0.0
+People's Republic of China,Jin,1,0.0
+People's Republic of China,Russian,1,0.0
+People's Republic of China,Sichuanese,1,0.0
+Poland,Czech,1,0.0
+Poland,Danish,1,0.0
+Poland,Dutch,1,0.0
+Poland,Greek,1,0.0
+Poland,Hebrew,1,0.0
+Poland,Kazakh,1,0.0
+Poland,Latin,1,0.0
+Poland,Lithuanian,1,0.0
+Poland,Luxembourgish,1,0.0
+Poland,Maltese,1,0.0
+Poland,Norwegian,1,0.0
+Poland,Romani,1,0.0
+Poland,Slovak,1,0.0
+Poland,Slovene,1,0.0
+Poland,Swedish,1,0.0
+Poland,Turkish,1,0.0
+Portugal,Cape Verdean Creole,1,0.0
+Portugal,Czech,1,0.0
+Portugal,Danish,1,0.0
+Portugal,Dutch,1,0.0
+Portugal,Greek,1,0.0
+Portugal,Lithuanian,1,0.0
+Portugal,Luxembourgish,1,0.0
+Portugal,Maltese,1,0.0
+Portugal,Slovak,1,0.0
+Portugal,Slovene,1,0.0
+Portugal,Swedish,1,0.0
+Portugal,Turkish,1,0.0
+Republic of China,Chinese,1,0.0
+Romania,Hungarian,1,0.0
+Romania,Turkish,1,0.0
+Russia,Chechen,1,0.0
+Russia,Japanese,1,0.0
+Russia,Kazakh,1,0.0
+Russia,Spanish,1,0.0
+Serbia,German,1,0.0
+Singapore,Japanese,1,0.0
+Singapore,Standard Chinese,1,0.0
+Slovakia,Danish,1,0.0
+Slovakia,Dutch,1,0.0
+Slovakia,French,1,0.0
+Slovakia,Greek,1,0.0
+Slovakia,Lithuanian,1,0.0
+Slovakia,Luxembourgish,1,0.0
+Slovakia,Maltese,1,0.0
+Slovakia,Polish,1,0.0
+Slovakia,Portuguese,1,0.0
+Slovakia,Slovene,1,0.0
+Slovakia,Spanish,1,0.0
+Slovakia,Swedish,1,0.0
+Slovakia,Turkish,1,0.0
+Slovenia,Czech,1,0.0
+Slovenia,Danish,1,0.0
+Slovenia,Dutch,1,0.0
+Slovenia,Greek,1,0.0
+Slovenia,Italian,1,0.0
+Slovenia,Lithuanian,1,0.0
+Slovenia,Luxembourgish,1,0.0
+Slovenia,Maltese,1,0.0
+Slovenia,Polish,1,0.0
+Slovenia,Portuguese,1,0.0
+Slovenia,Slovak,1,0.0
+Slovenia,Spanish,1,0.0
+Slovenia,Swedish,1,0.0
+Slovenia,Turkish,1,0.0
+Socialist Federal Republic of Yugoslavia,Croatian,1,0.0
+Socialist Federal Republic of Yugoslavia,English,1,0.0
+Socialist Federal Republic of Yugoslavia,Italian,1,0.0
+South Africa,Northern Sotho,1,0.0
+South Korea,Russian,1,0.0
+South Korea,Thai,1,0.0
+Soviet Union,Bulgarian,1,0.0
+Soviet Union,Finnish,1,0.0
+Soviet Union,Swedish,1,0.0
+Spain,Czech,1,0.0
+Spain,Japanese,1,0.0
+Spain,Lithuanian,1,0.0
+Spain,Luxembourgish,1,0.0
+Spain,Maltese,1,0.0
+Spain,Polish,1,0.0
+Spain,Q13049783,1,0.0
+Spain,Slovak,1,0.0
+Spain,Slovene,1,0.0
+Spain,Swedish,1,0.0
+Sri Lanka,English,1,0.0
+Sweden,Bulgarian,1,0.0
+Sweden,Croatian,1,0.0
+Sweden,Czech,1,0.0
+Sweden,Dutch,1,0.0
+Sweden,Greek,1,0.0
+Sweden,Hungarian,1,0.0
+Sweden,Kurdish,1,0.0
+Sweden,Lithuanian,1,0.0
+Sweden,Luxembourgish,1,0.0
+Sweden,Maltese,1,0.0
+Sweden,Persian,1,0.0
+Sweden,Polish,1,0.0
+Sweden,Portuguese,1,0.0
+Sweden,Romanian,1,0.0
+Sweden,Serbian,1,0.0
+Sweden,Slovak,1,0.0
+Sweden,Slovene,1,0.0
+Sweden,Turkish,1,0.0
+Switzerland,Armenian,1,0.0
+Switzerland,Bosnian,1,0.0
+Switzerland,Croatian,1,0.0
+Switzerland,Czech,1,0.0
+Switzerland,Hindi,1,0.0
+Switzerland,Kazakh,1,0.0
+Switzerland,Kurdish,1,0.0
+Switzerland,Portuguese,1,0.0
+Switzerland,Serbian,1,0.0
+Taiwan,French,1,0.0
+Taiwan,Wu Chinese,1,0.0
+Taiwan,Yue Chinese,1,0.0
+Turkey,Arabic,1,0.0
+Ukraine,English,1,0.0
+Ukraine,Ukrainian,1,0.0
+Ukraine,Ukrainian Sign Language,1,0.0
+United Kingdom,Filipino,1,0.0
+United Kingdom,Lithuanian,1,0.0
+United Kingdom,Luxembourgish,1,0.0
+United Kingdom,Malayalam,1,0.0
+United Kingdom,Maltese,1,0.0
+United Kingdom,Slovene,1,0.0
+United Kingdom,Tagalog,1,0.0
+United Kingdom,Thai,1,0.0
+United States,Malay,1,0.0
+United States,Nepali,1,0.0
+Uruguay,Italian,1,0.0
+Yugoslavia,Croatian,1,0.0
+Yugoslavia,French,1,0.0

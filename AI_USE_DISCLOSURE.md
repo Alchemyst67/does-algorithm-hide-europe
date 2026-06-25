@@ -1,13 +1,13 @@
-# Generative AI Use Disclosure
+# AI Use Note
 
 
-We used generative AI tools, including OpenAI Codex/ChatGPT, selectively as a support tool during the project.
+We used OpenAI Codex/ChatGPT selectively as a support tool during the project.
 
 
 ## What AI Was Used For
 
 
-- Language polishing for selected notebook explanations and README documentation.
+- Language polishing for selected notebook explanations and repository documentation.
 
 - Code-review support for notebook cells, metric definitions and reproducibility checks.
 
@@ -30,4 +30,4 @@ We used generative AI tools, including OpenAI Codex/ChatGPT, selectively as a su
 ## Human Responsibility
 
 
-Max Priessnitz and Nico [surname] remain responsible for the project framing, implementation choices, interpretation, source selection, validation and final submission. Code and text were reviewed and adapted to match our project language and university requirements.
+Max Priessnitz and Nico Zandomeneghi remain responsible for the project framing, implementation choices, interpretation, source selection, validation and final submission. Code and text were reviewed and adapted to match our project language and university requirements.

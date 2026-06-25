@@ -3,7 +3,7 @@
 
 **A multimodal audit of cultural prominence bias in movie recommender systems**
 
-Team: Max Priessnitz & Nico [surname]
+Team: Max Priessnitz & Nico Zandomeneghi
 
 Course: Data Science and Artificial Intelligence II: Data and Algorithmic Governance, WU Vienna, 2026
 
@@ -20,8 +20,6 @@ The central argument is: **cultural diversity is not only a catalogue question; 
 ## Repository Architecture
 
 
-- `notebooks/00_project_roadmap_and_final_answers.ipynb` — entry notebook with final answers and reading order.
-
 - `notebooks/01_data_foundation_movies_db.ipynb` — MovieLens/M3L/Wikidata data foundation and coverage checks.
 
 - `notebooks/02_model_pipeline_and_user_fold_robustness.ipynb` — model pipeline and bounded user-fold robustness.
@@ -30,9 +28,13 @@ The central argument is: **cultural diversity is not only a catalogue question; 
 
 - `notebooks/04_final_research_story_executed.ipynb` — main research-story notebook with executed outputs and interpretations.
 
+- `notebooks/05_research_answers_and_roadmap.ipynb` — direct answers to the research questions and evidence map.
+
 - `html/` — HTML exports of the notebooks with saved output state.
 
 - `cultural_prominence_audit/outputs/` — derived tables, figures and final-submission assets.
+
+- `data/processed/` — derived CSV tables used in the notebooks, dashboard and presentation.
 
 - `ui/` — interactive roadmap/dashboard layer for presentation and review.
 
@@ -76,13 +78,13 @@ If `uv` is not available, use a Python 3.12 virtual environment and install the 
 ## Reproduction Order
 
 
-This public repository is notebook-first. The executed notebooks and HTML exports contain the analysis path, saved outputs and interpretations. To review the project, open the notebooks in this order:
+This repository is notebook-first. The executed notebooks and HTML exports contain the analysis path, saved outputs and interpretations. The recommended reading order is:
 
-1. `notebooks/00_project_roadmap_and_final_answers.ipynb`
-2. `notebooks/01_data_foundation_movies_db.ipynb`
-3. `notebooks/02_model_pipeline_and_user_fold_robustness.ipynb`
-4. `notebooks/03_feedback_loop_and_mitigation.ipynb`
-5. `notebooks/04_final_research_story_executed.ipynb`
+1. `notebooks/01_data_foundation_movies_db.ipynb`
+2. `notebooks/02_model_pipeline_and_user_fold_robustness.ipynb`
+3. `notebooks/03_feedback_loop_and_mitigation.ipynb`
+4. `notebooks/04_final_research_story_executed.ipynb`
+5. `notebooks/05_research_answers_and_roadmap.ipynb`
 
 The main notebook can be re-executed after placing the raw datasets locally:
 
@@ -133,16 +135,16 @@ The project builds on popularity-bias and long-tail exposure research, provider/
 Key sources include Klimashevskaia et al. (2023), Abdollahpouri et al. (2019), Wang/Jin fairness-survey work, Spillo et al. on M3L/Binge Watch, Lesota/Schedl feedback-loop work, MovieLens documentation, Wikidata documentation and EU AVMSD/DSA governance materials. See `CITATION_AND_REUSE_LEDGER.md` and notebook references.
 
 
-## AI Use
+## Tooling Note
 
 
-Generative AI was used selectively for language polishing, code-review support, small refactoring suggestions and documentation checks. All research claims are tied to executed outputs or cited sources. No synthetic data was generated. Details are in `AI_USE_DISCLOSURE.md`.
+OpenAI Codex/ChatGPT was used as a supporting tool for selected wording, code-review checks and small refactoring suggestions. All empirical claims are tied to executed outputs or cited sources. No synthetic data was generated. Details are in `AI_USE_DISCLOSURE.md`.
 
 
 ## Licence and Raw-Data Policy
 
 
-This repository does not redistribute raw MovieLens or M3L data. Users must download those datasets from their original providers and respect their terms. Derived figures/tables are included for review of the submitted analysis.
+This repository does not redistribute raw MovieLens or M3L data. Users must download those datasets from their original providers and respect their terms. Derived figures and CSV tables are included for review of the submitted analysis.
 
 ## Presentation Material
 

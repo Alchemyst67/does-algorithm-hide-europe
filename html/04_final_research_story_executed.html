@@ -7482,7 +7482,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Does-the-Algorithm-Hide-Europe?">Does the Algorithm Hide Europe?<a class="anchor-link" href="#Does-the-Algorithm-Hide-Europe?">¶</a></h1><h2 id="Which-Europe-Gets-Recommended?-A-country,-language-and-visibility-audit-of-multimodal-movie-recommender-systems">Which Europe Gets Recommended? A country, language and visibility audit of multimodal movie recommender systems<a class="anchor-link" href="#Which-Europe-Gets-Recommended?-A-country,-language-and-visibility-audit-of-multimodal-movie-recommender-systems">¶</a></h2><p><strong>Team:</strong> Max Priessnitz &amp; Nico<br/>
+<h1 id="Does-the-Algorithm-Hide-Europe?">Does the Algorithm Hide Europe?<a class="anchor-link" href="#Does-the-Algorithm-Hide-Europe?">¶</a></h1><h2 id="Which-Europe-Gets-Recommended?-A-country,-language-and-visibility-audit-of-multimodal-movie-recommender-systems">Which Europe Gets Recommended? A country, language and visibility audit of multimodal movie recommender systems<a class="anchor-link" href="#Which-Europe-Gets-Recommended?-A-country,-language-and-visibility-audit-of-multimodal-movie-recommender-systems">¶</a></h2><p><strong>Team:</strong> Max Priessnitz &amp; Nico Zandomeneghi<br/>
 <strong>Course:</strong> Data Science and Artificial Intelligence II: Data and Algorithmic Governance<br/>
 <strong>Notebook role:</strong> final executable research story</p>
 <p>This notebook is the main deliverable. It starts from local raw data and cached metadata, builds the analysis data, trains feasible recommender models, computes utility and cultural visibility metrics, and ends with a governance interpretation. Existing aggregate CSV outputs are not used as primary analysis input.</p>
@@ -17035,276 +17035,13 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c6e24047">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="22.-Final-answers-to-all-questions">22. Final answers to all questions<a class="anchor-link" href="#22.-Final-answers-to-all-questions">¶</a></h2><p><strong>Question.</strong> What are the direct answers, with confidence and caveats?</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1dff9274">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">short_answer_table</span><span class="p">():</span>
-    <span class="n">best_utility_row</span> <span class="o">=</span> <span class="n">model_metrics</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"NDCG@20"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">model_metrics</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"Model"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"NDCG@20"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
-    <span class="n">best_europe_row</span> <span class="o">=</span> <span class="n">model_metrics</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"Europe wide Exposure@20"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">model_metrics</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"Model"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"Europe wide Exposure@20"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
-    <span class="n">worst_europe_row</span> <span class="o">=</span> <span class="n">model_metrics</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"Europe wide PACPG@20"</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">model_metrics</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"Model"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"Europe wide PACPG@20"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
-    <span class="n">best_non_english_row</span> <span class="o">=</span> <span class="n">model_metrics</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"Non-English Exposure@20"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">model_metrics</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"Model"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"Non-English Exposure@20"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
-    <span class="n">best_utility_model</span> <span class="o">=</span> <span class="n">best_utility_row</span><span class="p">[</span><span class="s2">"Model"</span><span class="p">]</span>
-    <span class="n">best_europe_model</span> <span class="o">=</span> <span class="n">best_europe_row</span><span class="p">[</span><span class="s2">"Model"</span><span class="p">]</span>
-
-    <span class="n">strongest_country</span> <span class="o">=</span> <span class="n">country_summary</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"mean_exposure"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="s2">"country_summary"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">country_summary</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"group_name"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"mean_exposure"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
-    <span class="n">weakest_country</span> <span class="o">=</span> <span class="n">country_summary</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"mean_pacpg"</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="s2">"country_summary"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">country_summary</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"group_name"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"mean_pacpg"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
-    <span class="n">strongest_region</span> <span class="o">=</span> <span class="n">region_summary</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"mean_exposure"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="s2">"region_summary"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">region_summary</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"group_name"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"mean_exposure"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
-    <span class="n">weakest_region</span> <span class="o">=</span> <span class="n">region_summary</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"mean_pacpg"</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="s2">"region_summary"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">region_summary</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"group_name"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"mean_pacpg"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
-    <span class="n">strongest_language</span> <span class="o">=</span> <span class="n">language_summary</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"mean_exposure"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="s2">"language_summary"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">language_summary</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"group_name"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"mean_exposure"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
-    <span class="n">weakest_language</span> <span class="o">=</span> <span class="n">language_summary</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"mean_pacpg"</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="s2">"language_summary"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">language_summary</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"group_name"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"mean_pacpg"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
-
-    <span class="n">spain_best</span> <span class="o">=</span> <span class="n">spain_focus</span><span class="p">[</span><span class="n">spain_focus</span><span class="p">[</span><span class="s2">"group_name"</span><span class="p">]</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="s2">"Spain-origin"</span><span class="p">)]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"exposure_at_20"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="s2">"spain_focus"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">spain_focus</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"model_name"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"exposure_at_20"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
-    <span class="n">multimodal_best</span> <span class="o">=</span> <span class="n">multimodal_audit</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"Europe wide Exposure@20"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="s2">"multimodal_audit"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">multimodal_audit</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"Model"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"Europe wide Exposure@20"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
-    <span class="n">feedback_answer</span> <span class="o">=</span> <span class="s2">"not run"</span>
-    <span class="k">if</span> <span class="s2">"fb_drift"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">fb_drift</span><span class="p">):</span>
-        <span class="n">fb_loss</span> <span class="o">=</span> <span class="n">fb_drift</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"exposure_drift"</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-        <span class="n">fb_gain</span> <span class="o">=</span> <span class="n">fb_drift</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"exposure_drift"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-        <span class="n">feedback_answer</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"largest loss </span><span class="si">{</span><span class="n">fb_loss</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">]</span><span class="si">}</span><span class="s2"> / </span><span class="si">{</span><span class="n">fb_loss</span><span class="p">[</span><span class="s1">'group_name'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pp</span><span class="p">(</span><span class="n">fb_loss</span><span class="p">[</span><span class="s1">'exposure_drift'</span><span class="p">])</span><span class="si">}</span><span class="s2">); largest gain </span><span class="si">{</span><span class="n">fb_gain</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">]</span><span class="si">}</span><span class="s2"> / </span><span class="si">{</span><span class="n">fb_gain</span><span class="p">[</span><span class="s1">'group_name'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pp</span><span class="p">(</span><span class="n">fb_gain</span><span class="p">[</span><span class="s1">'exposure_drift'</span><span class="p">])</span><span class="si">}</span><span class="s2">)"</span>
-    <span class="n">rerank_answer</span> <span class="o">=</span> <span class="s2">"not run"</span>
-    <span class="k">if</span> <span class="s2">"best_defensible"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="s2">"base_combined"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">():</span>
-        <span class="k">if</span> <span class="s2">"max_visibility"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">():</span>
-            <span class="n">rerank_answer</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"strict 80% NDCG retention selects lambda=</span><span class="si">{</span><span class="n">best_defensible</span><span class="p">[</span><span class="s1">'lambda'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">best_defensible</span><span class="p">[</span><span class="s1">'Europe wide Exposure@20'</span><span class="p">])</span><span class="si">}</span><span class="s2"> Europe exposure); maximum visibility occurs at lambda=</span><span class="si">{</span><span class="n">max_visibility</span><span class="p">[</span><span class="s1">'lambda'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">max_visibility</span><span class="p">[</span><span class="s1">'Europe wide Exposure@20'</span><span class="p">])</span><span class="si">}</span><span class="s2">, NDCG@20=</span><span class="si">{</span><span class="n">max_visibility</span><span class="p">[</span><span class="s1">'NDCG@20'</span><span class="p">]</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">)"</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">rerank_answer</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"lambda=</span><span class="si">{</span><span class="n">best_defensible</span><span class="p">[</span><span class="s1">'lambda'</span><span class="p">]</span><span class="si">}</span><span class="s2"> keeps at least 80% NDCG retention and changes Europe exposure from </span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">base_combined</span><span class="p">[</span><span class="s1">'Europe wide Exposure@20'</span><span class="p">])</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">best_defensible</span><span class="p">[</span><span class="s1">'Europe wide Exposure@20'</span><span class="p">])</span><span class="si">}</span><span class="s2">"</span>
-    <span class="n">visibility_dna_answer</span> <span class="o">=</span> <span class="n">dna_answer_sentence</span> <span class="k">if</span> <span class="s2">"dna_answer_sentence"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="k">else</span> <span class="s2">"not run; build the optional visibility-DNA cache and rerun section 21"</span>
-
-    <span class="n">answers</span> <span class="o">=</span> <span class="p">[</span>
-        <span class="p">(</span><span class="s2">"Does the algorithm hide Europe?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"Model-dependent. Worst Europe PACPG@20 is </span><span class="si">{</span><span class="n">worst_europe_row</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pp</span><span class="p">(</span><span class="n">worst_europe_row</span><span class="p">[</span><span class="s1">'Europe wide PACPG@20'</span><span class="p">])</span><span class="si">}</span><span class="s2">); highest Europe exposure is </span><span class="si">{</span><span class="n">best_europe_model</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">best_europe_row</span><span class="p">[</span><span class="s1">'Europe wide Exposure@20'</span><span class="p">])</span><span class="si">}</span><span class="s2">)."</span><span class="p">,</span> <span class="s2">"11, 12"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Offline sampled audit with proxy metadata."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"Is catalogue diversity enough?"</span><span class="p">,</span> <span class="s2">"No. The visibility funnel shows catalogue share, train interactions, user history, relevant test share and ranked exposure are different layers."</span><span class="p">,</span> <span class="s2">"6, 8, 11"</span><span class="p">,</span> <span class="s2">"strong"</span><span class="p">,</span> <span class="s2">"Catalogue and metadata coverage still matter."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"Which Europe gets recommended?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"Visibility concentrates unevenly: strongest region is </span><span class="si">{</span><span class="n">strongest_region</span><span class="p">[</span><span class="s1">'group_name'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">strongest_region</span><span class="p">[</span><span class="s1">'mean_exposure'</span><span class="p">])</span><span class="si">}</span><span class="s2">); weakest region by PACPG is </span><span class="si">{</span><span class="n">weakest_region</span><span class="p">[</span><span class="s1">'group_name'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pp</span><span class="p">(</span><span class="n">weakest_region</span><span class="p">[</span><span class="s1">'mean_pacpg'</span><span class="p">])</span><span class="si">}</span><span class="s2">)."</span><span class="p">,</span> <span class="s2">"12"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Low-support regions are not overclaimed."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"Does the recommender show local Europe or globally compatible Europe?"</span><span class="p">,</span> <span class="n">visibility_dna_answer</span><span class="p">,</span> <span class="s2">"21"</span><span class="p">,</span> <span class="s2">"exploratory/moderate"</span><span class="p">,</span> <span class="s2">"DNA scores are transparent proxies; TMDb provider data and LUMIERE admissions are documented next layers, not included as fake data."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"Which European countries are most visible?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">strongest_country</span><span class="p">[</span><span class="s1">'group_name'</span><span class="p">]</span><span class="si">}</span><span class="s2"> has the highest mean Exposure@20 among support-passing European countries (</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">strongest_country</span><span class="p">[</span><span class="s1">'mean_exposure'</span><span class="p">])</span><span class="si">}</span><span class="s2">)."</span><span class="p">,</span> <span class="s2">"12"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Fractional/binary country counting can differ."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"Which European countries are least visible?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">weakest_country</span><span class="p">[</span><span class="s1">'group_name'</span><span class="p">]</span><span class="si">}</span><span class="s2"> has the lowest mean PACPG@20 among support-passing European countries (</span><span class="si">{</span><span class="n">fmt_pp</span><span class="p">(</span><span class="n">weakest_country</span><span class="p">[</span><span class="s1">'mean_pacpg'</span><span class="p">])</span><span class="si">}</span><span class="s2">)."</span><span class="p">,</span> <span class="s2">"12"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Low support limits claims."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"Which languages are most visible?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">strongest_language</span><span class="p">[</span><span class="s1">'group_name'</span><span class="p">]</span><span class="si">}</span><span class="s2"> has the highest mean language Exposure@20 (</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">strongest_language</span><span class="p">[</span><span class="s1">'mean_exposure'</span><span class="p">])</span><span class="si">}</span><span class="s2">)."</span><span class="p">,</span> <span class="s2">"13"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Original-language metadata is a proxy."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"Is non-English content underexposed?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"Non-English visibility is model-dependent; the highest Non-English Exposure@20 model is </span><span class="si">{</span><span class="n">best_non_english_row</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">best_non_english_row</span><span class="p">[</span><span class="s1">'Non-English Exposure@20'</span><span class="p">])</span><span class="si">}</span><span class="s2">), while language PACPG identifies weaker languages."</span><span class="p">,</span> <span class="s2">"11, 13"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Multilingual films complicate binary labels."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"Are Spanish films visible?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"Best Spain-origin exposure model is </span><span class="si">{</span><span class="n">spain_best</span><span class="p">[</span><span class="s1">'model_name'</span><span class="p">]</span><span class="si">}</span><span class="s2"> with Exposure@20=</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">spain_best</span><span class="p">[</span><span class="s1">'exposure_at_20'</span><span class="p">])</span><span class="si">}</span><span class="s2">."</span><span class="p">,</span> <span class="s2">"14"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Support and metadata coverage limit fine claims."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"Are Spanish-language films the same as Spain-origin films?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"No. The data show </span><span class="si">{</span><span class="n">overlap</span><span class="si">:</span><span class="s2">,</span><span class="si">}</span><span class="s2"> films with both labels, </span><span class="si">{</span><span class="n">only_spain_origin</span><span class="si">:</span><span class="s2">,</span><span class="si">}</span><span class="s2"> Spain-origin without Spanish-language metadata, and </span><span class="si">{</span><span class="n">only_spanish_language</span><span class="si">:</span><span class="s2">,</span><span class="si">}</span><span class="s2"> Spanish-language without Spain-origin."</span><span class="p">,</span> <span class="s2">"6, 14"</span><span class="p">,</span> <span class="s2">"strong"</span><span class="p">,</span> <span class="s2">"Depends on Wikidata language metadata."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"Do models differ?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"Yes. Best utility model is </span><span class="si">{</span><span class="n">best_utility_model</span><span class="si">}</span><span class="s2"> (NDCG@20=</span><span class="si">{</span><span class="n">best_utility_row</span><span class="p">[</span><span class="s1">'NDCG@20'</span><span class="p">]</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">); best Europe-exposure model is </span><span class="si">{</span><span class="n">best_europe_model</span><span class="si">}</span><span class="s2">."</span><span class="p">,</span> <span class="s2">"11"</span><span class="p">,</span> <span class="s2">"strong"</span><span class="p">,</span> <span class="s2">"Bounded candidate/user sample."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"Does the best utility model also have best cultural visibility?"</span><span class="p">,</span> <span class="s2">"Not necessarily; the notebook reports utility and exposure separately and the best utility/exposure models can diverge."</span><span class="p">,</span> <span class="s2">"11"</span><span class="p">,</span> <span class="s2">"strong"</span><span class="p">,</span> <span class="s2">"Metric choice matters."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"Do MPNet/CLIP help?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"They shift visibility. In the multimodal comparison, highest Europe exposure is </span><span class="si">{</span><span class="n">multimodal_best</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">multimodal_best</span><span class="p">[</span><span class="s1">'Europe wide Exposure@20'</span><span class="p">])</span><span class="si">}</span><span class="s2">)."</span><span class="p">,</span> <span class="s2">"16"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Embedding availability and candidate sampling matter."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"Is the gap just popularity bias?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"No single mechanism is enough. The mechanism table highlights long-tail concentration, language, US involvement and co-production; top diagnostic feature is </span><span class="si">{</span><span class="n">top_diag_feature</span><span class="p">[</span><span class="s1">'feature'</span><span class="p">]</span><span class="si">}</span><span class="s2">."</span><span class="p">,</span> <span class="s2">"15"</span><span class="p">,</span> <span class="s2">"weak/moderate"</span><span class="p">,</span> <span class="s2">"Diagnostic, not causal."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"Does the gap compound in feedback loops?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"The Schedl-inspired stress test reports dynamic drift: </span><span class="si">{</span><span class="n">feedback_answer</span><span class="si">}</span><span class="s2">."</span><span class="p">,</span> <span class="s2">"18"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Lightweight offline stress test; no per-iteration model retraining."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"Can re-ranking mitigate it?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"Yes, as a trade-off frontier: </span><span class="si">{</span><span class="n">rerank_answer</span><span class="si">}</span><span class="s2">."</span><span class="p">,</span> <span class="s2">"19"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Does not solve fairness; can overcorrect."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"What should platforms report?"</span><span class="p">,</span> <span class="s2">"Catalogue share, ranked exposure, country/language exposure, missingness, feedback-loop drift, visibility-DNA slices and mitigation frontiers."</span><span class="p">,</span> <span class="s2">"23"</span><span class="p">,</span> <span class="s2">"strong"</span><span class="p">,</span> <span class="s2">"Requires reliable metadata and audit access."</span><span class="p">),</span>
-        <span class="p">(</span><span class="s2">"What can we not conclude?"</span><span class="p">,</span> <span class="s2">"No legal compliance, discrimination, causal manipulation, or user identity claim."</span><span class="p">,</span> <span class="s2">"24"</span><span class="p">,</span> <span class="s2">"strong"</span><span class="p">,</span> <span class="s2">"Offline proxy-label audit."</span><span class="p">),</span>
-    <span class="p">]</span>
-    <span class="k">return</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">answers</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">"Question"</span><span class="p">,</span> <span class="s2">"Short answer"</span><span class="p">,</span> <span class="s2">"Evidence in notebook section"</span><span class="p">,</span> <span class="s2">"Confidence"</span><span class="p">,</span> <span class="s2">"Main caveat"</span><span class="p">])</span>
-
-<span class="n">final_answer_table</span> <span class="o">=</span> <span class="n">short_answer_table</span><span class="p">()</span>
-<span class="n">save_table</span><span class="p">(</span><span class="n">final_answer_table</span><span class="p">,</span> <span class="s2">"final_answer_table.csv"</span><span class="p">)</span>
-<span class="n">display</span><span class="p">(</span><span class="n">final_answer_table</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Question</th>
-<th>Short answer</th>
-<th>Evidence in notebook section</th>
-<th>Confidence</th>
-<th>Main caveat</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>Does the algorithm hide Europe?</td>
-<td>Model-dependent. Worst Europe PACPG@20 is Popu...</td>
-<td>11, 12</td>
-<td>moderate</td>
-<td>Offline sampled audit with proxy metadata.</td>
-</tr>
-<tr>
-<th>1</th>
-<td>Is catalogue diversity enough?</td>
-<td>No. The visibility funnel shows catalogue shar...</td>
-<td>6, 8, 11</td>
-<td>strong</td>
-<td>Catalogue and metadata coverage still matter.</td>
-</tr>
-<tr>
-<th>2</th>
-<td>Which Europe gets recommended?</td>
-<td>Visibility concentrates unevenly: strongest re...</td>
-<td>12</td>
-<td>moderate</td>
-<td>Low-support regions are not overclaimed.</td>
-</tr>
-<tr>
-<th>3</th>
-<td>Does the recommender show local Europe or glob...</td>
-<td>Platform-compatible Europe has mean Exposure@2...</td>
-<td>21</td>
-<td>exploratory/moderate</td>
-<td>DNA scores are transparent proxies; TMDb provi...</td>
-</tr>
-<tr>
-<th>4</th>
-<td>Which European countries are most visible?</td>
-<td>United Kingdom has the highest mean Exposure@2...</td>
-<td>12</td>
-<td>moderate</td>
-<td>Fractional/binary country counting can differ.</td>
-</tr>
-<tr>
-<th>5</th>
-<td>Which European countries are least visible?</td>
-<td>France has the lowest mean PACPG@20 among supp...</td>
-<td>12</td>
-<td>moderate</td>
-<td>Low support limits claims.</td>
-</tr>
-<tr>
-<th>6</th>
-<td>Which languages are most visible?</td>
-<td>English has the highest mean language Exposure...</td>
-<td>13</td>
-<td>moderate</td>
-<td>Original-language metadata is a proxy.</td>
-</tr>
-<tr>
-<th>7</th>
-<td>Is non-English content underexposed?</td>
-<td>Non-English visibility is model-dependent; the...</td>
-<td>11, 13</td>
-<td>moderate</td>
-<td>Multilingual films complicate binary labels.</td>
-</tr>
-<tr>
-<th>8</th>
-<td>Are Spanish films visible?</td>
-<td>Best Spain-origin exposure model is MPNet-cont...</td>
-<td>14</td>
-<td>moderate</td>
-<td>Support and metadata coverage limit fine claims.</td>
-</tr>
-<tr>
-<th>9</th>
-<td>Are Spanish-language films the same as Spain-o...</td>
-<td>No. The data show 227 films with both labels, ...</td>
-<td>6, 14</td>
-<td>strong</td>
-<td>Depends on Wikidata language metadata.</td>
-</tr>
-<tr>
-<th>10</th>
-<td>Do models differ?</td>
-<td>Yes. Best utility model is SVD (NDCG@20=0.1814...</td>
-<td>11</td>
-<td>strong</td>
-<td>Bounded candidate/user sample.</td>
-</tr>
-<tr>
-<th>11</th>
-<td>Does the best utility model also have best cul...</td>
-<td>Not necessarily; the notebook reports utility ...</td>
-<td>11</td>
-<td>strong</td>
-<td>Metric choice matters.</td>
-</tr>
-<tr>
-<th>12</th>
-<td>Do MPNet/CLIP help?</td>
-<td>They shift visibility. In the multimodal compa...</td>
-<td>16</td>
-<td>moderate</td>
-<td>Embedding availability and candidate sampling ...</td>
-</tr>
-<tr>
-<th>13</th>
-<td>Is the gap just popularity bias?</td>
-<td>No single mechanism is enough. The mechanism t...</td>
-<td>15</td>
-<td>weak/moderate</td>
-<td>Diagnostic, not causal.</td>
-</tr>
-<tr>
-<th>14</th>
-<td>Does the gap compound in feedback loops?</td>
-<td>The Schedl-inspired stress test reports dynami...</td>
-<td>18</td>
-<td>moderate</td>
-<td>Lightweight offline stress test; no per-iterat...</td>
-</tr>
-<tr>
-<th>15</th>
-<td>Can re-ranking mitigate it?</td>
-<td>Yes, as a trade-off frontier: strict 80% NDCG ...</td>
-<td>19</td>
-<td>moderate</td>
-<td>Does not solve fairness; can overcorrect.</td>
-</tr>
-<tr>
-<th>16</th>
-<td>What should platforms report?</td>
-<td>Catalogue share, ranked exposure, country/lang...</td>
-<td>23</td>
-<td>strong</td>
-<td>Requires reliable metadata and audit access.</td>
-</tr>
-<tr>
-<th>17</th>
-<td>What can we not conclude?</td>
-<td>No legal compliance, discrimination, causal ma...</td>
-<td>24</td>
-<td>strong</td>
-<td>Offline proxy-label audit.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2f7e1f86">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="23.-Governance-audit-card">23. Governance audit card<a class="anchor-link" href="#23.-Governance-audit-card">¶</a></h2><p><strong>Question.</strong> What should a platform report from a governance perspective?</p>
+<h2 id="22.-Governance-audit-card">22. Governance audit card<a class="anchor-link" href="#22.-Governance-audit-card">¶</a></h2><p><strong>Question.</strong> What should a platform report from a governance perspective?</p>
 </div>
 </div>
 </div>
@@ -17453,7 +17190,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="24.-Limitations">24. Limitations<a class="anchor-link" href="#24.-Limitations">¶</a></h2><p>This is an offline recommender audit. It does not observe a real streaming interface, a real platform algorithm or actual user choices after recommendation.</p>
+<h2 id="23.-Limitations">23. Limitations<a class="anchor-link" href="#23.-Limitations">¶</a></h2><p>This is an offline recommender audit. It does not observe a real streaming interface, a real platform algorithm or actual user choices after recommendation.</p>
 <p>Main limitations:</p>
 <ul>
 <li>MovieLens users are not representative of all streaming users.</li>
@@ -17478,7 +17215,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="25.-Conclusion">25. Conclusion<a class="anchor-link" href="#25.-Conclusion">¶</a></h2><p>The relevant governance object is not only whether European films exist in a catalogue, but whether countries and languages receive ranked and repeated visibility. This notebook shows how to audit that transformation: start with data coverage, preserve unknowns, define proxy labels transparently, compare catalogue and interaction baselines, evaluate recommendation utility and exposure together, inspect intra-European and language visibility, simulate feedback-loop drift, test transparent re-ranking and extend the interpretation through a European Film Visibility DNA layer.</p>
+<h2 id="24.-Conclusion">24. Conclusion<a class="anchor-link" href="#24.-Conclusion">¶</a></h2><p>The relevant governance object is not only whether European films exist in a catalogue, but whether countries and languages receive ranked and repeated visibility. This notebook shows how to audit that transformation: start with data coverage, preserve unknowns, define proxy labels transparently, compare catalogue and interaction baselines, evaluate recommendation utility and exposure together, inspect intra-European and language visibility, simulate feedback-loop drift, test transparent re-ranking and extend the interpretation through a European Film Visibility DNA layer.</p>
 <p>The practical governance recommendation is precise: platforms should report catalogue share, ranked exposure share, country/language distributions, missing metadata share, local-vs-global compatibility slices, feedback-loop drift and mitigation trade-off frontiers. Catalogue diversity alone is not enough.</p>
 </div>
 </div>
@@ -17767,7 +17504,270 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=66703b1a">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c6e24047">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="25.-Direct-answers-to-the-research-questions">25. Direct answers to the research questions<a class="anchor-link" href="#25.-Direct-answers-to-the-research-questions">¶</a></h2><p><strong>Question.</strong> What are the direct answers, with confidence and caveats?</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1dff9274">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">short_answer_table</span><span class="p">():</span>
+    <span class="n">best_utility_row</span> <span class="o">=</span> <span class="n">model_metrics</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"NDCG@20"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">model_metrics</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"Model"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"NDCG@20"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
+    <span class="n">best_europe_row</span> <span class="o">=</span> <span class="n">model_metrics</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"Europe wide Exposure@20"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">model_metrics</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"Model"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"Europe wide Exposure@20"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
+    <span class="n">worst_europe_row</span> <span class="o">=</span> <span class="n">model_metrics</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"Europe wide PACPG@20"</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">model_metrics</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"Model"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"Europe wide PACPG@20"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
+    <span class="n">best_non_english_row</span> <span class="o">=</span> <span class="n">model_metrics</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"Non-English Exposure@20"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">model_metrics</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"Model"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"Non-English Exposure@20"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
+    <span class="n">best_utility_model</span> <span class="o">=</span> <span class="n">best_utility_row</span><span class="p">[</span><span class="s2">"Model"</span><span class="p">]</span>
+    <span class="n">best_europe_model</span> <span class="o">=</span> <span class="n">best_europe_row</span><span class="p">[</span><span class="s2">"Model"</span><span class="p">]</span>
+
+    <span class="n">strongest_country</span> <span class="o">=</span> <span class="n">country_summary</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"mean_exposure"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="s2">"country_summary"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">country_summary</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"group_name"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"mean_exposure"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
+    <span class="n">weakest_country</span> <span class="o">=</span> <span class="n">country_summary</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"mean_pacpg"</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="s2">"country_summary"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">country_summary</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"group_name"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"mean_pacpg"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
+    <span class="n">strongest_region</span> <span class="o">=</span> <span class="n">region_summary</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"mean_exposure"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="s2">"region_summary"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">region_summary</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"group_name"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"mean_exposure"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
+    <span class="n">weakest_region</span> <span class="o">=</span> <span class="n">region_summary</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"mean_pacpg"</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="s2">"region_summary"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">region_summary</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"group_name"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"mean_pacpg"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
+    <span class="n">strongest_language</span> <span class="o">=</span> <span class="n">language_summary</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"mean_exposure"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="s2">"language_summary"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">language_summary</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"group_name"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"mean_exposure"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
+    <span class="n">weakest_language</span> <span class="o">=</span> <span class="n">language_summary</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"mean_pacpg"</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="s2">"language_summary"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">language_summary</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"group_name"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"mean_pacpg"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
+
+    <span class="n">spain_best</span> <span class="o">=</span> <span class="n">spain_focus</span><span class="p">[</span><span class="n">spain_focus</span><span class="p">[</span><span class="s2">"group_name"</span><span class="p">]</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="s2">"Spain-origin"</span><span class="p">)]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"exposure_at_20"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="s2">"spain_focus"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">spain_focus</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"model_name"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"exposure_at_20"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
+    <span class="n">multimodal_best</span> <span class="o">=</span> <span class="n">multimodal_audit</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"Europe wide Exposure@20"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="s2">"multimodal_audit"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">multimodal_audit</span><span class="p">)</span> <span class="k">else</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s2">"Model"</span><span class="p">:</span> <span class="s2">"not available"</span><span class="p">,</span> <span class="s2">"Europe wide Exposure@20"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">})</span>
+    <span class="n">feedback_answer</span> <span class="o">=</span> <span class="s2">"not run"</span>
+    <span class="k">if</span> <span class="s2">"fb_drift"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">fb_drift</span><span class="p">):</span>
+        <span class="n">fb_loss</span> <span class="o">=</span> <span class="n">fb_drift</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"exposure_drift"</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">fb_gain</span> <span class="o">=</span> <span class="n">fb_drift</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"exposure_drift"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">feedback_answer</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"largest loss </span><span class="si">{</span><span class="n">fb_loss</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">]</span><span class="si">}</span><span class="s2"> / </span><span class="si">{</span><span class="n">fb_loss</span><span class="p">[</span><span class="s1">'group_name'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pp</span><span class="p">(</span><span class="n">fb_loss</span><span class="p">[</span><span class="s1">'exposure_drift'</span><span class="p">])</span><span class="si">}</span><span class="s2">); largest gain </span><span class="si">{</span><span class="n">fb_gain</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">]</span><span class="si">}</span><span class="s2"> / </span><span class="si">{</span><span class="n">fb_gain</span><span class="p">[</span><span class="s1">'group_name'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pp</span><span class="p">(</span><span class="n">fb_gain</span><span class="p">[</span><span class="s1">'exposure_drift'</span><span class="p">])</span><span class="si">}</span><span class="s2">)"</span>
+    <span class="n">rerank_answer</span> <span class="o">=</span> <span class="s2">"not run"</span>
+    <span class="k">if</span> <span class="s2">"best_defensible"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="ow">and</span> <span class="s2">"base_combined"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">():</span>
+        <span class="k">if</span> <span class="s2">"max_visibility"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">():</span>
+            <span class="n">rerank_answer</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"strict 80% NDCG retention selects lambda=</span><span class="si">{</span><span class="n">best_defensible</span><span class="p">[</span><span class="s1">'lambda'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">best_defensible</span><span class="p">[</span><span class="s1">'Europe wide Exposure@20'</span><span class="p">])</span><span class="si">}</span><span class="s2"> Europe exposure); maximum visibility occurs at lambda=</span><span class="si">{</span><span class="n">max_visibility</span><span class="p">[</span><span class="s1">'lambda'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">max_visibility</span><span class="p">[</span><span class="s1">'Europe wide Exposure@20'</span><span class="p">])</span><span class="si">}</span><span class="s2">, NDCG@20=</span><span class="si">{</span><span class="n">max_visibility</span><span class="p">[</span><span class="s1">'NDCG@20'</span><span class="p">]</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">)"</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">rerank_answer</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"lambda=</span><span class="si">{</span><span class="n">best_defensible</span><span class="p">[</span><span class="s1">'lambda'</span><span class="p">]</span><span class="si">}</span><span class="s2"> keeps at least 80% NDCG retention and changes Europe exposure from </span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">base_combined</span><span class="p">[</span><span class="s1">'Europe wide Exposure@20'</span><span class="p">])</span><span class="si">}</span><span class="s2"> to </span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">best_defensible</span><span class="p">[</span><span class="s1">'Europe wide Exposure@20'</span><span class="p">])</span><span class="si">}</span><span class="s2">"</span>
+    <span class="n">visibility_dna_answer</span> <span class="o">=</span> <span class="n">dna_answer_sentence</span> <span class="k">if</span> <span class="s2">"dna_answer_sentence"</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()</span> <span class="k">else</span> <span class="s2">"not run; build the optional visibility-DNA cache and rerun section 21"</span>
+
+    <span class="n">answers</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="p">(</span><span class="s2">"Does the algorithm hide Europe?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"Model-dependent. Worst Europe PACPG@20 is </span><span class="si">{</span><span class="n">worst_europe_row</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pp</span><span class="p">(</span><span class="n">worst_europe_row</span><span class="p">[</span><span class="s1">'Europe wide PACPG@20'</span><span class="p">])</span><span class="si">}</span><span class="s2">); highest Europe exposure is </span><span class="si">{</span><span class="n">best_europe_model</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">best_europe_row</span><span class="p">[</span><span class="s1">'Europe wide Exposure@20'</span><span class="p">])</span><span class="si">}</span><span class="s2">)."</span><span class="p">,</span> <span class="s2">"11, 12"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Offline sampled audit with proxy metadata."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"Is catalogue diversity enough?"</span><span class="p">,</span> <span class="s2">"No. The visibility funnel shows catalogue share, train interactions, user history, relevant test share and ranked exposure are different layers."</span><span class="p">,</span> <span class="s2">"6, 8, 11"</span><span class="p">,</span> <span class="s2">"strong"</span><span class="p">,</span> <span class="s2">"Catalogue and metadata coverage still matter."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"Which Europe gets recommended?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"Visibility concentrates unevenly: strongest region is </span><span class="si">{</span><span class="n">strongest_region</span><span class="p">[</span><span class="s1">'group_name'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">strongest_region</span><span class="p">[</span><span class="s1">'mean_exposure'</span><span class="p">])</span><span class="si">}</span><span class="s2">); weakest region by PACPG is </span><span class="si">{</span><span class="n">weakest_region</span><span class="p">[</span><span class="s1">'group_name'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pp</span><span class="p">(</span><span class="n">weakest_region</span><span class="p">[</span><span class="s1">'mean_pacpg'</span><span class="p">])</span><span class="si">}</span><span class="s2">)."</span><span class="p">,</span> <span class="s2">"12"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Low-support regions are not overclaimed."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"Does the recommender show local Europe or globally compatible Europe?"</span><span class="p">,</span> <span class="n">visibility_dna_answer</span><span class="p">,</span> <span class="s2">"21"</span><span class="p">,</span> <span class="s2">"exploratory/moderate"</span><span class="p">,</span> <span class="s2">"DNA scores are transparent proxies; TMDb provider data and LUMIERE admissions are documented next layers, not included as fake data."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"Which European countries are most visible?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">strongest_country</span><span class="p">[</span><span class="s1">'group_name'</span><span class="p">]</span><span class="si">}</span><span class="s2"> has the highest mean Exposure@20 among support-passing European countries (</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">strongest_country</span><span class="p">[</span><span class="s1">'mean_exposure'</span><span class="p">])</span><span class="si">}</span><span class="s2">)."</span><span class="p">,</span> <span class="s2">"12"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Fractional/binary country counting can differ."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"Which European countries are least visible?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">weakest_country</span><span class="p">[</span><span class="s1">'group_name'</span><span class="p">]</span><span class="si">}</span><span class="s2"> has the lowest mean PACPG@20 among support-passing European countries (</span><span class="si">{</span><span class="n">fmt_pp</span><span class="p">(</span><span class="n">weakest_country</span><span class="p">[</span><span class="s1">'mean_pacpg'</span><span class="p">])</span><span class="si">}</span><span class="s2">)."</span><span class="p">,</span> <span class="s2">"12"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Low support limits claims."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"Which languages are most visible?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">strongest_language</span><span class="p">[</span><span class="s1">'group_name'</span><span class="p">]</span><span class="si">}</span><span class="s2"> has the highest mean language Exposure@20 (</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">strongest_language</span><span class="p">[</span><span class="s1">'mean_exposure'</span><span class="p">])</span><span class="si">}</span><span class="s2">)."</span><span class="p">,</span> <span class="s2">"13"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Original-language metadata is a proxy."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"Is non-English content underexposed?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"Non-English visibility is model-dependent; the highest Non-English Exposure@20 model is </span><span class="si">{</span><span class="n">best_non_english_row</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">best_non_english_row</span><span class="p">[</span><span class="s1">'Non-English Exposure@20'</span><span class="p">])</span><span class="si">}</span><span class="s2">), while language PACPG identifies weaker languages."</span><span class="p">,</span> <span class="s2">"11, 13"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Multilingual films complicate binary labels."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"Are Spanish films visible?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"Best Spain-origin exposure model is </span><span class="si">{</span><span class="n">spain_best</span><span class="p">[</span><span class="s1">'model_name'</span><span class="p">]</span><span class="si">}</span><span class="s2"> with Exposure@20=</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">spain_best</span><span class="p">[</span><span class="s1">'exposure_at_20'</span><span class="p">])</span><span class="si">}</span><span class="s2">."</span><span class="p">,</span> <span class="s2">"14"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Support and metadata coverage limit fine claims."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"Are Spanish-language films the same as Spain-origin films?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"No. The data show </span><span class="si">{</span><span class="n">overlap</span><span class="si">:</span><span class="s2">,</span><span class="si">}</span><span class="s2"> films with both labels, </span><span class="si">{</span><span class="n">only_spain_origin</span><span class="si">:</span><span class="s2">,</span><span class="si">}</span><span class="s2"> Spain-origin without Spanish-language metadata, and </span><span class="si">{</span><span class="n">only_spanish_language</span><span class="si">:</span><span class="s2">,</span><span class="si">}</span><span class="s2"> Spanish-language without Spain-origin."</span><span class="p">,</span> <span class="s2">"6, 14"</span><span class="p">,</span> <span class="s2">"strong"</span><span class="p">,</span> <span class="s2">"Depends on Wikidata language metadata."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"Do models differ?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"Yes. Best utility model is </span><span class="si">{</span><span class="n">best_utility_model</span><span class="si">}</span><span class="s2"> (NDCG@20=</span><span class="si">{</span><span class="n">best_utility_row</span><span class="p">[</span><span class="s1">'NDCG@20'</span><span class="p">]</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">); best Europe-exposure model is </span><span class="si">{</span><span class="n">best_europe_model</span><span class="si">}</span><span class="s2">."</span><span class="p">,</span> <span class="s2">"11"</span><span class="p">,</span> <span class="s2">"strong"</span><span class="p">,</span> <span class="s2">"Bounded candidate/user sample."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"Does the best utility model also have best cultural visibility?"</span><span class="p">,</span> <span class="s2">"Not necessarily; the notebook reports utility and exposure separately and the best utility/exposure models can diverge."</span><span class="p">,</span> <span class="s2">"11"</span><span class="p">,</span> <span class="s2">"strong"</span><span class="p">,</span> <span class="s2">"Metric choice matters."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"Do MPNet/CLIP help?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"They shift visibility. In the multimodal comparison, highest Europe exposure is </span><span class="si">{</span><span class="n">multimodal_best</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fmt_pct</span><span class="p">(</span><span class="n">multimodal_best</span><span class="p">[</span><span class="s1">'Europe wide Exposure@20'</span><span class="p">])</span><span class="si">}</span><span class="s2">)."</span><span class="p">,</span> <span class="s2">"16"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Embedding availability and candidate sampling matter."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"Is the gap just popularity bias?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"No single mechanism is enough. The mechanism table highlights long-tail concentration, language, US involvement and co-production; top diagnostic feature is </span><span class="si">{</span><span class="n">top_diag_feature</span><span class="p">[</span><span class="s1">'feature'</span><span class="p">]</span><span class="si">}</span><span class="s2">."</span><span class="p">,</span> <span class="s2">"15"</span><span class="p">,</span> <span class="s2">"weak/moderate"</span><span class="p">,</span> <span class="s2">"Diagnostic, not causal."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"Does the gap compound in feedback loops?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"The Schedl-inspired stress test reports dynamic drift: </span><span class="si">{</span><span class="n">feedback_answer</span><span class="si">}</span><span class="s2">."</span><span class="p">,</span> <span class="s2">"18"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Lightweight offline stress test; no per-iteration model retraining."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"Can re-ranking mitigate it?"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"Yes, as a trade-off frontier: </span><span class="si">{</span><span class="n">rerank_answer</span><span class="si">}</span><span class="s2">."</span><span class="p">,</span> <span class="s2">"19"</span><span class="p">,</span> <span class="s2">"moderate"</span><span class="p">,</span> <span class="s2">"Does not solve fairness; can overcorrect."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"What should platforms report?"</span><span class="p">,</span> <span class="s2">"Catalogue share, ranked exposure, country/language exposure, missingness, feedback-loop drift, visibility-DNA slices and mitigation frontiers."</span><span class="p">,</span> <span class="s2">"23"</span><span class="p">,</span> <span class="s2">"strong"</span><span class="p">,</span> <span class="s2">"Requires reliable metadata and audit access."</span><span class="p">),</span>
+        <span class="p">(</span><span class="s2">"What can we not conclude?"</span><span class="p">,</span> <span class="s2">"No legal compliance, discrimination, causal manipulation, or user identity claim."</span><span class="p">,</span> <span class="s2">"24"</span><span class="p">,</span> <span class="s2">"strong"</span><span class="p">,</span> <span class="s2">"Offline proxy-label audit."</span><span class="p">),</span>
+    <span class="p">]</span>
+    <span class="k">return</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">answers</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">"Question"</span><span class="p">,</span> <span class="s2">"Short answer"</span><span class="p">,</span> <span class="s2">"Evidence in notebook section"</span><span class="p">,</span> <span class="s2">"Confidence"</span><span class="p">,</span> <span class="s2">"Main caveat"</span><span class="p">])</span>
+
+<span class="n">final_answer_table</span> <span class="o">=</span> <span class="n">short_answer_table</span><span class="p">()</span>
+<span class="n">save_table</span><span class="p">(</span><span class="n">final_answer_table</span><span class="p">,</span> <span class="s2">"final_answer_table.csv"</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">final_answer_table</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Question</th>
+<th>Short answer</th>
+<th>Evidence in notebook section</th>
+<th>Confidence</th>
+<th>Main caveat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Does the algorithm hide Europe?</td>
+<td>Model-dependent. Worst Europe PACPG@20 is Popu...</td>
+<td>11, 12</td>
+<td>moderate</td>
+<td>Offline sampled audit with proxy metadata.</td>
+</tr>
+<tr>
+<th>1</th>
+<td>Is catalogue diversity enough?</td>
+<td>No. The visibility funnel shows catalogue shar...</td>
+<td>6, 8, 11</td>
+<td>strong</td>
+<td>Catalogue and metadata coverage still matter.</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Which Europe gets recommended?</td>
+<td>Visibility concentrates unevenly: strongest re...</td>
+<td>12</td>
+<td>moderate</td>
+<td>Low-support regions are not overclaimed.</td>
+</tr>
+<tr>
+<th>3</th>
+<td>Does the recommender show local Europe or glob...</td>
+<td>Platform-compatible Europe has mean Exposure@2...</td>
+<td>21</td>
+<td>exploratory/moderate</td>
+<td>DNA scores are transparent proxies; TMDb provi...</td>
+</tr>
+<tr>
+<th>4</th>
+<td>Which European countries are most visible?</td>
+<td>United Kingdom has the highest mean Exposure@2...</td>
+<td>12</td>
+<td>moderate</td>
+<td>Fractional/binary country counting can differ.</td>
+</tr>
+<tr>
+<th>5</th>
+<td>Which European countries are least visible?</td>
+<td>France has the lowest mean PACPG@20 among supp...</td>
+<td>12</td>
+<td>moderate</td>
+<td>Low support limits claims.</td>
+</tr>
+<tr>
+<th>6</th>
+<td>Which languages are most visible?</td>
+<td>English has the highest mean language Exposure...</td>
+<td>13</td>
+<td>moderate</td>
+<td>Original-language metadata is a proxy.</td>
+</tr>
+<tr>
+<th>7</th>
+<td>Is non-English content underexposed?</td>
+<td>Non-English visibility is model-dependent; the...</td>
+<td>11, 13</td>
+<td>moderate</td>
+<td>Multilingual films complicate binary labels.</td>
+</tr>
+<tr>
+<th>8</th>
+<td>Are Spanish films visible?</td>
+<td>Best Spain-origin exposure model is MPNet-cont...</td>
+<td>14</td>
+<td>moderate</td>
+<td>Support and metadata coverage limit fine claims.</td>
+</tr>
+<tr>
+<th>9</th>
+<td>Are Spanish-language films the same as Spain-o...</td>
+<td>No. The data show 227 films with both labels, ...</td>
+<td>6, 14</td>
+<td>strong</td>
+<td>Depends on Wikidata language metadata.</td>
+</tr>
+<tr>
+<th>10</th>
+<td>Do models differ?</td>
+<td>Yes. Best utility model is SVD (NDCG@20=0.1814...</td>
+<td>11</td>
+<td>strong</td>
+<td>Bounded candidate/user sample.</td>
+</tr>
+<tr>
+<th>11</th>
+<td>Does the best utility model also have best cul...</td>
+<td>Not necessarily; the notebook reports utility ...</td>
+<td>11</td>
+<td>strong</td>
+<td>Metric choice matters.</td>
+</tr>
+<tr>
+<th>12</th>
+<td>Do MPNet/CLIP help?</td>
+<td>They shift visibility. In the multimodal compa...</td>
+<td>16</td>
+<td>moderate</td>
+<td>Embedding availability and candidate sampling ...</td>
+</tr>
+<tr>
+<th>13</th>
+<td>Is the gap just popularity bias?</td>
+<td>No single mechanism is enough. The mechanism t...</td>
+<td>15</td>
+<td>weak/moderate</td>
+<td>Diagnostic, not causal.</td>
+</tr>
+<tr>
+<th>14</th>
+<td>Does the gap compound in feedback loops?</td>
+<td>The Schedl-inspired stress test reports dynami...</td>
+<td>18</td>
+<td>moderate</td>
+<td>Lightweight offline stress test; no per-iterat...</td>
+</tr>
+<tr>
+<th>15</th>
+<td>Can re-ranking mitigate it?</td>
+<td>Yes, as a trade-off frontier: strict 80% NDCG ...</td>
+<td>19</td>
+<td>moderate</td>
+<td>Does not solve fairness; can overcorrect.</td>
+</tr>
+<tr>
+<th>16</th>
+<td>What should platforms report?</td>
+<td>Catalogue share, ranked exposure, country/lang...</td>
+<td>23</td>
+<td>strong</td>
+<td>Requires reliable metadata and audit access.</td>
+</tr>
+<tr>
+<th>17</th>
+<td>What can we not conclude?</td>
+<td>No legal compliance, discrimination, causal ma...</td>
+<td>24</td>
+<td>strong</td>
+<td>Offline proxy-label audit.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e6e85b1b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>

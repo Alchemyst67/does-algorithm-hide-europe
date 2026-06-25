@@ -1,0 +1,14 @@
+check,passed,details
+unique movieId in movie_db,True,0 duplicate movieId rows
+ratings movieIds exist in movie table,True,MovieLens rating movieIds checked against movie table
+unknown country preserved,True,Unknown country appears as explicit label when metadata is missing
+unknown language preserved,True,Unknown language appears as explicit label when metadata is missing
+fractional country shares sum correctly,True,country share sum=1.000000
+fractional language shares sum correctly,True,language share sum=1.000000
+evaluated users have train interactions,True,Every evaluated user has train interactions
+evaluated users have test interactions,True,Every evaluated user has test candidate interactions
+no test data used for training,True,train/test item overlap after filtering=0
+exposure values between 0 and 1 in toy example,True,toy exposure=0.35195904451706733
+PACPG toy example computed,True,toy PACPG=-0.14804095548293267
+recommendation list length is correct,True,Top-K lists bounded by max K
+seen items excluded from recommendations,True,Popularity recommendations checked for seen item exclusion

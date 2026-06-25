@@ -1,0 +1,15 @@
+field,value
+dataset scope,"27,278 MovieLens movies; 18,777,965 M3L interactions"
+sample restrictions,"FULL_RUN=False; evaluated users=400; candidate items=2,323"
+raw data sources,MovieLens metadata/ratings/tags/genome; M3L interactions/features; cached Wikidata metadata
+join coverage,country=68.5%; language=67.3%; MPNet matrix=69.6%; CLIP matrix=69.6%
+proxy definitions,"country of origin, original language, production company country, wider Europe/EU27 sensitivity"
+models tested,"Popularity, ItemKNN, SVD, MPNet-content, CLIP-image-content, Hybrid"
+utility metrics,"NDCG@5/10/20/50, Recall@5/10/20/50, MAP@20, Coverage@20"
+exposure metrics,"discounted exposure, catalogue/interaction/relevance gaps, PACPG"
+dynamic drift metrics,Schedl-inspired lightweight stress test: exposure/profile shares over iterations; no per-iteration retraining in bounded run
+visibility DNA extension,transparent Global Compatibility and Local Europe scores; optional deeper Wikidata cache; TMDb/LUMIERE documented as next layers
+mitigation tested,transparent lambda-based post-processing re-ranking
+strongest findings,"catalogue, interaction and ranked exposure differ; model choice changes visibility"
+weakest findings,"low-support countries, granular Spain subgroups and religion/theme themes require caution"
+platform reporting recommendation,"report catalogue share, ranked exposure, country/language distribution, missingness, feedback-loop drift and mitigation trade-off frontier"

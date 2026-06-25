@@ -1,0 +1,5 @@
+label,status,same_label_rate,reason
+MPNet European homophily,computed,0.696,
+MPNet language homophily,computed,0.877,
+CLIP European homophily,computed,0.704,
+CLIP language homophily,computed,0.906,

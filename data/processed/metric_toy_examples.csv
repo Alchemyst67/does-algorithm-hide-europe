@@ -1,0 +1,3 @@
+metric,value,expected_behavior
+discounted exposure,0.35195904451706733,higher when group items are ranked earlier
+PACPG,-0.14804095548293267,"negative means underexposure relative to max(history, relevance)"

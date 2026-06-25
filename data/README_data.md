@@ -20,6 +20,14 @@ This project uses real data only. No synthetic fallback data is generated.
 Raw MovieLens and M3L files are not included in this submission package and should not be pushed to a public repository. Download them from the original providers and place them in `data/raw/` or in the expected extracted local folders.
 
 
+## Processed Data Included in This Repository
+
+
+The folder `data/processed/` contains derived CSV tables from the executed notebooks. These tables are sufficient to review the reported results, reproduce the presentation figures, and inspect the country/language/model audit outputs without redistributing the raw MovieLens or M3L archives.
+
+The processed tables include model metrics, country and language visibility metrics, metadata coverage summaries, user-fold robustness summaries, feedback-loop outputs, re-ranking frontiers and the final research-question answer table.
+
+
 ## Wikidata Cache
 
 
