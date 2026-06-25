@@ -1,0 +1,101 @@
+item_id,movieId,title,imdb_id_str,country,original_language,production_company_country,is_european_wide,is_non_english,is_us_origin,has_us_company_signal,is_long_tail,train_interaction_count
+0,1,Toy Story (1995),tt0114709,['United States'],"['English', 'Spanish']",['United States'],False,False,True,True,False,39948
+1,3,Grumpier Old Men (1995),tt0113228,['United States'],['English'],[],False,False,True,False,False,10153
+2,4,Waiting to Exhale (1995),tt0114885,['United States'],['English'],['United States'],False,False,True,True,False,2164
+3,5,Father of the Bride Part II (1995),tt0113041,['United States'],['English'],['United States'],False,False,True,True,False,9736
+4,7,Sabrina (1995),tt0114319,['United States'],['English'],['United States'],False,False,True,True,False,10349
+5,9,Sudden Death (1995),tt0114576,['United States'],['English'],['United States'],False,False,True,True,False,3158
+6,10,GoldenEye (1995),tt0113189,"['United Kingdom', 'United States']",['English'],"['United Kingdom', 'United States']",True,False,True,True,False,23158
+7,11,"American President, The (1995)",tt0112346,['United States'],['English'],['United States'],False,False,True,True,False,14476
+8,12,Dracula: Dead and Loving It (1995),tt0112896,"['France', 'Italy', 'United States']","['English', 'German']","['United Kingdom', 'United States']",True,False,True,True,False,3086
+9,13,Balto (1995),tt0112453,['United States'],['English'],"['United Kingdom', 'United States']",False,False,True,True,False,1178
+10,14,Nixon (1995),tt0113987,['United States'],['English'],['United States'],False,False,True,True,False,4773
+11,15,Cutthroat Island (1995),tt0112760,"['France', 'Germany', 'Italy', 'United States']",['English'],['France'],True,False,True,True,False,2355
+12,16,Casino (1995),tt0112641,"['France', 'United States']",['English'],['United States'],True,False,True,True,False,13791
+13,17,Sense and Sensibility (1995),tt0114388,"['United Kingdom', 'United States']",['English'],['United States'],True,False,True,True,False,16619
+14,18,Four Rooms (1995),tt0113101,['United States'],['English'],['United States'],False,False,True,True,False,4169
+15,19,Ace Ventura: When Nature Calls (1995),tt0112281,['United States'],['English'],['United States'],False,False,True,True,False,16703
+16,20,Money Train (1995),tt0113845,['United States'],['English'],['United States'],False,False,True,True,False,3293
+17,21,Get Shorty (1995),tt0113161,['United States'],['English'],[],False,False,True,False,False,19267
+18,22,Copycat (1995),tt0112722,['United States'],['English'],['United States'],False,False,True,True,False,7928
+19,23,Assassins (1995),tt0112401,"['France', 'United States']","['English', 'Spanish']","['France', 'United States']",True,False,True,True,False,3357
+20,24,Powder (1995),tt0114168,['United States'],['English'],['United States'],False,False,True,True,False,6408
+21,25,Leaving Las Vegas (1995),tt0113627,"['France', 'United States']",['English'],[],True,False,True,False,False,17228
+22,26,Othello (1995),tt0114057,"['United Kingdom', 'United States']",['English'],['United States'],True,False,True,True,False,2233
+23,27,Now and Then (1995),tt0114011,['United States'],['English'],['United States'],False,False,True,True,False,1341
+24,74508,Persuasion (2007),tt0844330,"['United Kingdom', 'United States']",['English'],['United Kingdom'],True,False,True,False,False,2532
+25,29,"City of Lost Children, The (Cité des enfants perdus, La) (1995)",tt0112682,"['France', 'Germany', 'Spain']",['French'],"['France', 'Germany', 'Spain', 'United Kingdom']",True,True,False,False,False,6871
+26,30,Shanghai Triad (Yao a yao yao dao waipo qiao) (1995),tt0115012,"['France', ""People's Republic of China""]",['Mandarin'],[],True,True,False,False,False,1035
+27,31,Dangerous Minds (1995),tt0112792,['United States'],"['English', 'Spanish']",['United States'],False,False,True,True,False,7594
+28,32,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),tt0114746,['United States'],['English'],['United States'],False,False,True,True,False,35870
+29,33,Wings of Courage (1995),tt0114952,"['France', 'United States']",['English'],[],True,False,True,False,False,49
+30,34,Babe (1995),tt0112431,"['Australia', 'United States']",['English'],[],False,False,True,False,False,25737
+31,35,Carrington (1995),tt0112637,"['France', 'United Kingdom']",['English'],"['France', 'United Kingdom']",True,False,False,True,False,1192
+32,36,Dead Man Walking (1995),tt0112818,['United States'],['English'],['United Kingdom'],False,False,True,True,False,16691
+33,37,Across the Sea of Time (1995),tt0112286,['United States'],['English'],[],False,False,True,False,False,59
+34,38,It Takes Two (1995),tt0113442,['United States'],['English'],[],False,False,True,False,False,425
+35,39,Clueless (1995),tt0112697,['United States'],['English'],['United States'],False,False,True,True,False,20946
+36,40,"Cry, the Beloved Country (1995)",tt0112749,"['South Africa', 'United States']",['English'],[],False,False,True,False,False,708
+37,41,Richard III (1995),tt0114279,['United Kingdom'],['English'],['United States'],True,False,False,True,False,3742
+38,42,Dead Presidents (1995),tt0112819,['United States'],['English'],['United States'],False,False,True,True,False,1949
+39,43,Restoration (1995),tt0114272,"['United Kingdom', 'United States']",['English'],[],True,False,True,False,False,2086
+40,44,Mortal Kombat (1995),tt0113855,['United States'],['English'],['United States'],False,False,True,True,False,8592
+41,45,To Die For (1995),tt0114681,"['United Kingdom', 'United States']",['English'],['United Kingdom'],True,False,True,False,False,7144
+42,47,Seven (a.k.a. Se7en) (1995),tt0114369,['United States'],['English'],['United States'],False,False,True,True,False,34540
+43,48,Pocahontas (1995),tt0114148,['United States'],['English'],['United States'],False,False,True,True,False,10476
+44,49,When Night Is Falling (1995),tt0114916,['Canada'],['English'],[],False,False,False,False,False,194
+45,50,"Usual Suspects, The (1995)",tt0114814,['United States'],['English'],['United Kingdom'],False,False,True,True,False,37635
+46,51,Guardian Angel (1994),tt0109950,['United States'],['English'],[],False,False,True,False,False,23
+47,52,Mighty Aphrodite (1995),tt0113819,['United States'],['English'],"['Canada', 'United States']",False,False,True,True,False,7425
+48,54,"Big Green, The (1995)",tt0112499,['United States'],['English'],['United States'],False,False,True,True,False,763
+49,55,Georgia (1995),tt0113158,"['France', 'United States']",['English'],[],True,False,True,False,False,747
+50,58,"Postman, The (Postino, Il) (1994)",tt0110877,"['Belgium', 'France', 'Italy']","['Italian', 'Spanish']",['Italy'],True,True,False,False,False,9194
+51,60,"Indian in the Cupboard, The (1995)",tt0113419,['United States'],['English'],['United States'],False,False,True,True,False,4987
+52,61,Eye for an Eye (1996),tt0116260,['United States'],['English'],['United States'],False,False,True,True,False,1837
+53,62,Mr. Holland's Opus (1995),tt0113862,['United States'],['English'],"['United Kingdom', 'United States']",False,False,True,True,False,15581
+54,63,Don't Be a Menace to South Central While Drinking Your Juice in the Hood (1996),tt0116126,['United States'],['English'],['Jamaica'],False,False,True,False,False,1872
+55,64,Two if by Sea (1996),tt0118002,['United States'],['English'],[],False,False,True,False,False,1657
+56,65,Bio-Dome (1996),tt0115683,['United States'],['English'],[],False,False,True,False,False,3915
+57,66,Lawnmower Man 2: Beyond Cyberspace (1996),tt0116839,['United States'],['English'],[],False,False,True,False,False,1886
+58,67,Two Bits (1995),tt0114753,['United States'],['English'],[],False,False,True,False,False,139
+59,69,Friday (1995),tt0113118,['United States'],['English'],['United States'],False,False,True,True,False,3477
+60,72,Kicking and Screaming (1995),tt0113537,['United States'],['English'],[],False,False,True,False,False,984
+61,74,Bed of Roses (1996),tt0115644,['United States'],['English'],['United States'],False,False,True,True,False,2826
+62,75,Big Bully (1996),tt0115676,['United States'],['English'],['United States'],False,False,True,True,False,434
+63,76,Screamers (1995),tt0114367,"['Canada', 'Japan', 'United States']",['English'],[],False,False,True,True,False,2728
+64,77,Nico Icon (1995),tt0113973,['United States'],['English'],[],False,False,True,False,False,180
+65,78,"Crossing Guard, The (1995)",tt0112744,['United States'],['English'],"['Canada', 'United States']",False,False,True,True,False,1006
+66,79,"Juror, The (1996)",tt0116731,['United States'],['English'],['United States'],False,False,True,True,False,4463
+67,80,"White Balloon, The (Badkonake sefid) (1995)",tt0112445,['Iran'],['Persian'],[],False,True,False,False,False,474
+68,81,Things to Do in Denver When You're Dead (1995),tt0114660,['United States'],['English'],"['Canada', 'United States']",False,False,True,True,False,2595
+69,82,Antonia's Line (Antonia) (1995),tt0112379,['Netherlands'],['Dutch'],[],True,True,False,False,False,2056
+70,84,Last Summer in the Hamptons (1995),tt0113612,['United States'],['English'],[],False,False,True,False,False,126
+71,86,White Squall (1996),tt0118158,"['United Kingdom', 'United States']",['English'],['United States'],True,False,True,True,False,3438
+72,88,Black Sheep (1996),tt0115697,['United States'],['English'],['United States'],False,False,True,True,False,3923
+73,89,Nick of Time (1995),tt0113972,['United States'],['English'],['United States'],False,False,True,True,False,2593
+74,90,"Journey of August King, The (1995)",tt0113490,['United States'],['English'],[],False,False,True,False,False,166
+75,92,Mary Reilly (1996),tt0117002,['United States'],['English'],['United States'],False,False,True,True,False,1821
+76,93,Vampire in Brooklyn (1995),tt0114825,['United States'],['English'],['United States'],False,False,True,True,False,1531
+77,95,Broken Arrow (1996),tt0115759,['United States'],['English'],['United States'],False,False,True,True,False,17726
+78,96,In the Bleak Midwinter (1995),tt0113403,['United Kingdom'],['English'],['United States'],True,False,False,True,False,403
+79,97,"Hate (Haine, La) (1995)",tt0113247,['France'],['French'],"['France', 'United Kingdom']",True,True,False,False,False,1587
+80,98,Shopping (1994),tt0111173,"['Japan', 'United Kingdom']",['English'],"['Canada', 'United Kingdom']",True,False,False,True,False,64
+81,99,Heidi Fleiss: Hollywood Madam (1995),tt0113283,['United States'],['English'],[],False,False,True,False,False,584
+82,100,City Hall (1996),tt0115907,['United States'],['English'],['United States'],False,False,True,True,False,3328
+83,101,Bottle Rocket (1996),tt0115734,['United States'],"['English', 'Spanish']",['United States'],False,False,True,True,False,3442
+84,102,Mr. Wrong (1996),tt0117102,['United States'],['English'],['United States'],False,False,True,True,False,1622
+85,103,Unforgettable (1996),tt0118040,['United States'],['English'],[],False,False,True,False,False,895
+86,104,Happy Gilmore (1996),tt0116483,['United States'],['English'],[],False,False,True,False,False,14282
+87,105,"Bridges of Madison County, The (1995)",tt0112579,['United States'],['English'],['United States'],False,False,True,True,False,7646
+88,106,Nobody Loves Me (Keiner liebt mich) (1994),tt0110251,['Germany'],['German'],[],True,True,False,False,False,106
+89,107,Muppet Treasure Island (1996),tt0117110,['United States'],['English'],['United States'],False,False,True,True,False,5206
+90,108,Catwalk (1996),tt0112646,['United States'],['English'],[],False,False,True,False,False,91
+91,109,Headless Body in Topless Bar (1995),tt0113276,['United States'],['English'],[],False,False,True,False,False,13
+92,110,Braveheart (1995),tt0112573,['United States'],['English'],['United States'],False,False,True,True,False,42924
+93,111,Taxi Driver (1976),tt0075314,['United States'],['English'],['United States'],False,False,True,True,False,19641
+94,112,Rumble in the Bronx (Hont faan kui) (1995),tt0113326,['Hong Kong'],"['Chinese', 'English']","[""People's Republic of China""]",False,False,False,False,False,9568
+95,113,Before and After (1996),tt0115645,['United States'],['English'],['United States'],False,False,True,True,False,880
+96,114,Margaret's Museum (1995),tt0113774,"['Canada', 'United Kingdom']",['English'],[],True,False,False,False,False,198
+97,116,Anne Frank Remembered (1995),tt0112373,"['United Kingdom', 'United States']",['English'],[],True,False,True,False,False,773
+98,117,"Young Poisoner's Handbook, The (1995)",tt0115033,"['France', 'Germany', 'United Kingdom']",['English'],[],True,False,False,False,False,1027
+99,118,If Lucy Fell (1996),tt0116606,['United States'],['English'],[],False,False,True,False,False,910

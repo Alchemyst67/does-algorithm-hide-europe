@@ -7,6 +7,7 @@ The files are included so the main results can be inspected without downloading 
 - model utility and cultural-prominence metrics,
 - country, region and language visibility tables,
 - metadata coverage and join diagnostics,
+- source-foundation diagnostics produced directly by Notebook 01,
 - user-fold robustness summaries,
 - feedback-loop and re-ranking outputs,
 - the final research-question answer table.

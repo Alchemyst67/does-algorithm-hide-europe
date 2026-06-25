@@ -1,0 +1,5 @@
+feature,available,count_or_rows
+MPNet text matrix,True,19009
+CLIP image matrix,True,19009
+MPNet JSON files,True,25177
+CLIP image JSON files,True,25037

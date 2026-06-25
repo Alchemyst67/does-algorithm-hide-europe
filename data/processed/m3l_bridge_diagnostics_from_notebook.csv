@@ -1,0 +1,5 @@
+metric,value
+bridge rows,19009
+unique M3L item_id,19009
+unique MovieLens movieId,18973
+duplicate MovieLens movieId rows,36

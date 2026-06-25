@@ -1,0 +1,11 @@
+name,kind,role,required,resolved_path,exists,size_mb,is_lfs_pointer
+MovieLens movies,primary source,Movie titles and genres,True,local_data_root/MovieLens 20M Dataset/movie.csv,True,1.42,False
+MovieLens links,primary source,IMDb/TMDb bridge,True,local_data_root/MovieLens 20M Dataset/link.csv,True,0.51,False
+MovieLens ratings,primary source,Ratings for popularity and user-interest context,True,local_data_root/MovieLens 20M Dataset/rating.csv,True,658.37,False
+M3L interactions,primary source,Train/validation/test recommender interactions,True,local_data_root/m3l-20m/m3l-20m.inter,True,265.74,False
+MPNet matrix,primary source feature,M3L text embeddings used by text-content model and ID bridge check,False,local_data_root/m3l-20m/text/mpnet.npy,True,111.38,False
+CLIP image matrix,primary source feature,M3L poster embeddings used by image-content model,False,local_data_root/m3l-20m/image/clip_image.npy,True,74.25,False
+MPNet JSON folder,primary source feature,Per-movie MPNet JSON files; used to reconstruct M3L item_id to MovieLens movieId bridge if needed,False,local_data_root/TEXT_mpnet,True,,False
+CLIP image JSON folder,primary source feature,Per-movie CLIP-image JSON files for feature coverage,False,local_data_root/IMG_clip-image,True,,False
+M3L to MovieLens bridge,derived join cache,Maps M3L internal item_id values to MovieLens movieId values,False,local_data_root/data/interim/m3l_internal_to_movielens.csv,True,0.2,False
+Wikidata cultural metadata cache,derived enrichment cache,"Cached SPARQL results for country, language and production metadata",False,local_data_root/data/interim/wikidata_movie_metadata_extended.csv,True,2.55,False

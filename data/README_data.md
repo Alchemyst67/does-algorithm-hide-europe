@@ -43,6 +43,8 @@ The folder `data/processed/` contains derived CSV tables from the executed noteb
 
 The processed tables include model metrics, country and language visibility metrics, metadata coverage summaries, user-fold robustness summaries, feedback-loop outputs, re-ranking frontiers and the final research-question answer table.
 
+The `*_from_notebook.csv` files are small diagnostics written by `notebooks/01_data_foundation_movies_db.ipynb`. They document source inventory, M3L bridge checks, Wikidata join coverage, feature coverage and audit-label counts without redistributing raw MovieLens or M3L files.
+
 
 ## Wikidata Cache
 

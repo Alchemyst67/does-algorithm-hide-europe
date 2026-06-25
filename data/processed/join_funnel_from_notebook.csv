@@ -1,0 +1,7 @@
+step,movies,share_of_movielens_catalogue
+MovieLens catalogue,27278,1.0
+M3L items mapped to MovieLens,18973,0.6955421951755993
+with IMDb ID,18973,0.6955421951755993
+with Wikidata match,18684,0.6849475768018183
+with country metadata,18679,0.6847642789060782
+with original-language metadata,18353,0.6728132561038199

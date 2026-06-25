@@ -20,7 +20,7 @@ The central argument is: **cultural diversity is not only a catalogue question; 
 ## Repository Architecture
 
 
-- `notebooks/01_data_foundation_movies_db.ipynb` — MovieLens/M3L/Wikidata data foundation and coverage checks.
+- `notebooks/01_data_foundation_movies_db.ipynb` — source-first data foundation: loads MovieLens/M3L, reconstructs or loads the M3L-to-MovieLens bridge, documents the Wikidata SPARQL enrichment logic and writes small coverage diagnostics.
 
 - `notebooks/02_model_pipeline_and_user_fold_robustness.ipynb` — model pipeline and bounded user-fold robustness.
 
@@ -92,9 +92,9 @@ If `uv` is not available, use a Python 3.12 virtual environment and install the 
 ## Reproduction Order
 
 
-This repository is notebook-first. The executed notebooks and HTML exports contain the analysis path, saved outputs and interpretations. The recommended reading order is:
+This repository is notebook-first. The executed notebooks and HTML exports contain the analysis path, saved outputs and interpretations. The first notebook is the source foundation and does not depend on hidden project scripts. The recommended reading order is:
 
-1. `notebooks/01_data_foundation_movies_db.ipynb`
+1. `notebooks/01_data_foundation_movies_db.ipynb` — verify sources, joins and Wikidata enrichment.
 2. `notebooks/02_model_pipeline_and_user_fold_robustness.ipynb`
 3. `notebooks/03_feedback_loop_and_mitigation.ipynb`
 4. `notebooks/04_final_research_story_executed.ipynb`
