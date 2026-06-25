@@ -1,0 +1,8 @@
+{
+  "generated_assets_dir": "cultural_prominence_audit/outputs/final_submission_assets",
+  "country_genre_rows": 1113,
+  "country_problem_rows": 18,
+  "country_language_rows": 1533,
+  "production_company_caveat_rows": 4,
+  "note": "All assets are derived from real processed MovieLens/M3L/Wikidata data. No synthetic data is generated."
+}

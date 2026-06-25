@@ -1,0 +1,11 @@
+model,status,reason,dependency_or_data_issue,included_in_final_comparison
+Popularity,executed,,,True
+ItemKNN,executed,,,True
+SVD,executed,,,True
+MPNet-content,executed,,,True
+CLIP-image-content,executed,,,True
+Hybrid,executed,,,True
+BPR-MF,not run in final notebook,Deep variants are documented in separate feedback script; final notebook keeps runtime bounded.,runtime/dependency scope,False
+LightGCN-style,not run in final notebook,Deep variants are documented in separate feedback script; final notebook keeps runtime bounded.,runtime/dependency scope,False
+NeuMF-lite,not run in final notebook,Deep variants are documented in separate feedback script; final notebook keeps runtime bounded.,runtime/dependency scope,False
+MultiVAE-lite,not run in final notebook,Deep variants are documented in separate feedback script; final notebook keeps runtime bounded.,runtime/dependency scope,False

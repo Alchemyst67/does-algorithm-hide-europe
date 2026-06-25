@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Audit Roadmap | Which Europe Gets Recommended?</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./roadmap.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./roadmap.html" aria-label="Audit roadmap home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>Which Europe Gets Recommended?</strong>
+          <small>Finding-driven roadmap</small>
+        </span>
+      </a>
+      <nav class="topnav" aria-label="Roadmap navigation">
+        <a href="#roadmap">Roadmap</a>
+        <a href="#country">Country risk</a>
+        <a href="#models">Models</a>
+        <a href="#outcome">Outcome</a>
+        <a href="#dna">DNA</a>
+        <a href="../notebooks/does_algorithm_hide_europe_final_research_story.ipynb">Notebook</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="overview">
+        <div class="hero-copy">
+          <p class="eyebrow">Project roadmap</p>
+          <h1>From catalogue diversity to ranked cultural visibility.</h1>
+          <p class="lede">
+            This UI turns the final notebook into an easy-to-read research roadmap:
+            what we asked, why each step exists, which technique we used, and what
+            the evidence says.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#roadmap">Explore the roadmap</a>
+            <a class="button" href="../cultural_prominence_audit/outputs/final_notebook_tables/final_answer_table.csv">Final answer table</a>
+            <a class="button" href="../cultural_prominence_audit/outputs/final_notebook_tables/figure_ledger.csv">Figure ledger</a>
+          </div>
+        </div>
+
+        <aside class="answer-panel" aria-label="Main answer">
+          <span class="panel-kicker">Main answer</span>
+          <h2>Does the algorithm hide Europe?</h2>
+          <p>
+            Model-dependent. Popularity produces the worst Europe PACPG@20
+            <strong>-10.3 percentage points</strong>, while CLIP-image-content reaches the
+            highest European exposure at <strong>32.8%</strong>.
+          </p>
+          <div class="metric-strip" aria-label="Headline metrics">
+            <div><strong>0.1814</strong><span>best NDCG@20, SVD</span></div>
+            <div><strong>97.8%</strong><span>English language exposure</span></div>
+            <div><strong>-1.7 pp</strong><span>France mean PACPG@20</span></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section-band compact-band">
+        <div class="band-header">
+          <p class="eyebrow">Red thread</p>
+          <h2>Every step answers one presentation question.</h2>
+          <p>
+            The project is not “we trained recommenders”. It is an audit pipeline
+            for a governance problem: cultural works can exist in a catalogue but
+            still lose ranked visibility.
+          </p>
+        </div>
+        <div class="logic-grid">
+          <article>
+            <span>01</span>
+            <h3>Availability</h3>
+            <p>What is in the catalogue and which metadata can be trusted?</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Ranking</h3>
+            <p>Which models turn that catalogue into Top-K attention?</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Prominence</h3>
+            <p>Which countries and languages fall below user-adjusted targets?</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Governance</h3>
+            <p>What can be reported, mitigated and not overclaimed?</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="roadmap-shell section-band" id="roadmap">
+        <div class="band-header">
+          <p class="eyebrow">Roadmap</p>
+          <h2>The audit pipeline as a sequence of defendable decisions.</h2>
+          <p>
+            Select a step to see the question, technique, reason, outcome and the
+            evidence artifact we would show in the presentation.
+          </p>
+        </div>
+
+        <div class="roadmap-layout">
+          <div class="step-list" id="stepList" aria-label="Audit roadmap steps"></div>
+          <article class="step-detail" id="stepDetail" aria-live="polite"></article>
+        </div>
+      </section>
+
+      <section class="section-band evidence-band" id="country">
+        <div class="band-header">
+          <p class="eyebrow">Country risk</p>
+          <h2>Which countries are visible, and where do problems show up?</h2>
+          <p>
+            The country analysis compares mean Exposure@20 against a transparent
+            target: the stronger signal from user history and relevant test items.
+            A negative PACPG means rankings expose that country less than the
+            preference-adjusted target.
+          </p>
+        </div>
+
+        <div class="country-grid">
+          <figure class="visual-panel large">
+            <img src="../cultural_prominence_audit/outputs/final_notebook_figures/12_country_geo_scorecard.png" alt="European country visibility scorecard by mean PACPG at 20" />
+            <figcaption>
+              France is the strongest underexposure signal. Spain and Germany are also
+              negative, while several smaller-support countries are almost invisible
+              despite a target signal.
+            </figcaption>
+          </figure>
+          <div class="country-table-panel">
+            <h3>Most important country findings</h3>
+            <div class="risk-list" id="riskList"></div>
+          </div>
+        </div>
+
+        <div class="visual-grid">
+          <figure class="visual-panel">
+            <img src="../cultural_prominence_audit/outputs/final_notebook_figures/12_country_target_vs_exposure.png" alt="Country exposure versus preference adjusted target" />
+            <figcaption>
+              Countries below the diagonal receive less ranked exposure than the
+              preference-adjusted target.
+            </figcaption>
+          </figure>
+          <figure class="visual-panel">
+            <img src="../cultural_prominence_audit/outputs/final_notebook_figures/12_country_geo_visibility_map.png" alt="Approximate European visibility risk map" />
+            <figcaption>
+              The map is an orientation graphic, not a geographic model. It makes
+              intra-European concentration easier to explain.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-band" id="models">
+        <div class="band-header">
+          <p class="eyebrow">Model evidence</p>
+          <h2>Utility and cultural prominence move differently.</h2>
+          <p>
+            We compare classical collaborative filtering, content-based MPNet/CLIP,
+            hybrid scoring and transparent re-ranking. The goal is not only accuracy,
+            but the trade-off between utility and visibility.
+          </p>
+        </div>
+
+        <div class="model-toolbar" id="metricButtons" aria-label="Model metric selector"></div>
+        <div class="model-layout">
+          <div class="chart-card">
+            <div class="bar-chart" id="modelChart" role="img" aria-label="Model comparison chart"></div>
+          </div>
+          <aside class="model-reading">
+            <h3 id="metricTitle"></h3>
+            <p id="metricReading"></p>
+            <dl id="metricNotes"></dl>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section-band outcome-band" id="outcome">
+        <div class="band-header">
+          <p class="eyebrow">Outcome</p>
+          <h2>The presentation can end with concrete answers.</h2>
+          <p>
+            These are the claims that are currently supported by the final notebook.
+            Each answer is paired with its caveat, so the story stays strong without
+            overclaiming.
+          </p>
+        </div>
+
+        <div class="answer-grid" id="answerGrid"></div>
+      </section>
+
+      <section class="section-band evidence-band" id="dna">
+        <div class="band-header">
+          <p class="eyebrow">Research extension</p>
+          <h2>European Film Visibility DNA: local Europe or globally compatible Europe?</h2>
+          <p>
+            This final extension adds interpretation, not model noise. It uses transparent
+            score components to test whether rankings surface local, non-English,
+            low-US-involvement European films or mainly globally compatible Europe.
+          </p>
+        </div>
+
+        <div class="visual-grid">
+          <figure class="visual-panel">
+            <img src="../cultural_prominence_audit/outputs/final_notebook_figures/21_visibility_dna_group_exposure.png" alt="Exposure comparison for global-compatible Europe and local Europe DNA groups" />
+            <figcaption>
+              Platform-compatible Europe receives far more exposure than local Europe
+              across most models.
+            </figcaption>
+          </figure>
+          <figure class="visual-panel">
+            <img src="../cultural_prominence_audit/outputs/final_notebook_figures/21_visibility_dna_pacpg.png" alt="PACPG comparison for European Film Visibility DNA groups" />
+            <figcaption>
+              PACPG keeps the extension tied to observed user interest, not just raw
+              catalogue counts.
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="dna-grid" id="dnaGrid"></div>
+      </section>
+
+      <section class="section-band methods-band" id="methods">
+        <div class="band-header">
+          <p class="eyebrow">Technique choices</p>
+          <h2>Why these methods are the right size for this audit.</h2>
+          <p>
+            The methodology is intentionally transparent: defensible baselines first,
+            then multimodal comparison, then governance-aware re-ranking.
+          </p>
+        </div>
+
+        <div class="method-grid" id="methodGrid"></div>
+      </section>
+
+      <section class="section-band closing-band">
+        <div>
+          <p class="eyebrow">Final takeaway</p>
+          <h2>Catalogue diversity is a starting point. Ranking exposure is the governance object.</h2>
+          <p>
+            The roadmap gives a clean thesis-style answer: build reliable labels,
+            train comparable recommenders, measure exposure against user-adjusted
+            targets, inspect country and language concentration, stress-test feedback
+            drift, and report mitigation as a utility trade-off.
+          </p>
+        </div>
+        <div class="citation-box">
+          <h3>Core sources to mention</h3>
+          <ul>
+            <li>Klimashevskaia et al. on popularity bias.</li>
+            <li>Abdollahpouri et al. on popularity unfairness and re-ranking.</li>
+            <li>Spillo et al. / M3L for multimodal movie data.</li>
+            <li>Lesota, Geiger, Walder, Kowald and Schedl for feedback-loop country dynamics.</li>
+            <li>EU AVMSD and DSA framing for cultural prominence and transparency.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="./roadmap.js"></script>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+split,users,items,interactions
+train_eval,400,5396,41123.0
+test_eval,400,2142,5184.0
+candidate_set,400,2323,

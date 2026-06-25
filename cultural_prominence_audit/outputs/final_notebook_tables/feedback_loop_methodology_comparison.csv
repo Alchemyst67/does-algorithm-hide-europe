@@ -1,0 +1,7 @@
+feature,Full Schedl-style design,Our bounded notebook run
+Repeated recommendations,yes,yes
+Simulated accepted item,yes,"yes, rank-biased default"
+Profile update,yes,yes
+Retraining after each iteration,yes,no; scores are reused and seen-item masks/profile sets are updated
+Multiple choice models,paper-dependent,rank-biased default
+Interpretation,dynamic feedback-loop evidence,dynamic stress test for representation drift

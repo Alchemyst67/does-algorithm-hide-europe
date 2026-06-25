@@ -1,0 +1,4 @@
+source,status,rows,priority_movies_requested,coverage_of_priority_movies,notes
+Wikidata deeper DNA cache,queried_or_loaded,475,600,0.7916666666666666,"Director citizenship, filming-location country and award counts for a priority subset; not a full catalogue enrichment."
+TMDb details/watch providers,not_queried_missing_api_key,0,0,0.0,"TMDb IDs exist locally, but TMDb API requires credentials. No scraping or synthetic provider data was used."
+LUMIERE admissions,not_integrated_validation_layer,0,0,0.0,"Recommended as a later confident-match validation subset, not as blind bulk data."

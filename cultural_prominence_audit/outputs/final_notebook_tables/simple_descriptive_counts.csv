@@ -1,0 +1,13 @@
+question,answer
+movies,27278
+loaded MovieLens users,6743
+loaded MovieLens ratings,1000000
+M3L users,138493
+M3L interactions,18777965
+movies with country metadata,18679
+movies with language metadata,18353
+European-wide films,5824
+non-English films,3522
+Spain-origin films,390
+Spanish-language films,542
+European Spanish-language films,319

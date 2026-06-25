@@ -1,0 +1,5 @@
+segment,movies,share_of_catalogue
+European-origin films with US production-company/HQ involvement,1155,0.042341813915976245
+Non-US-origin films with US production-company/HQ involvement,354,0.012977491018403108
+Non-English films with US production-company/HQ involvement,98,0.0035926387565070753
+Films missing production-company country/HQ metadata,17508,0.6418359117237334

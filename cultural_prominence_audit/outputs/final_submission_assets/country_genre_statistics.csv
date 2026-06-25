@@ -1,0 +1,1114 @@
+country_label,genre,movie_count,median_rating_count,mean_rating,with_mpnet_share,with_clip_image_share
+United States,Drama,5547,15.0,3.3168756414651557,1.0,1.0
+United States,Comedy,4308,19.0,3.0521617190614334,1.0,1.0
+United States,Thriller,2402,25.0,3.0897216483319103,1.0,1.0
+United States,Romance,2023,22.0,3.235720516788136,1.0,1.0
+United States,Action,1975,34.0,3.0274387909384353,1.0,1.0
+United States,Crime,1542,22.0,3.221374488357464,1.0,1.0
+United States,Horror,1458,11.0,2.6343780016423466,1.0,1.0
+United Kingdom,Drama,1386,11.0,3.4495546698052633,1.0,1.0
+United States,Adventure,1311,38.0,3.1747831388595293,1.0,1.0
+France,Drama,1263,7.0,3.482704660772035,1.0,1.0
+United States,Sci-Fi,1046,31.5,2.9354469058877415,1.0,1.0
+United States,Documentary,781,5.0,3.5192605968649575,1.0,1.0
+United States,Children,761,32.0,3.0301655265283665,1.0,1.0
+United States,Mystery,732,23.0,3.207943999649183,1.0,1.0
+United States,Fantasy,722,36.0,3.1360549844701318,1.0,1.0
+United Kingdom,Comedy,628,13.0,3.3469405858648944,1.0,1.0
+Germany,Drama,627,10.0,3.466647647730932,1.0,1.0
+United States,Musical,575,14.0,3.19385354176295,1.0,1.0
+United Kingdom,Thriller,524,14.0,3.28135160917612,1.0,1.0
+United States,War,498,15.0,3.450358078697479,1.0,1.0
+Italy,Drama,495,8.0,3.5018401122960583,1.0,1.0
+United States,Animation,486,17.5,3.25083459290047,1.0,1.0
+France,Comedy,446,7.0,3.43257282538388,1.0,1.0
+United States,Western,431,6.0,3.3289811184923312,1.0,1.0
+United Kingdom,Romance,395,15.0,3.3837874568948183,1.0,1.0
+France,Romance,346,9.0,3.377958217219004,1.0,1.0
+United Kingdom,Adventure,345,39.0,3.279443085938976,1.0,1.0
+Canada,Drama,339,10.0,3.3271502381348457,1.0,1.0
+Japan,Drama,339,7.0,3.5026571349712152,1.0,1.0
+United Kingdom,Action,307,49.0,3.2698854431311983,1.0,1.0
+United Kingdom,Horror,303,6.0,2.893991470657518,1.0,1.0
+France,Thriller,288,13.0,3.365358042094007,1.0,1.0
+United Kingdom,Crime,287,13.0,3.3917761078541795,1.0,1.0
+France,Crime,248,14.0,3.482715398586145,1.0,1.0
+United States,Film-Noir,236,9.0,3.602066639206388,1.0,1.0
+Germany,Comedy,235,14.0,3.3122450916580863,1.0,1.0
+Spain,Drama,230,5.0,3.507265878928726,1.0,1.0
+Canada,Thriller,228,14.0,2.988450581683772,1.0,1.0
+Australia,Drama,226,8.0,3.404892179943144,1.0,1.0
+Germany,Thriller,223,27.0,3.1339969863592327,1.0,1.0
+Japan,Action,195,14.0,3.247727067544039,1.0,1.0
+United Kingdom,Mystery,193,11.0,3.3488359629308073,1.0,1.0
+Italy,Comedy,189,8.0,3.370923177005055,1.0,1.0
+United Kingdom,Sci-Fi,183,27.0,3.092523489619357,1.0,1.0
+United Kingdom,Fantasy,182,31.0,3.247672510738723,1.0,1.0
+Canada,Horror,175,9.0,2.705145945568925,1.0,1.0
+United Kingdom,War,171,10.0,3.5756189064281454,1.0,1.0
+Canada,Comedy,170,9.5,3.1271120788226523,1.0,1.0
+United States,IMAX,163,43.5,3.2647245297150467,1.0,1.0
+Hong Kong,Action,161,6.0,3.3640826240319543,1.0,1.0
+France,Action,160,17.0,3.26224919140954,1.0,1.0
+Germany,Action,155,40.5,3.002858844797629,1.0,1.0
+Sweden,Drama,147,9.0,3.598729123202687,1.0,1.0
+Japan,Animation,144,14.0,3.414731502578181,1.0,1.0
+United Kingdom,Documentary,138,5.0,3.6285895639578434,1.0,1.0
+Germany,Crime,137,18.0,3.3556503242353317,1.0,1.0
+Australia,Comedy,133,17.0,3.1261680391214512,1.0,1.0
+Germany,Romance,132,11.5,3.296961761569049,1.0,1.0
+Canada,Action,131,21.5,2.8944081228308547,1.0,1.0
+France,Mystery,128,10.0,3.516894533685879,1.0,1.0
+Italy,Thriller,127,6.0,3.3646609859447483,1.0,1.0
+Italy,Romance,126,13.0,3.3708655825663394,1.0,1.0
+Japan,Sci-Fi,123,18.0,3.2149798777173726,1.0,1.0
+Belgium,Drama,121,6.0,3.3622479355081594,1.0,1.0
+France,Adventure,121,9.0,3.3366976676142404,1.0,1.0
+Denmark,Drama,113,7.0,3.5681230884044974,1.0,1.0
+India,Drama,113,2.0,3.4067042370498504,1.0,1.0
+Italy,Horror,113,4.0,3.005722043717576,1.0,1.0
+Australia,Thriller,107,15.0,3.2767988373254595,1.0,1.0
+Italy,Crime,107,6.5,3.641920978320167,1.0,1.0
+Japan,Comedy,107,7.0,3.2835249829268367,1.0,1.0
+South Korea,Drama,105,4.0,3.492016299801153,1.0,1.0
+France,War,102,10.5,3.4865411344664534,1.0,1.0
+France,Fantasy,101,9.0,3.3904179680159228,1.0,1.0
+Germany,Adventure,100,50.5,3.0598288915539396,1.0,1.0
+Japan,Adventure,99,19.0,3.3865968362415932,1.0,1.0
+Spain,Comedy,99,5.0,3.4713058629228115,1.0,1.0
+People's Republic of China,Drama,98,5.0,3.565420264559417,1.0,1.0
+Canada,Sci-Fi,97,25.5,2.8488592975542484,1.0,1.0
+Spain,Thriller,97,5.0,3.3779671637270883,1.0,1.0
+United Kingdom,Children,97,30.5,3.21056360687858,1.0,1.0
+Italy,Action,96,7.0,3.2100040430073484,1.0,1.0
+Hong Kong,Drama,95,8.0,3.5038949879058867,1.0,1.0
+France,Horror,94,5.0,3.054510718833666,1.0,1.0
+Japan,Thriller,94,12.0,3.253198649636807,1.0,1.0
+United Kingdom,Musical,93,20.0,3.2979861431887376,1.0,1.0
+Japan,Fantasy,92,14.0,3.372571844704184,1.0,1.0
+Japan,Horror,91,5.5,3.0115399896572703,1.0,1.0
+Germany,Horror,90,15.0,2.7646890367948127,1.0,1.0
+Canada,Crime,87,10.0,3.2457547757833067,1.0,1.0
+Italy,Adventure,87,14.5,3.1710566709518604,1.0,1.0
+Netherlands,Drama,83,9.5,3.523345522526198,1.0,1.0
+Australia,Action,80,30.0,2.9895811985477354,1.0,1.0
+France,Sci-Fi,80,14.0,3.1746214195402023,1.0,1.0
+Ireland,Drama,80,8.5,3.4263396842840916,1.0,1.0
+Germany,War,78,20.0,3.5684863834830596,1.0,1.0
+Mexico,Drama,77,6.0,3.4932350124049987,1.0,1.0
+France,Documentary,76,4.0,3.5657295350117,1.0,1.0
+Germany,Mystery,76,20.0,3.24162688997459,1.0,1.0
+Germany,Fantasy,74,20.5,3.0603313923397506,1.0,1.0
+Finland,Drama,73,3.0,3.3038975612399413,1.0,1.0
+Canada,Mystery,72,14.0,3.0520513299379934,1.0,1.0
+Germany,Documentary,72,5.0,3.9196114844345797,1.0,1.0
+Italy,Mystery,71,5.0,3.547908948808132,1.0,1.0
+Switzerland,Drama,71,5.0,3.7171947347980994,1.0,1.0
+Canada,Romance,67,9.5,3.172988419148338,1.0,1.0
+Japan,Crime,67,12.5,3.353451362838164,1.0,1.0
+Japan,Romance,67,7.5,3.4742013756563637,1.0,1.0
+Germany,Sci-Fi,65,31.0,2.944465914642581,1.0,1.0
+Australia,Romance,63,17.0,3.3576973652168927,1.0,1.0
+Hong Kong,Comedy,63,8.0,3.3113132525078153,1.0,1.0
+Spain,Romance,63,11.5,3.4782728583210036,1.0,1.0
+Argentina,Drama,62,2.0,3.481988486406918,1.0,1.0
+Australia,Horror,60,13.0,2.878309685437872,1.0,1.0
+Canada,Documentary,60,4.0,3.448355441659733,1.0,1.0
+Spain,Horror,60,4.0,2.7994445781633934,1.0,1.0
+India,Romance,59,2.0,3.3336472174241956,1.0,1.0
+Italy,War,59,10.0,3.4988429731743302,1.0,1.0
+Australia,Adventure,58,27.0,3.1830895950756584,1.0,1.0
+Canada,Fantasy,58,18.0,3.16793921002297,1.0,1.0
+Poland,Drama,57,7.0,3.4194445747218585,1.0,1.0
+Norway,Drama,55,6.0,3.5605084929427075,1.0,1.0
+People's Republic of China,Action,55,3.5,3.29698378339637,1.0,1.0
+Russia,Drama,53,3.0,3.512895459869962,1.0,1.0
+France,Animation,52,4.5,3.4080826876240105,1.0,1.0
+United Kingdom,Animation,52,14.0,3.168841779853337,1.0,1.0
+Austria,Drama,50,4.0,3.4445869520032804,1.0,1.0
+Hong Kong,Crime,50,4.0,3.540873374209321,1.0,1.0
+India,Comedy,50,1.0,2.892048179638108,1.0,1.0
+Italy,Fantasy,50,11.0,3.119519717458472,1.0,1.0
+Spain,Mystery,50,4.5,3.3493941823199336,1.0,1.0
+Iran,Drama,49,4.0,3.374157039541655,1.0,1.0
+Canada,Adventure,47,5.0,2.952735376337458,1.0,1.0
+Japan,Mystery,47,14.0,3.3138789345370205,1.0,1.0
+Belgium,Comedy,46,4.0,3.348435701853136,1.0,1.0
+Australia,Crime,45,15.5,3.3302127795823506,1.0,1.0
+Brazil,Drama,45,5.0,3.6764285714285716,1.0,1.0
+Sweden,Comedy,45,10.0,3.4710910479191264,1.0,1.0
+France,Musical,44,5.0,3.4642711497117324,1.0,1.0
+Hong Kong,Thriller,44,8.0,3.4620889427354107,1.0,1.0
+France,Children,43,5.0,3.2903593261061834,1.0,1.0
+Ireland,Comedy,43,12.0,3.282164848508682,1.0,1.0
+Soviet Union,Drama,43,7.0,3.2677634973958503,1.0,1.0
+Finland,Comedy,42,4.0,3.5315323349751315,1.0,1.0
+Italy,Sci-Fi,41,8.0,2.674001695881038,1.0,1.0
+South Korea,Action,41,6.5,3.235451083842628,1.0,1.0
+Germany,Children,40,19.0,2.7688257450066986,1.0,1.0
+Israel,Drama,40,3.5,3.7376549376549377,1.0,1.0
+Australia,Sci-Fi,38,46.0,3.1580307105947942,1.0,1.0
+Hong Kong,Romance,38,18.0,3.5210261199470976,1.0,1.0
+Romania,Drama,38,4.5,3.0904688768759443,1.0,1.0
+Hungary,Drama,37,4.0,3.386239191328705,1.0,1.0
+Denmark,Thriller,36,5.5,3.1884183328829194,1.0,1.0
+Spain,Adventure,36,11.5,3.348623124659857,1.0,1.0
+Sweden,Thriller,36,6.5,3.2509232472113903,1.0,1.0
+Denmark,Comedy,35,10.0,3.4612072085705616,1.0,1.0
+Hong Kong,Adventure,35,4.0,3.2045220571086004,1.0,1.0
+Mexico,Thriller,35,62.5,3.3193952576773182,1.0,1.0
+Spain,Crime,35,4.5,3.2633487074112075,1.0,1.0
+Italy,Western,34,12.5,3.6409837210940306,1.0,1.0
+Spain,Action,34,4.0,3.3494124682224755,1.0,1.0
+Australia,Mystery,33,11.0,3.4699891384541037,1.0,1.0
+Canada,Children,33,13.5,3.02568374800256,1.0,1.0
+Germany,Animation,33,15.0,3.0316796277320432,1.0,1.0
+South Africa,Drama,32,7.0,3.633818706760133,1.0,1.0
+Turkey,Drama,32,2.0,3.351939726939727,1.0,1.0
+Czech Republic,Drama,30,10.5,3.3944280319675326,1.0,1.0
+India,Musical,30,1.0,3.2708333333333335,1.0,1.0
+South Korea,Thriller,30,11.0,3.7397491840591113,1.0,1.0
+Canada,Animation,29,5.0,2.713221513489818,1.0,1.0
+Greece,Drama,29,1.0,3.0681818181818183,1.0,1.0
+South Korea,Comedy,29,5.5,3.2948346111949056,1.0,1.0
+Taiwan,Drama,29,1.0,3.696332380911409,1.0,1.0
+India,Action,28,2.0,3.397317022492338,1.0,1.0
+Japan,Children,28,35.0,3.167982772889539,1.0,1.0
+Japan,War,28,13.5,3.737043151924879,1.0,1.0
+South Korea,Romance,28,5.0,3.4895028718558128,1.0,1.0
+Australia,Children,27,28.5,2.8370589857001582,1.0,1.0
+Belgium,Romance,27,9.0,3.1214456177369265,1.0,1.0
+Netherlands,Comedy,27,30.0,3.4167460635183153,1.0,1.0
+South Korea,Crime,27,11.0,3.704383741333795,1.0,1.0
+Mexico,Horror,26,23.0,2.7919020060298374,1.0,1.0
+People's Republic of China,Comedy,26,4.0,3.346418616155458,1.0,1.0
+South Korea,Horror,26,3.0,3.052087306632761,1.0,1.0
+Sweden,Crime,26,9.0,3.5881787030780834,1.0,1.0
+Australia,Fantasy,25,49.0,3.093636774671425,1.0,1.0
+Mexico,Comedy,25,5.0,3.342865280624796,1.0,1.0
+New Zealand,Drama,25,16.0,3.367673244147569,1.0,1.0
+United Kingdom,IMAX,25,137.0,3.6664517983375373,1.0,1.0
+United States,(no genres listed),24,1.0,4.0,1.0,1.0
+Finland,Documentary,23,2.0,3.249462365591398,1.0,1.0
+Luxembourg,Drama,23,17.0,3.5574797368021414,1.0,1.0
+People's Republic of China,Romance,23,10.0,3.553396596163471,1.0,1.0
+Sweden,Documentary,23,5.0,3.670924908424909,1.0,1.0
+Canada,Musical,22,7.5,3.330537456294873,1.0,1.0
+Denmark,Crime,22,8.5,3.5302591476961225,1.0,1.0
+Denmark,Documentary,22,5.0,3.4205627705627704,1.0,1.0
+Belgium,Animation,21,2.5,3.064922540746256,1.0,1.0
+Denmark,Action,21,8.5,3.408881874428093,1.0,1.0
+Germany,Musical,21,6.0,3.676057752818119,1.0,1.0
+Ireland,Thriller,21,5.0,3.380104356009818,1.0,1.0
+Mexico,Action,21,148.0,3.0700899612599235,1.0,1.0
+Spain,War,21,2.0,3.522009091126738,1.0,1.0
+Sweden,Romance,21,5.0,3.3808034060955476,1.0,1.0
+United Kingdom,Western,21,3.0,3.5589065255731924,1.0,1.0
+Belgium,Thriller,20,2.0,3.5568518069366966,1.0,1.0
+Denmark,Romance,20,8.0,3.4608943287459915,1.0,1.0
+India,Thriller,20,1.5,3.6666666666666665,1.0,1.0
+Netherlands,Thriller,20,20.0,3.2266531437861787,1.0,1.0
+Norway,Action,20,2.0,3.3196243554239877,1.0,1.0
+People's Republic of China,Adventure,20,3.5,3.2335835970234466,1.0,1.0
+Romania,Comedy,20,2.0,3.3149038461538463,1.0,1.0
+Argentina,Comedy,19,1.5,3.345833333333333,1.0,1.0
+Australia,Musical,19,7.0,3.4405012817567324,1.0,1.0
+Hong Kong,Fantasy,19,10.0,3.0944251543209877,1.0,1.0
+Hong Kong,Horror,19,4.5,2.8756944444444446,1.0,1.0
+Poland,Comedy,19,4.0,3.802136752136752,1.0,1.0
+Australia,War,18,15.5,3.536518074019363,1.0,1.0
+India,Crime,18,1.0,2.8,1.0,1.0
+Mexico,Adventure,18,48.5,3.309353186074464,1.0,1.0
+Norway,Comedy,18,11.0,3.1616138742497437,1.0,1.0
+Portugal,Drama,18,3.5,2.83234126984127,1.0,1.0
+South Africa,Thriller,18,7.0,2.8210312805474094,1.0,1.0
+Spain,Fantasy,18,55.5,3.593427809702552,1.0,1.0
+Spain,Western,18,11.0,3.4126854566154785,1.0,1.0
+Sweden,Action,18,7.0,3.4609207459207463,1.0,1.0
+Thailand,Drama,18,3.0,2.99951089065748,1.0,1.0
+Argentina,Thriller,17,2.0,3.579617242660721,1.0,1.0
+Australia,Animation,17,18.0,3.181272211540379,1.0,1.0
+Belgium,Crime,17,7.0,3.348055439184471,1.0,1.0
+Canada,War,17,12.0,3.3890957042641103,1.0,1.0
+Iceland,Drama,17,3.5,3.64961717829472,1.0,1.0
+Netherlands,Romance,17,42.5,3.190289618007778,1.0,1.0
+Norway,Thriller,17,5.0,3.6485112563543938,1.0,1.0
+People's Republic of China,Fantasy,17,3.0,2.9835407540999643,1.0,1.0
+South Africa,Action,17,7.0,3.0480982849018043,1.0,1.0
+Sweden,Mystery,17,14.0,3.7056565889096458,1.0,1.0
+Ireland,Romance,16,37.0,3.4597800434547303,1.0,1.0
+Mexico,Crime,16,4.0,3.2861054625199366,1.0,1.0
+New Zealand,Comedy,16,14.5,3.4082400974362907,1.0,1.0
+South Korea,Mystery,16,14.0,3.5377558661456967,1.0,1.0
+Switzerland,Romance,16,20.5,3.4053362820153863,1.0,1.0
+Austria,Comedy,15,4.0,3.6573065476190476,1.0,1.0
+Austria,Documentary,15,1.0,4.125,1.0,1.0
+Brazil,Romance,15,7.0,3.5809523809523807,1.0,1.0
+Denmark,Animation,15,2.0,3.4099264705882355,1.0,1.0
+Germany,Western,15,188.0,3.5170420928870088,1.0,1.0
+Mexico,Romance,15,54.0,3.3248270066949748,1.0,1.0
+People's Republic of China,War,15,4.5,3.5213852813852817,1.0,1.0
+Russia,Comedy,15,6.0,3.2513888888888887,1.0,1.0
+Switzerland,Comedy,15,5.0,3.3619309262166404,1.0,1.0
+Thailand,Action,15,5.0,3.1096965020576133,1.0,1.0
+Argentina,Romance,14,7.0,4.163461538461538,1.0,1.0
+Belgium,Fantasy,14,4.5,3.270340891134693,1.0,1.0
+Chile,Drama,14,3.0,3.5625,1.0,1.0
+Czech Republic,Action,14,133.0,3.1214898141260456,1.0,1.0
+Denmark,Adventure,14,8.0,3.6849264705882354,1.0,1.0
+Finland,Action,14,8.5,3.2951221694971693,1.0,1.0
+Finland,Romance,14,2.0,3.141666666666667,1.0,1.0
+France,Western,14,5.0,3.001377217553688,1.0,1.0
+India,Adventure,14,1.0,2.7297383029341793,1.0,1.0
+Spain,Documentary,14,2.0,3.0185185185185186,1.0,1.0
+Spain,Sci-Fi,14,23.5,3.2152272813752476,1.0,1.0
+Sweden,Horror,14,4.0,3.2723690808797192,1.0,1.0
+Belgium,Adventure,13,2.5,2.9982506361323153,1.0,1.0
+Czech Republic,Thriller,13,106.5,3.169383505141535,1.0,1.0
+Denmark,Mystery,13,11.0,3.405646405103981,1.0,1.0
+Ireland,Adventure,13,69.0,3.137509916773589,1.0,1.0
+Italy,Documentary,13,34.5,3.857966820987654,1.0,1.0
+Netherlands,Action,13,12.0,3.0371821652749893,1.0,1.0
+New Zealand,Adventure,13,141.0,3.6228980090217533,1.0,1.0
+Norway,Adventure,13,4.0,3.548277300906056,1.0,1.0
+People's Republic of China,IMAX,13,1.0,3.531565656565656,1.0,1.0
+Philippines,Drama,13,784.0,3.917091836734694,1.0,1.0
+South Korea,Sci-Fi,13,12.0,3.6188804945054946,1.0,1.0
+South Korea,War,13,8.0,3.6689425770308124,1.0,1.0
+West Germany,Drama,13,20.0,3.4659883665160836,1.0,1.0
+Austria,Romance,12,11.0,3.4113981553272597,1.0,1.0
+Belgium,War,12,9.0,3.4816052157886124,1.0,1.0
+Ireland,Animation,12,8.0,3.0467525387879126,1.0,1.0
+Ireland,Crime,12,11.5,3.505840548340548,1.0,1.0
+Ireland,Fantasy,12,20.0,3.285004497616599,1.0,1.0
+Ireland,Horror,12,2.0,2.261904761904762,1.0,1.0
+Netherlands,War,12,10.5,3.3938402889245585,1.0,1.0
+New Zealand,Fantasy,12,141.0,3.612662061762905,1.0,1.0
+New Zealand,Horror,12,29.0,3.2054000833078433,1.0,1.0
+New Zealand,Thriller,12,29.0,2.940729398842262,1.0,1.0
+Norway,Mystery,12,4.0,3.3640101784363154,1.0,1.0
+South Africa,Adventure,12,3.0,3.102549621999337,1.0,1.0
+Soviet Union,Comedy,12,2.0,2.9,1.0,1.0
+Belgium,Horror,11,5.0,2.5,1.0,1.0
+Denmark,Fantasy,11,16.0,3.4300245098039213,1.0,1.0
+Finland,War,11,12.5,3.5905646688660804,1.0,1.0
+Hong Kong,Sci-Fi,11,20.0,3.2872882085550383,1.0,1.0
+Hong Kong,War,11,6.0,3.573671497584541,1.0,1.0
+Ireland,Children,11,7.0,2.992746706733541,1.0,1.0
+Luxembourg,Romance,11,28.0,3.4583856919742977,1.0,1.0
+Mexico,Fantasy,11,43.5,3.6210461912177117,1.0,1.0
+Netherlands,Horror,11,7.0,2.2992629562710425,1.0,1.0
+Norway,Crime,11,11.0,3.4602941176470585,1.0,1.0
+Romania,Horror,11,12.0,2.3305483731954317,1.0,1.0
+Soviet Union,War,11,3.0,3.293091929856636,1.0,1.0
+Switzerland,Documentary,11,2.0,3.9602347883597884,1.0,1.0
+Switzerland,Thriller,11,2.0,3.215740298348994,1.0,1.0
+Thailand,Romance,11,5.0,2.823790181691125,1.0,1.0
+Argentina,Crime,10,8.0,4.089663959229177,1.0,1.0
+Australia,IMAX,10,31.0,2.9890766163774156,1.0,1.0
+Belgium,Children,10,2.5,3.1319444444444446,1.0,1.0
+Brazil,Comedy,10,4.5,3.321428571428571,1.0,1.0
+Czech Republic,Comedy,10,28.0,3.6383362545898126,1.0,1.0
+Czechoslovakia,Drama,10,2.0,3.7416666666666667,1.0,1.0
+Denmark,Sci-Fi,10,5.0,2.580952380952381,1.0,1.0
+Norway,Horror,10,2.0,3.464330808080808,1.0,1.0
+Norway,War,10,4.0,3.649798083919476,1.0,1.0
+People's Republic of China,Crime,10,1.0,3.411083877995643,1.0,1.0
+Poland,Mystery,10,6.0,2.8607954545454546,1.0,1.0
+Poland,War,10,2.0,3.758745582401297,1.0,1.0
+Russia,Action,10,63.0,3.306006876077575,1.0,1.0
+Russia,Fantasy,10,22.0,3.6403084415584415,1.0,1.0
+Russia,Thriller,10,63.0,3.0893402094109086,1.0,1.0
+Russia,War,10,3.0,3.27364417989418,1.0,1.0
+South Africa,Comedy,10,3.0,2.840609489409799,1.0,1.0
+South Korea,Fantasy,10,2.0,2.7916666666666665,1.0,1.0
+Soviet Union,Romance,10,2.0,2.75,1.0,1.0
+Spain,Musical,10,3.0,3.56873920552677,1.0,1.0
+United Kingdom,Film-Noir,10,13.0,3.631325820344315,1.0,1.0
+Yugoslavia,Drama,10,13.0,3.888736263736264,1.0,1.0
+Argentina,Action,9,2.5,3.46875,1.0,1.0
+Australia,Documentary,9,4.0,3.6317204301075265,1.0,1.0
+Belgium,Action,9,5.5,3.2785781247010655,1.0,1.0
+Canada,IMAX,9,31.0,2.831255456759489,1.0,1.0
+Czech Republic,Adventure,9,101.5,3.118688449948681,1.0,1.0
+Czech Republic,Horror,9,73.0,2.830901581509314,1.0,1.0
+Czech Republic,Romance,9,9.0,3.6642197012584297,1.0,1.0
+Finland,Adventure,9,4.0,3.283333333333333,1.0,1.0
+Finland,Thriller,9,5.0,3.1011904761904763,1.0,1.0
+France,Film-Noir,9,13.0,3.670871187787067,1.0,1.0
+Iceland,Comedy,9,5.5,3.957065217391304,1.0,1.0
+Israel,War,9,9.0,3.279186118892001,1.0,1.0
+Italy,Musical,9,10.0,3.470942546540595,1.0,1.0
+Japan,Musical,9,12.0,3.4053424234461356,1.0,1.0
+Luxembourg,Animation,9,3.0,3.6564058431528315,1.0,1.0
+Luxembourg,Comedy,9,12.0,3.1833875059457744,1.0,1.0
+Luxembourg,Thriller,9,13.0,2.802314541277515,1.0,1.0
+Mexico,Mystery,9,17.5,3.514874040332756,1.0,1.0
+Morocco,Drama,9,2.5,3.03125,1.0,1.0
+Norway,Romance,9,10.0,3.618876811594203,1.0,1.0
+Poland,Thriller,9,4.0,3.731060606060606,1.0,1.0
+Romania,Action,9,1.0,2.4166666666666665,1.0,1.0
+Soviet Union,Adventure,9,1.5,3.1577380952380953,1.0,1.0
+Spain,Animation,9,3.0,3.0794363872184887,1.0,1.0
+Spain,Children,9,5.0,3.1544363872184884,1.0,1.0
+Sweden,Adventure,9,6.0,3.5700000000000003,1.0,1.0
+Sweden,Fantasy,9,18.0,3.7354603288442636,1.0,1.0
+Thailand,Thriller,9,11.0,3.414151434984768,1.0,1.0
+Australia,Western,8,17.0,3.6724094766111572,1.0,1.0
+Belgium,Mystery,8,2.5,3.8576388888888893,1.0,1.0
+British Hong Kong,Action,8,23.0,3.69749252357948,1.0,1.0
+Colombia,Drama,8,57.0,3.594954128440367,1.0,1.0
+Denmark,Children,8,2.0,3.129901960784314,1.0,1.0
+Denmark,Horror,8,4.0,3.3787698412698415,1.0,1.0
+Estonia,Drama,8,3.5,3.0489864864864864,1.0,1.0
+Finland,Fantasy,8,1.0,3.03125,1.0,1.0
+France,(no genres listed),8,,,1.0,1.0
+Hong Kong,Mystery,8,1.0,2.7107843137254903,1.0,1.0
+Hungary,Comedy,8,13.5,3.645449134199134,1.0,1.0
+Hungary,Fantasy,8,1.0,2.5944148742253006,1.0,1.0
+India,Sci-Fi,8,23.0,3.386395511921459,1.0,1.0
+Ireland,Action,8,57.5,3.314591322121808,1.0,1.0
+Israel,Romance,8,4.0,3.5416666666666665,1.0,1.0
+Latvia,Drama,8,,,1.0,1.0
+Luxembourg,Adventure,8,7.0,3.164572576018359,1.0,1.0
+Netherlands,Crime,8,28.5,3.805557479224377,1.0,1.0
+People's Republic of China,Sci-Fi,8,64.0,3.7318651324166026,1.0,1.0
+Poland,Crime,8,1.0,5.0,1.0,1.0
+Russia,Romance,8,10.5,3.4055555555555554,1.0,1.0
+Singapore,Drama,8,5.0,3.8112373737373737,1.0,1.0
+Soviet Union,Sci-Fi,8,16.0,3.36877380952381,1.0,1.0
+Sweden,Musical,8,6.0,3.2995682210708117,1.0,1.0
+Sweden,War,8,4.0,3.567016806722689,1.0,1.0
+Weimar Republic,Drama,8,17.0,3.8847632226322264,1.0,1.0
+Yugoslavia,Comedy,8,17.0,3.6812055591467354,1.0,1.0
+Yugoslavia,War,8,80.0,3.929258241758242,1.0,1.0
+Argentina,Mystery,7,2.0,3.105769230769231,1.0,1.0
+Bulgaria,Drama,7,28.5,3.294642857142857,1.0,1.0
+Czech Republic,Fantasy,7,196.0,2.6954096765870736,1.0,1.0
+Denmark,War,7,7.0,3.5414540816326534,1.0,1.0
+Finland,Crime,7,3.0,3.52316384180791,1.0,1.0
+Finland,Horror,7,21.5,3.125,1.0,1.0
+Germany,IMAX,7,31.0,3.2288306660532524,1.0,1.0
+India,Fantasy,7,1.0,3.4982817869415808,1.0,1.0
+Indonesia,Action,7,2.0,2.834347826086957,1.0,1.0
+Indonesia,Thriller,7,2.5,2.6625,1.0,1.0
+Israel,Comedy,7,6.5,3.582532051282051,1.0,1.0
+Italy,Children,7,6.0,2.483974358974359,1.0,1.0
+Luxembourg,Action,7,13.0,2.791488336225178,1.0,1.0
+Mexico,Sci-Fi,7,262.0,3.2173095579281443,1.0,1.0
+Netherlands,Documentary,7,11.0,2.4404761904761907,1.0,1.0
+Netherlands,Fantasy,7,31.0,3.4003048780487806,1.0,1.0
+Netherlands,Mystery,7,37.0,3.330680628272251,1.0,1.0
+New Zealand,Action,7,178.5,3.608320295819544,1.0,1.0
+Norway,Documentary,7,4.0,3.2980030721966203,1.0,1.0
+Russia,Sci-Fi,7,1.0,4.523809523809524,1.0,1.0
+Serbia,Drama,7,1.0,4.166666666666667,1.0,1.0
+South Africa,Sci-Fi,7,11.0,2.624933109900852,1.0,1.0
+South Korea,Adventure,7,8.0,2.8511904761904763,1.0,1.0
+South Korea,Animation,7,4.5,2.9699675324675328,1.0,1.0
+Sweden,Children,7,3.5,2.875,1.0,1.0
+Switzerland,Crime,7,1.0,3.3125,1.0,1.0
+Taiwan,Action,7,2.0,3.7082993751697906,1.0,1.0
+Taiwan,Comedy,7,2.0,3.344086021505376,1.0,1.0
+Thailand,Comedy,7,4.5,3.5576388888888886,1.0,1.0
+Tunisia,Drama,7,1.0,3.375,1.0,1.0
+Turkey,Romance,7,6.0,3.5574675324675327,1.0,1.0
+Austria,Horror,6,4.0,2.5435064935064937,1.0,1.0
+Brazil,Crime,6,29.0,3.9732142857142856,1.0,1.0
+Cuba,Drama,6,4.0,3.303571428571429,1.0,1.0
+Czech Republic,Mystery,6,299.0,3.5597431984502306,1.0,1.0
+Czech Republic,War,6,10.0,3.606680672268907,1.0,1.0
+Czechoslovakia,Comedy,6,1.0,3.722222222222222,1.0,1.0
+Egypt,Drama,6,3.5,2.958333333333333,1.0,1.0
+Finland,Sci-Fi,6,16.0,3.4783653846153846,1.0,1.0
+Greece,Comedy,6,2.0,3.1666666666666665,1.0,1.0
+Greece,Romance,6,1.5,3.75,1.0,1.0
+Hungary,Adventure,6,1.0,3.023076923076923,1.0,1.0
+Hungary,Animation,6,1.0,3.0,1.0,1.0
+Hungary,War,6,2.0,3.4378571428571427,1.0,1.0
+India,Mystery,6,1.5,3.375,1.0,1.0
+Iran,Documentary,6,4.0,3.5,1.0,1.0
+Iran,Romance,6,1.0,3.5833333333333335,1.0,1.0
+Ireland,Sci-Fi,6,5.0,2.705,1.0,1.0
+Ireland,War,6,13.5,3.4436084142394825,1.0,1.0
+Japan,Documentary,6,,,1.0,1.0
+Luxembourg,Crime,6,11.0,3.069918756457218,1.0,1.0
+Luxembourg,Horror,6,106.0,2.7065275395464075,1.0,1.0
+Mexico,War,6,22.0,3.850906816760475,1.0,1.0
+Mexico,Western,6,13.0,3.310777774856722,1.0,1.0
+Netherlands,Adventure,6,12.0,2.893483602813556,1.0,1.0
+Netherlands,Sci-Fi,6,5.0,1.5,1.0,1.0
+New Zealand,Romance,6,116.5,3.7887951861709,1.0,1.0
+People's Republic of China,Children,6,14.5,3.3296130952380953,1.0,1.0
+People's Republic of China,Mystery,6,1.0,3.25,1.0,1.0
+People's Republic of China,Thriller,6,4.0,2.7587719298245617,1.0,1.0
+Poland,Romance,6,9.0,3.19,1.0,1.0
+Poland,Sci-Fi,6,6.0,3.485380116959064,1.0,1.0
+Portugal,Romance,6,2.5,3.76875,1.0,1.0
+Romania,Romance,6,9.0,2.3333333333333335,1.0,1.0
+Russia,Crime,6,6.0,2.984722222222222,1.0,1.0
+Russia,Mystery,6,35.0,3.3928571428571432,1.0,1.0
+Slovenia,Drama,6,49.0,3.5747422680412373,1.0,1.0
+South Africa,War,6,7.0,3.3017238138205878,1.0,1.0
+Soviet Union,Fantasy,6,,,1.0,1.0
+Switzerland,Adventure,6,13.0,3.4368024132730013,1.0,1.0
+Taiwan,Romance,6,155.5,3.9767890475063754,1.0,1.0
+Vietnam,Drama,6,12.0,3.246087246087246,1.0,1.0
+Algeria,Drama,5,31.0,3.7327586206896552,1.0,1.0
+Argentina,Adventure,5,1.0,4.0,1.0,1.0
+Austria,Crime,5,8.0,3.8411931818181815,1.0,1.0
+Bosnia and Herzegovina,Drama,5,2.0,3.2998281786941583,1.0,1.0
+Brazil,Adventure,5,3.0,3.3333333333333335,1.0,1.0
+Brazil,Thriller,5,4.0,2.7083333333333335,1.0,1.0
+Colombia,Crime,5,57.0,3.594954128440367,1.0,1.0
+Croatia,Drama,5,1.0,3.8333333333333335,1.0,1.0
+Czech Republic,Crime,5,26.0,3.1389547505427338,1.0,1.0
+Czech Republic,Sci-Fi,5,59.0,2.654597618130457,1.0,1.0
+Czechoslovakia,Fantasy,5,1.0,4.0,1.0,1.0
+Denmark,Musical,5,11.0,3.837664206835191,1.0,1.0
+Federal Republic of Yugoslavia,Drama,5,2.0,2.147321428571429,1.0,1.0
+Federal Republic of Yugoslavia,War,5,2.0,2.147321428571429,1.0,1.0
+Finland,Children,5,1.0,3.25,1.0,1.0
+Finland,Musical,5,6.5,2.582793609671848,1.0,1.0
+Greece,Crime,5,2.0,5.0,1.0,1.0
+Hong Kong,IMAX,5,1.0,3.7297979797979797,1.0,1.0
+Iceland,Horror,5,26.0,2.9632068844397614,1.0,1.0
+Iceland,Romance,5,2.0,3.826086956521739,1.0,1.0
+Indonesia,Crime,5,10.0,3.473913043478261,1.0,1.0
+Indonesia,Drama,5,1.5,3.375,1.0,1.0
+Iran,Mystery,5,1.0,3.5,1.0,1.0
+Ireland,Musical,5,6.0,3.4966884867154406,1.0,1.0
+Israel,Documentary,5,2.0,4.017989417989417,1.0,1.0
+Israel,Thriller,5,9.5,4.035416666666666,1.0,1.0
+Luxembourg,Sci-Fi,5,13.0,3.3649469673566057,1.0,1.0
+Netherlands,Animation,5,1.5,4.25,1.0,1.0
+New Zealand,Crime,5,109.5,3.107457270754205,1.0,1.0
+Norway,Fantasy,5,22.0,3.688939393939394,1.0,1.0
+Peru,Drama,5,50.0,3.691190476190476,1.0,1.0
+Portugal,Comedy,5,2.0,3.8166666666666664,1.0,1.0
+Romania,Fantasy,5,3.0,2.7395833333333335,1.0,1.0
+Romania,Thriller,5,17.0,1.9370915032679739,1.0,1.0
+Romania,War,5,9.0,3.502923976608187,1.0,1.0
+Russia,Adventure,5,67.0,3.1417910447761193,1.0,1.0
+Russia,Documentary,5,,,1.0,1.0
+Senegal,Drama,5,2.0,3.5,1.0,1.0
+Serbia,Comedy,5,1.0,4.166666666666667,1.0,1.0
+Slovakia,Drama,5,2.5,2.96875,1.0,1.0
+South Africa,Horror,5,2.0,1.125,1.0,1.0
+Switzerland,Mystery,5,1.5,4.098928571428571,1.0,1.0
+Switzerland,Sci-Fi,5,11.5,2.987408424908425,1.0,1.0
+Switzerland,War,5,5.0,3.5533333333333332,1.0,1.0
+Thailand,Mystery,5,2.0,2.553030303030303,1.0,1.0
+Turkey,Action,5,1.0,3.5,1.0,1.0
+Turkey,Comedy,5,6.5,3.4204545454545454,1.0,1.0
+Uruguay,Drama,5,1.0,4.0,1.0,1.0
+Argentina,Fantasy,4,1.0,4.0,1.0,1.0
+Austria,Thriller,4,2.0,3.643939393939394,1.0,1.0
+Austria,War,4,104.5,3.223170731707317,1.0,1.0
+Belgium,Documentary,4,21.0,3.880952380952381,1.0,1.0
+Belgium,Musical,4,1.0,2.314516129032258,1.0,1.0
+Belgium,Sci-Fi,4,26.5,3.4483333333333333,1.0,1.0
+Bolivia,Drama,4,,,1.0,1.0
+Brazil,Documentary,4,2.0,3.75,1.0,1.0
+British Hong Kong,Drama,4,174.0,3.7989644970414203,1.0,1.0
+Burkina Faso,Drama,4,1.5,3.75,1.0,1.0
+Canada,Western,4,4.5,3.138392857142857,1.0,1.0
+Czechoslovakia,Animation,4,16.0,3.67741935483871,1.0,1.0
+Finland,Animation,4,1.5,3.625,1.0,1.0
+Finland,Mystery,4,21.5,3.125,1.0,1.0
+France,IMAX,4,31.0,3.2059628543499508,1.0,1.0
+Georgia,Drama,4,1.0,3.361111111111111,1.0,1.0
+Greece,Adventure,4,9.5,3.4444444444444446,1.0,1.0
+Greece,Thriller,4,1.5,4.25,1.0,1.0
+Hungary,Action,4,65.0,3.1906914570421683,1.0,1.0
+Hungary,Children,4,,,1.0,1.0
+Hungary,Crime,4,14.5,3.5025,1.0,1.0
+Hungary,Musical,4,4.0,3.5,1.0,1.0
+Hungary,Romance,4,3.5,3.6227272727272726,1.0,1.0
+Iceland,Thriller,4,26.0,2.4615384615384617,1.0,1.0
+India,Animation,4,1.0,0.5,1.0,1.0
+India,Children,4,1.0,0.5,1.0,1.0
+India,Documentary,4,20.5,4.45,1.0,1.0
+Iran,Comedy,4,5.0,3.642857142857143,1.0,1.0
+Iraq,Drama,4,9.0,3.888888888888889,1.0,1.0
+Ireland,Documentary,4,4.5,3.817708333333333,1.0,1.0
+Israel,Action,4,13.0,2.4313725490196076,1.0,1.0
+Israel,Crime,4,3.0,4.1305555555555555,1.0,1.0
+Italy,Animation,4,8.5,3.2202380952380953,1.0,1.0
+Japan,Film-Noir,4,12.0,3.535919540229885,1.0,1.0
+Latvia,Comedy,4,,,1.0,1.0
+Luxembourg,Children,4,1.0,3.9166666666666665,1.0,1.0
+Morocco,War,4,3.0,3.277777777777778,1.0,1.0
+New Zealand,Mystery,4,55.0,3.582159090909091,1.0,1.0
+New Zealand,Sci-Fi,4,69.0,3.5450770322173817,1.0,1.0
+New Zealand,War,4,8.0,3.875,1.0,1.0
+Palestine,Drama,4,11.5,3.279166666666667,1.0,1.0
+Philippines,Comedy,4,,,1.0,1.0
+Poland,Fantasy,4,58.5,3.6303800244281588,1.0,1.0
+Poland,Horror,4,4.0,3.75,1.0,1.0
+Portugal,Documentary,4,1.0,3.5,1.0,1.0
+Romania,Mystery,4,20.5,2.405637254901961,1.0,1.0
+Romania,Sci-Fi,4,2.5,1.9375,1.0,1.0
+Singapore,Romance,4,1.0,3.8518518518518516,1.0,1.0
+South Africa,Crime,4,12.5,3.7413419913419914,1.0,1.0
+South Africa,Mystery,4,14.0,2.583809523809524,1.0,1.0
+Soviet Union,Action,4,7.0,3.730769230769231,1.0,1.0
+Soviet Union,Mystery,4,90.0,3.7438095238095235,1.0,1.0
+Sweden,Sci-Fi,4,5.0,2.8333333333333335,1.0,1.0
+Switzerland,Action,4,2.0,2.888888888888889,1.0,1.0
+Switzerland,Horror,4,4.0,3.4642857142857144,1.0,1.0
+Taiwan,Adventure,4,2.0,3.75,1.0,1.0
+Thailand,Crime,4,13.5,3.263888888888889,1.0,1.0
+Thailand,Fantasy,4,1.0,2.1363636363636362,1.0,1.0
+United Arab Emirates,Drama,4,2.5,3.695075757575758,1.0,1.0
+Uruguay,Comedy,4,1.0,3.0,1.0,1.0
+Weimar Republic,Fantasy,4,9.5,3.416666666666667,1.0,1.0
+Weimar Republic,Horror,4,10.0,3.5444444444444443,1.0,1.0
+West Germany,Action,4,305.5,3.9216496709584074,1.0,1.0
+Yugoslavia,Adventure,4,2.0,3.5,1.0,1.0
+Afghanistan,Drama,3,16.0,3.71875,1.0,1.0
+Algeria,War,3,31.0,3.7327586206896552,1.0,1.0
+Argentina,Sci-Fi,3,1.0,4.0,1.0,1.0
+Austria,Adventure,3,301.5,3.2824999999999998,1.0,1.0
+Austria,Musical,3,1.0,0.5,1.0,1.0
+Belgium,IMAX,3,1.0,3.0,1.0,1.0
+Brazil,Action,3,44.0,4.125,1.0,1.0
+Bulgaria,Action,3,1.5,1.75,1.0,1.0
+Bulgaria,Mystery,3,4.0,2.0,1.0,1.0
+Bulgaria,Thriller,3,1.0,2.3333333333333335,1.0,1.0
+Chile,Crime,3,1.0,4.0,1.0,1.0
+Chile,Thriller,3,,,1.0,1.0
+Colombia,Romance,3,5.0,3.3,1.0,1.0
+Colombia,Thriller,3,,,1.0,1.0
+Cuba,Comedy,3,4.0,3.4642857142857144,1.0,1.0
+Czech Republic,Animation,3,22.0,3.863636363636364,1.0,1.0
+Czech Republic,Documentary,3,1.0,3.5,1.0,1.0
+Czech Republic,Musical,3,12.0,3.8478260869565215,1.0,1.0
+Czechoslovakia,Adventure,3,1.0,4.0,1.0,1.0
+Czechoslovakia,War,3,3.0,3.6666666666666665,1.0,1.0
+Germany,(no genres listed),3,1.0,4.5,1.0,1.0
+Germany,Film-Noir,3,175.5,4.107643212951432,1.0,1.0
+Greece,Horror,3,2.0,5.0,1.0,1.0
+Greece,War,3,1.0,1.0,1.0,1.0
+Hong Kong,Children,3,7.5,3.6830357142857144,1.0,1.0
+Hungary,Horror,3,107.5,3.576421800947867,1.0,1.0
+Hungary,Mystery,3,25.0,3.88,1.0,1.0
+Hungary,Thriller,3,3.0,3.5625,1.0,1.0
+Indonesia,Horror,3,2.5,1.875,1.0,1.0
+Iran,War,3,5.0,3.4444444444444446,1.0,1.0
+Ireland,Mystery,3,2.0,4.25,1.0,1.0
+Israel,Animation,3,28.5,3.5925925925925926,1.0,1.0
+Italy,Film-Noir,3,3.5,4.375,1.0,1.0
+Jamaica,Drama,3,7.0,4.0,1.0,1.0
+Japan,IMAX,3,24.0,2.9051767676767675,1.0,1.0
+Japan,Western,3,10.0,3.41016548463357,1.0,1.0
+Jordan,Drama,3,2.0,4.0,1.0,1.0
+Kazakhstan,Drama,3,27.0,3.592592592592593,1.0,1.0
+Lebanon,Drama,3,1.0,3.5833333333333335,1.0,1.0
+Netherlands,Children,3,10.0,2.35,1.0,1.0
+New Zealand,IMAX,3,72.0,3.6229520381116127,1.0,1.0
+North Macedonia,Drama,3,25.5,3.53,1.0,1.0
+Norway,Children,3,233.0,3.3969957081545066,1.0,1.0
+People's Republic of China,Documentary,3,2.0,4.0,1.0,1.0
+Philippines,Crime,3,,,1.0,1.0
+Philippines,Horror,3,,,1.0,1.0
+Poland,Adventure,3,6.0,3.726793248945148,1.0,1.0
+Poland,Animation,3,3.0,2.7777777777777772,1.0,1.0
+Portugal,Mystery,3,1.0,4.0,1.0,1.0
+Portugal,Thriller,3,1.5,3.375,1.0,1.0
+Romania,Adventure,3,1.0,3.0,1.0,1.0
+Romania,Crime,3,1.0,2.5,1.0,1.0
+Singapore,Thriller,3,14.0,1.9722222222222223,1.0,1.0
+Slovakia,Comedy,3,2.5,3.6875,1.0,1.0
+Slovenia,Comedy,3,1.0,3.0,1.0,1.0
+Socialist Federal Republic of Yugoslavia,Drama,3,1.0,3.5,1.0,1.0
+South Africa,Children,3,4.5,1.90625,1.0,1.0
+South Korea,Children,3,,,1.0,1.0
+South Korea,Musical,3,2.5,1.9375,1.0,1.0
+Soviet Union,Crime,3,,,1.0,1.0
+Soviet Union,Documentary,3,20.0,4.1,1.0,1.0
+Soviet Union,Thriller,3,,,1.0,1.0
+Spain,(no genres listed),3,,,1.0,1.0
+Taiwan,Crime,3,1.0,4.5,1.0,1.0
+Thailand,Adventure,3,138.0,2.938644688644689,1.0,1.0
+Thailand,Horror,3,2.0,2.553030303030303,1.0,1.0
+Turkey,Adventure,3,,,1.0,1.0
+Turkey,Sci-Fi,3,4.0,1.125,1.0,1.0
+Turkey,Thriller,3,,,1.0,1.0
+Turkey,War,3,1.0,3.25,1.0,1.0
+Ukraine,Drama,3,4.0,4.0,1.0,1.0
+United Kingdom,(no genres listed),3,2.0,2.75,1.0,1.0
+Weimar Republic,Crime,3,114.5,3.998173515981735,1.0,1.0
+Weimar Republic,Thriller,3,114.5,3.998173515981735,1.0,1.0
+West Germany,Sci-Fi,3,8.0,2.9544491525423724,1.0,1.0
+West Germany,Thriller,3,4.0,3.275,1.0,1.0
+Yugoslavia,Action,3,104.0,3.769230769230769,1.0,1.0
+Afghanistan,War,2,,,1.0,1.0
+Albania,Drama,2,1.0,2.0,1.0,1.0
+Argentina,(no genres listed),2,,,1.0,1.0
+Argentina,Animation,2,,,1.0,1.0
+Argentina,Documentary,2,1.0,2.5,1.0,1.0
+Argentina,Film-Noir,2,1.0,4.0,1.0,1.0
+Argentina,Musical,2,193.0,3.9145077720207255,1.0,1.0
+Armenia,Drama,2,,,1.0,1.0
+Austria,Fantasy,2,1.0,2.5,1.0,1.0
+Belarus,Drama,2,2.0,3.25,1.0,1.0
+Belarus,War,2,2.0,3.25,1.0,1.0
+Bosnia and Herzegovina,War,2,97.0,4.149484536082475,1.0,1.0
+Botswana,Comedy,2,267.5,3.2858832129342965,1.0,1.0
+Brazil,Horror,2,1.0,1.0,1.0,1.0
+Brazil,Western,2,,,1.0,1.0
+British Hong Kong,Crime,2,16.5,3.6978260869565216,1.0,1.0
+British Hong Kong,Thriller,2,18.5,3.655555555555556,1.0,1.0
+Bulgaria,Adventure,2,,,1.0,1.0
+Bulgaria,Horror,2,2.5,2.25,1.0,1.0
+Canada,Film-Noir,2,142.0,3.591549295774648,1.0,1.0
+Chile,Comedy,2,,,1.0,1.0
+Colombia,Documentary,2,,,1.0,1.0
+Croatia,Comedy,2,1.0,3.0,1.0,1.0
+Cyprus,Drama,2,10.0,2.95,1.0,1.0
+Czech Republic,Children,2,78.5,3.2568565400843883,1.0,1.0
+Czechoslovakia,Horror,2,1.0,3.5,1.0,1.0
+Czechoslovakia,Sci-Fi,2,31.0,3.3548387096774195,1.0,1.0
+Denmark,Western,2,,,1.0,1.0
+Ecuador,Crime,2,55.0,4.194954128440367,1.0,1.0
+Ecuador,Drama,2,55.0,4.194954128440367,1.0,1.0
+Egypt,Crime,2,30.0,3.6666666666666665,1.0,1.0
+Empire of Japan,Drama,2,,,1.0,1.0
+Estonia,Crime,2,74.0,3.945945945945946,1.0,1.0
+Estonia,Documentary,2,,,1.0,1.0
+Estonia,Mystery,2,,,1.0,1.0
+Federal Republic of Yugoslavia,Comedy,2,56.0,4.089285714285714,1.0,1.0
+German Democratic Republic,Drama,2,,,1.0,1.0
+German Reich,Fantasy,2,1.0,4.5,1.0,1.0
+Hungary,Sci-Fi,2,2.0,3.5,1.0,1.0
+Iceland,Action,2,5.0,2.4,1.0,1.0
+Iceland,Crime,2,26.0,2.4615384615384617,1.0,1.0
+Iceland,Fantasy,2,3.5,2.95,1.0,1.0
+Iceland,Mystery,2,191.0,3.8534031413612566,1.0,1.0
+India,Horror,2,2.0,2.75,1.0,1.0
+India,War,2,2.0,2.75,1.0,1.0
+Indonesia,Fantasy,2,,,1.0,1.0
+Iraq,War,2,9.0,3.888888888888889,1.0,1.0
+Italy,(no genres listed),2,,,1.0,1.0
+Jamaica,Action,2,7.0,4.0,1.0,1.0
+Jamaica,Crime,2,7.0,4.0,1.0,1.0
+Kingdom of Italy,Drama,2,12.0,2.989130434782609,1.0,1.0
+Kingdom of Italy,War,2,12.0,2.989130434782609,1.0,1.0
+Latvia,War,2,,,1.0,1.0
+Lebanon,Comedy,2,6.0,3.2727272727272725,1.0,1.0
+Lebanon,War,2,1.5,3.875,1.0,1.0
+Lithuania,Sci-Fi,2,1.0,3.5,1.0,1.0
+Luxembourg,Fantasy,2,2.0,3.25,1.0,1.0
+Luxembourg,Mystery,2,1.0,3.5,1.0,1.0
+Malta,Drama,2,285.0,3.3526315789473684,1.0,1.0
+Mauritania,Drama,2,,,1.0,1.0
+Mexico,Documentary,2,,,1.0,1.0
+Monaco,Romance,2,3.0,4.0,1.0,1.0
+Mongolia,Drama,2,18.0,3.3055555555555554,1.0,1.0
+Morocco,Adventure,2,2.5,3.5,1.0,1.0
+Morocco,Horror,2,34.0,2.427083333333333,1.0,1.0
+Morocco,Thriller,2,34.0,2.427083333333333,1.0,1.0
+New Zealand,Animation,2,45.5,3.3821969696969694,1.0,1.0
+Norway,Musical,2,99.5,3.665587219343696,1.0,1.0
+Norway,Sci-Fi,2,117.5,3.573497854077253,1.0,1.0
+Palestine,War,2,11.5,3.279166666666667,1.0,1.0
+People's Republic of China,Horror,2,9.5,3.158333333333333,1.0,1.0
+Peru,Adventure,2,53.0,3.786785714285714,1.0,1.0
+Philippines,Documentary,2,,,1.0,1.0
+Philippines,Thriller,2,,,1.0,1.0
+Romania,Documentary,2,,,1.0,1.0
+Russia,Horror,2,42.5,3.478896103896104,1.0,1.0
+Rwanda,Drama,2,2.0,3.0,1.0,1.0
+Senegal,Comedy,2,,,1.0,1.0
+Serbia,Horror,2,8.0,2.125,1.0,1.0
+Serbia,Romance,2,1.0,5.0,1.0,1.0
+Serbia,War,2,1.0,5.0,1.0,1.0
+Singapore,Comedy,2,1.0,4.5,1.0,1.0
+Slovakia,Crime,2,26.0,2.4615384615384617,1.0,1.0
+Slovakia,Horror,2,49.5,2.569810326659642,1.0,1.0
+Slovakia,Romance,2,4.5,3.6875,1.0,1.0
+Slovakia,War,2,4.0,3.375,1.0,1.0
+Slovenia,Fantasy,2,79.0,3.430379746835443,1.0,1.0
+Slovenia,War,2,97.0,4.149484536082475,1.0,1.0
+Socialist Federal Republic of Yugoslavia,Comedy,2,1.0,3.5,1.0,1.0
+Socialist Federal Republic of Yugoslavia,Fantasy,2,,,1.0,1.0
+Socialist Federal Republic of Yugoslavia,Sci-Fi,2,,,1.0,1.0
+South Africa,Animation,2,1.0,1.5,1.0,1.0
+South Africa,Documentary,2,2.5,3.625,1.0,1.0
+South Africa,Fantasy,2,2.0,2.5,1.0,1.0
+South Africa,Romance,2,93.0,2.543010752688172,1.0,1.0
+South Korea,Western,2,4.5,3.1666666666666665,1.0,1.0
+Soviet Union,Children,2,,,1.0,1.0
+Soviet Union,Musical,2,,,1.0,1.0
+Spain,IMAX,2,38.5,3.412878787878787,1.0,1.0
+Sweden,(no genres listed),2,,,1.0,1.0
+Sweden,Western,2,,,1.0,1.0
+Switzerland,Animation,2,1.0,5.0,1.0,1.0
+Switzerland,Fantasy,2,1.0,4.0,1.0,1.0
+Switzerland,Musical,2,2.0,3.5,1.0,1.0
+Taiwan,Horror,2,1.0,4.0,1.0,1.0
+Taiwan,Musical,2,,,1.0,1.0
+Taiwan,Sci-Fi,2,,,1.0,1.0
+Thailand,War,2,2.5,2.416666666666667,1.0,1.0
+Tunisia,War,2,,,1.0,1.0
+Uruguay,Thriller,2,1.0,5.0,1.0,1.0
+Vietnam,Romance,2,7.0,2.7884615384615383,1.0,1.0
+Weimar Republic,Adventure,2,,,1.0,1.0
+Weimar Republic,Mystery,2,10.0,3.8,1.0,1.0
+West Germany,Romance,2,41.0,2.865625,1.0,1.0
+West Germany,Western,2,305.5,3.9549168975069255,1.0,1.0
+Yugoslavia,Horror,2,17.0,2.9705882352941178,1.0,1.0
+Yugoslavia,Western,2,,,1.0,1.0
+Albania,Comedy,1,,,1.0,1.0
+Algeria,Action,1,4.0,3.5,1.0,1.0
+Algeria,Adventure,1,4.0,3.5,1.0,1.0
+Algeria,Crime,1,,,1.0,1.0
+Algeria,Musical,1,,,1.0,1.0
+Argentina,Horror,1,4.0,2.75,1.0,1.0
+Argentina,War,1,,,1.0,1.0
+Argentina,Western,1,,,1.0,1.0
+Armenia,Comedy,1,,,1.0,1.0
+Australia,(no genres listed),1,,,1.0,1.0
+Australia,Film-Noir,1,576.0,3.7786458333333335,1.0,1.0
+Austria,Action,1,600.0,3.2316666666666665,1.0,1.0
+Austria,Mystery,1,19.0,4.052631578947368,1.0,1.0
+Austria,Western,1,,,1.0,1.0
+Azerbaijan,Comedy,1,1.0,3.5,1.0,1.0
+Azerbaijan,Romance,1,1.0,3.5,1.0,1.0
+Bangladesh,Drama,1,,,1.0,1.0
+Belarus,Action,1,2.0,3.25,1.0,1.0
+Belgium,Western,1,,,1.0,1.0
+Bolivia,Western,1,,,1.0,1.0
+Botswana,Adventure,1,459.0,3.5915032679738563,1.0,1.0
+Brazil,Children,1,,,1.0,1.0
+Brazil,Mystery,1,4.0,2.0,1.0,1.0
+British Hong Kong,Adventure,1,,,1.0,1.0
+British Hong Kong,Fantasy,1,,,1.0,1.0
+British Hong Kong,Horror,1,,,1.0,1.0
+British Hong Kong,Romance,1,,,1.0,1.0
+British Hong Kong,Sci-Fi,1,,,1.0,1.0
+British Hong Kong,War,1,,,1.0,1.0
+Bulgaria,Comedy,1,56.0,4.089285714285714,1.0,1.0
+Bulgaria,Crime,1,,,1.0,1.0
+Bulgaria,Fantasy,1,,,1.0,1.0
+Bulgaria,Sci-Fi,1,1.0,2.5,1.0,1.0
+Bulgaria,War,1,56.0,4.089285714285714,1.0,1.0
+Burkina Faso,War,1,,,1.0,1.0
+Cambodia,Documentary,1,,,1.0,1.0
+Cameroon,Drama,1,2.0,4.0,1.0,1.0
+Chad,Drama,1,,,1.0,1.0
+Chile,Action,1,,,1.0,1.0
+Chile,Adventure,1,,,1.0,1.0
+Chile,Documentary,1,,,1.0,1.0
+Chile,Fantasy,1,,,1.0,1.0
+Chile,Horror,1,,,1.0,1.0
+Chile,Romance,1,1.0,4.0,1.0,1.0
+Colombia,Horror,1,,,1.0,1.0
+Colombia,Mystery,1,,,1.0,1.0
+Croatia,Romance,1,1.0,4.5,1.0,1.0
+Croatia,War,1,1.0,4.5,1.0,1.0
+Cuba,Musical,1,1.0,3.0,1.0,1.0
+Cyprus,Comedy,1,,,1.0,1.0
+Cyprus,Horror,1,10.0,2.95,1.0,1.0
+Cyprus,Romance,1,10.0,2.95,1.0,1.0
+Czechoslovakia,Children,1,,,1.0,1.0
+Czechoslovakia,Thriller,1,1.0,3.5,1.0,1.0
+Democratic Republic of the Congo,Documentary,1,,,1.0,1.0
+Democratic Republic of the Congo,War,1,,,1.0,1.0
+Denmark,Film-Noir,1,3.0,3.3333333333333335,1.0,1.0
+Dominican Republic,Comedy,1,7.0,3.4285714285714284,1.0,1.0
+Dominican Republic,Drama,1,6.0,4.0,1.0,1.0
+Egypt,Comedy,1,,,1.0,1.0
+Egypt,Documentary,1,2.0,3.25,1.0,1.0
+Egypt,Musical,1,,,1.0,1.0
+Egypt,Mystery,1,30.0,3.6666666666666665,1.0,1.0
+Estonia,Adventure,1,,,1.0,1.0
+Estonia,Comedy,1,,,1.0,1.0
+Estonia,Horror,1,,,1.0,1.0
+Estonia,Musical,1,1.0,0.5,1.0,1.0
+Estonia,Thriller,1,,,1.0,1.0
+Estonia,War,1,,,1.0,1.0
+Federal Republic of Yugoslavia,Crime,1,,,1.0,1.0
+Finland,Western,1,,,1.0,1.0
+Georgia,Horror,1,,,1.0,1.0
+Georgia,Thriller,1,,,1.0,1.0
+German Democratic Republic,Musical,1,,,1.0,1.0
+German Democratic Republic,Romance,1,,,1.0,1.0
+German Democratic Republic,War,1,,,1.0,1.0
+German Reich,Adventure,1,1.0,4.5,1.0,1.0
+German Reich,Animation,1,1.0,4.5,1.0,1.0
+German Reich,Romance,1,1.0,4.5,1.0,1.0
+Greece,(no genres listed),1,,,1.0,1.0
+Greece,Action,1,1.0,3.0,1.0,1.0
+Greece,Documentary,1,,,1.0,1.0
+Greece,Film-Noir,1,2.0,5.0,1.0,1.0
+Greece,Mystery,1,1.0,3.5,1.0,1.0
+Greece,Sci-Fi,1,1.0,4.5,1.0,1.0
+Guatemala,(no genres listed),1,,,1.0,1.0
+Guatemala,Adventure,1,1.0,3.0,1.0,1.0
+Guatemala,Documentary,1,1.0,3.0,1.0,1.0
+Guatemala,Drama,1,1.0,3.0,1.0,1.0
+Hong Kong,Animation,1,8.0,3.4375,1.0,1.0
+Hungary,Film-Noir,1,2.0,2.25,1.0,1.0
+Iceland,Adventure,1,5.0,2.4,1.0,1.0
+Iceland,Animation,1,,,1.0,1.0
+Iceland,Documentary,1,8.0,3.875,1.0,1.0
+Iceland,Musical,1,193.0,3.9145077720207255,1.0,1.0
+Iceland,Sci-Fi,1,,,1.0,1.0
+India,(no genres listed),1,,,1.0,1.0
+India,IMAX,1,23.0,3.3043478260869565,1.0,1.0
+Indonesia,Adventure,1,1.0,0.5,1.0,1.0
+Indonesia,Comedy,1,,,1.0,1.0
+Indonesia,Documentary,1,1.0,1.0,1.0,1.0
+Indonesia,Film-Noir,1,,,1.0,1.0
+Indonesia,Musical,1,,,1.0,1.0
+Indonesia,Mystery,1,,,1.0,1.0
+Indonesia,Sci-Fi,1,1.0,0.5,1.0,1.0
+Iran,(no genres listed),1,,,1.0,1.0
+Iran,Adventure,1,2.0,3.25,1.0,1.0
+Iran,Children,1,22.0,3.8181818181818183,1.0,1.0
+Iran,Crime,1,,,1.0,1.0
+Iran,Fantasy,1,1.0,3.0,1.0,1.0
+Iran,Film-Noir,1,1.0,3.0,1.0,1.0
+Iran,Thriller,1,,,1.0,1.0
+Ireland,Western,1,,,1.0,1.0
+Israel,Film-Noir,1,,,1.0,1.0
+Israel,Horror,1,1.0,0.5,1.0,1.0
+Israel,Sci-Fi,1,3.0,3.1666666666666665,1.0,1.0
+Israel,Western,1,,,1.0,1.0
+Italy,IMAX,1,7.0,2.0714285714285716,1.0,1.0
+Jamaica,Comedy,1,,,1.0,1.0
+Jamaica,Documentary,1,2.0,3.5,1.0,1.0
+Jamaica,Musical,1,,,1.0,1.0
+Jordan,Adventure,1,,,1.0,1.0
+Jordan,War,1,,,1.0,1.0
+Kazakhstan,Comedy,1,,,1.0,1.0
+Kazakhstan,War,1,27.0,3.592592592592593,1.0,1.0
+Kenya,Documentary,1,,,1.0,1.0
+Kenya,Drama,1,,,1.0,1.0
+Kingdom of Great Britain,Action,1,124.0,3.1653225806451615,1.0,1.0
+Kingdom of Great Britain,Adventure,1,124.0,3.1653225806451615,1.0,1.0
+Kingdom of Great Britain,Comedy,1,124.0,3.1653225806451615,1.0,1.0
+Kingdom of Great Britain,Documentary,1,,,1.0,1.0
+Kingdom of Italy,Adventure,1,1.0,2.0,1.0,1.0
+Kingdom of the Netherlands,Crime,1,1.0,3.0,1.0,1.0
+Kingdom of the Netherlands,Drama,1,1.0,3.0,1.0,1.0
+Latvia,Action,1,,,1.0,1.0
+Latvia,Animation,1,,,1.0,1.0
+Latvia,Documentary,1,2.0,1.0,1.0,1.0
+Latvia,Horror,1,,,1.0,1.0
+Latvia,Mystery,1,,,1.0,1.0
+Latvia,Thriller,1,,,1.0,1.0
+Lebanon,Adventure,1,1.0,3.5,1.0,1.0
+Libya,Adventure,1,1.0,3.5,1.0,1.0
+Libya,Drama,1,1.0,3.5,1.0,1.0
+Libya,War,1,1.0,3.5,1.0,1.0
+Liechtenstein,Drama,1,91.0,3.0824175824175826,1.0,1.0
+Lithuania,Action,1,1.0,3.5,1.0,1.0
+Lithuania,Adventure,1,1.0,3.5,1.0,1.0
+Lithuania,Comedy,1,,,1.0,1.0
+Lithuania,Documentary,1,,,1.0,1.0
+Lithuania,Drama,1,,,1.0,1.0
+Lithuania,Fantasy,1,1.0,3.5,1.0,1.0
+Lithuania,Romance,1,,,1.0,1.0
+Lithuania,War,1,,,1.0,1.0
+Luxembourg,Film-Noir,1,13.0,3.3076923076923075,1.0,1.0
+Malaysia,(no genres listed),1,,,1.0,1.0
+Malaysia,Comedy,1,,,1.0,1.0
+Malaysia,Drama,1,,,1.0,1.0
+Mali,Drama,1,1.0,4.0,1.0,1.0
+Mali,Fantasy,1,,,1.0,1.0
+Malta,Action,1,285.0,3.3526315789473684,1.0,1.0
+Malta,Adventure,1,285.0,3.3526315789473684,1.0,1.0
+Malta,Comedy,1,,,1.0,1.0
+Malta,War,1,285.0,3.3526315789473684,1.0,1.0
+Mexico,Animation,1,,,1.0,1.0
+Mexico,Children,1,,,1.0,1.0
+Mexico,IMAX,1,47.0,3.478723404255319,1.0,1.0
+Monaco,Comedy,1,3.0,4.0,1.0,1.0
+Monaco,Drama,1,,,1.0,1.0
+Mongolia,Documentary,1,18.0,3.3055555555555554,1.0,1.0
+Montenegro,Comedy,1,1.0,3.0,1.0,1.0
+Montenegro,Drama,1,1.0,3.0,1.0,1.0
+Montenegro,Fantasy,1,,,1.0,1.0
+Montenegro,Horror,1,,,1.0,1.0
+Morocco,Action,1,4.0,3.5,1.0,1.0
+Morocco,Comedy,1,3.0,2.8333333333333335,1.0,1.0
+Morocco,Crime,1,1.0,1.5,1.0,1.0
+Morocco,Documentary,1,,,1.0,1.0
+Morocco,Musical,1,,,1.0,1.0
+Morocco,Romance,1,3.0,2.8333333333333335,1.0,1.0
+Nazi Germany,Drama,1,,,1.0,1.0
+Nazi Germany,War,1,,,1.0,1.0
+Netherlands,Musical,1,193.0,3.9145077720207255,1.0,1.0
+Netherlands,Western,1,,,1.0,1.0
+New Zealand,Children,1,4.0,2.125,1.0,1.0
+New Zealand,Documentary,1,26.0,3.7884615384615383,1.0,1.0
+New Zealand,Musical,1,36.0,3.2916666666666665,1.0,1.0
+New Zealand,Western,1,,,1.0,1.0
+Nigeria,Drama,1,,,1.0,1.0
+Nigeria,Romance,1,,,1.0,1.0
+North Korea,Action,1,,,1.0,1.0
+North Korea,Drama,1,,,1.0,1.0
+North Korea,Fantasy,1,,,1.0,1.0
+North Macedonia,Comedy,1,1.0,3.0,1.0,1.0
+North Macedonia,Sci-Fi,1,,,1.0,1.0
+North Macedonia,War,1,50.0,4.06,1.0,1.0
+Norway,(no genres listed),1,,,1.0,1.0
+Norway,Animation,1,2.0,3.75,1.0,1.0
+Occupied Palestinian territories,(no genres listed),1,,,1.0,1.0
+Occupied Palestinian territories,Crime,1,20.0,3.725,1.0,1.0
+Occupied Palestinian territories,Drama,1,20.0,3.725,1.0,1.0
+Occupied Palestinian territories,Thriller,1,20.0,3.725,1.0,1.0
+Occupied Palestinian territories,War,1,20.0,3.725,1.0,1.0
+Pakistan,Documentary,1,,,1.0,1.0
+Palestine,Comedy,1,3.0,2.8333333333333335,1.0,1.0
+Palestine,Crime,1,20.0,3.725,1.0,1.0
+Palestine,Documentary,1,1.0,3.0,1.0,1.0
+Palestine,Romance,1,3.0,2.8333333333333335,1.0,1.0
+Palestine,Thriller,1,20.0,3.725,1.0,1.0
+Panama,Action,1,24.0,3.8125,1.0,1.0
+Panama,Adventure,1,24.0,3.8125,1.0,1.0
+Panama,Comedy,1,24.0,3.8125,1.0,1.0
+Panama,Romance,1,24.0,3.8125,1.0,1.0
+Papua New Guinea,Drama,1,,,1.0,1.0
+Papua New Guinea,War,1,,,1.0,1.0
+Paraguay,Action,1,,,1.0,1.0
+Paraguay,Thriller,1,,,1.0,1.0
+People's Republic of Bulgaria,Children,1,,,1.0,1.0
+People's Republic of Bulgaria,Drama,1,,,1.0,1.0
+People's Republic of Bulgaria,Fantasy,1,,,1.0,1.0
+People's Republic of Bulgaria,Musical,1,,,1.0,1.0
+People's Republic of Bulgaria,Romance,1,,,1.0,1.0
+People's Republic of Bulgaria,War,1,,,1.0,1.0
+People's Republic of China,Animation,1,8.0,3.4375,1.0,1.0
+People's Republic of China,Musical,1,,,1.0,1.0
+Philippines,Action,1,,,1.0,1.0
+Philippines,Adventure,1,,,1.0,1.0
+Philippines,Musical,1,,,1.0,1.0
+Philippines,Sci-Fi,1,,,1.0,1.0
+Philippines,War,1,784.0,3.917091836734694,1.0,1.0
+Poland,Action,1,,,1.0,1.0
+Poland,Children,1,79.0,3.430379746835443,1.0,1.0
+Poland,Musical,1,3.0,1.5,1.0,1.0
+Polish People's Republic,Adventure,1,1.0,1.5,1.0,1.0
+Polish People's Republic,War,1,1.0,1.5,1.0,1.0
+Portugal,(no genres listed),1,,,1.0,1.0
+Portugal,Action,1,2.0,3.25,1.0,1.0
+Portugal,Crime,1,2.0,3.25,1.0,1.0
+Portugal,Fantasy,1,,,1.0,1.0
+Portugal,Horror,1,,,1.0,1.0
+Portugal,Musical,1,,,1.0,1.0
+Puerto Rico,Comedy,1,,,1.0,1.0
+Puerto Rico,Romance,1,,,1.0,1.0
+Qatar,Drama,1,2.0,2.75,1.0,1.0
+Republic of China,Drama,1,,,1.0,1.0
+Republic of China,Romance,1,,,1.0,1.0
+Romania,(no genres listed),1,,,1.0,1.0
+Romania,Western,1,,,1.0,1.0
+Russia,Animation,1,,,1.0,1.0
+Russia,IMAX,1,,,1.0,1.0
+Russia,Musical,1,,,1.0,1.0
+Rwanda,War,1,2.0,3.0,1.0,1.0
+Saudi Arabia,Drama,1,2.0,4.0,1.0,1.0
+Serbia,Action,1,,,1.0,1.0
+Serbia,Adventure,1,,,1.0,1.0
+Serbia,Crime,1,,,1.0,1.0
+Serbia,Documentary,1,,,1.0,1.0
+Serbia,Fantasy,1,,,1.0,1.0
+Serbia,Musical,1,1.0,5.0,1.0,1.0
+Serbia,Thriller,1,8.0,2.125,1.0,1.0
+Serbia and Montenegro,Comedy,1,1.0,5.0,1.0,1.0
+Serbia and Montenegro,Drama,1,1.0,5.0,1.0,1.0
+Serbia and Montenegro,Musical,1,1.0,5.0,1.0,1.0
+Serbia and Montenegro,Romance,1,1.0,5.0,1.0,1.0
+Serbia and Montenegro,War,1,1.0,5.0,1.0,1.0
+Singapore,Action,1,1.0,0.5,1.0,1.0
+Singapore,Documentary,1,,,1.0,1.0
+Singapore,Horror,1,1.0,0.5,1.0,1.0
+Singapore,IMAX,1,66.0,3.689393939393939,1.0,1.0
+Singapore,Mystery,1,,,1.0,1.0
+Singapore,Sci-Fi,1,66.0,3.689393939393939,1.0,1.0
+Slovakia,Animation,1,,,1.0,1.0
+Slovakia,Fantasy,1,1.0,0.5,1.0,1.0
+Slovakia,Thriller,1,26.0,2.4615384615384617,1.0,1.0
+Slovenia,Adventure,1,79.0,3.430379746835443,1.0,1.0
+Slovenia,Children,1,79.0,3.430379746835443,1.0,1.0
+Socialist Federal Republic of Yugoslavia,Action,1,,,1.0,1.0
+Socialist Federal Republic of Yugoslavia,Horror,1,,,1.0,1.0
+Socialist Federal Republic of Yugoslavia,Romance,1,,,1.0,1.0
+Socialist Federal Republic of Yugoslavia,Thriller,1,,,1.0,1.0
+Socialist Federal Republic of Yugoslavia,War,1,,,1.0,1.0
+South Africa,Musical,1,2.0,4.75,1.0,1.0
+South Africa,Western,1,,,1.0,1.0
+Soviet Union,Film-Noir,1,,,1.0,1.0
+Soviet Union,Horror,1,,,1.0,1.0
+Spain,Film-Noir,1,,,1.0,1.0
+Sri Lanka,Action,1,,,1.0,1.0
+Sri Lanka,Thriller,1,,,1.0,1.0
+Sweden,Animation,1,2.0,3.75,1.0,1.0
+Syria,Adventure,1,1.0,3.5,1.0,1.0
+Syria,Documentary,1,,,1.0,1.0
+Syria,Drama,1,1.0,3.5,1.0,1.0
+Syria,War,1,1.0,3.5,1.0,1.0
+Taiwan,Animation,1,,,1.0,1.0
+Taiwan,Children,1,,,1.0,1.0
+Taiwan,Fantasy,1,,,1.0,1.0
+Taiwan,Mystery,1,,,1.0,1.0
+Taiwan,Thriller,1,,,1.0,1.0
+Tajikistan,Comedy,1,1.0,4.0,1.0,1.0
+Tajikistan,Drama,1,1.0,4.0,1.0,1.0
+Tajikistan,Fantasy,1,1.0,4.0,1.0,1.0
+Thailand,Musical,1,1.0,3.0,1.0,1.0
+Thailand,Western,1,,,1.0,1.0
+The Bahamas,Action,1,640.0,3.86171875,1.0,1.0
+The Bahamas,Adventure,1,640.0,3.86171875,1.0,1.0
+The Bahamas,Thriller,1,640.0,3.86171875,1.0,1.0
+Tunisia,Adventure,1,1.0,4.0,1.0,1.0
+Tunisia,Comedy,1,1.0,4.0,1.0,1.0
+Tunisia,Crime,1,,,1.0,1.0
+Tunisia,Musical,1,1.0,3.0,1.0,1.0
+Turkey,Crime,1,,,1.0,1.0
+Turkey,Documentary,1,,,1.0,1.0
+Turkey,Fantasy,1,1.0,3.0,1.0,1.0
+Turkey,Film-Noir,1,1.0,3.0,1.0,1.0
+Turkey,Musical,1,,,1.0,1.0
+Turkey,Mystery,1,1.0,3.0,1.0,1.0
+Ukraine,Adventure,1,,,1.0,1.0
+Ukraine,Comedy,1,4.0,4.0,1.0,1.0
+Ukraine,Crime,1,,,1.0,1.0
+Ukraine,Fantasy,1,,,1.0,1.0
+Ukraine,Mystery,1,,,1.0,1.0
+Ukraine,Thriller,1,,,1.0,1.0
+United Arab Emirates,Action,1,7.0,1.2142857142857142,1.0,1.0
+United Arab Emirates,Documentary,1,3.0,3.1666666666666665,1.0,1.0
+United Arab Emirates,Fantasy,1,7.0,1.2142857142857142,1.0,1.0
+United Arab Emirates,Romance,1,2.0,3.75,1.0,1.0
+United Arab Emirates,Thriller,1,7.0,1.2142857142857142,1.0,1.0
+Uruguay,Action,1,1.0,5.0,1.0,1.0
+Uruguay,Crime,1,1.0,5.0,1.0,1.0
+Uruguay,Documentary,1,1.0,2.5,1.0,1.0
+Uruguay,Horror,1,,,1.0,1.0
+Uruguay,Romance,1,1.0,5.0,1.0,1.0
+Venezuela,Documentary,1,,,1.0,1.0
+Venezuela,Drama,1,,,1.0,1.0
+Vietnam,Action,1,1.0,2.0,1.0,1.0
+Vietnam,Crime,1,11.0,3.0,1.0,1.0
+Vietnam,Thriller,1,77.0,3.668831168831169,1.0,1.0
+Vietnam,War,1,77.0,3.668831168831169,1.0,1.0
+Weimar Republic,Film-Noir,1,219.0,4.19634703196347,1.0,1.0
+Weimar Republic,Sci-Fi,1,271.0,3.955719557195572,1.0,1.0
+Weimar Republic,War,1,,,1.0,1.0
+West Germany,Animation,1,2.0,2.25,1.0,1.0
+West Germany,Children,1,21.0,4.142857142857143,1.0,1.0
+West Germany,Crime,1,4.0,3.625,1.0,1.0
+West Germany,Horror,1,5.0,3.5,1.0,1.0
+West Germany,Musical,1,80.0,3.73125,1.0,1.0
+West Germany,Mystery,1,2.0,2.25,1.0,1.0
+West Germany,War,1,654.0,4.10091743119266,1.0,1.0
+Yugoslavia,Crime,1,13.0,4.076923076923077,1.0,1.0
+Yugoslavia,Documentary,1,,,1.0,1.0
+Yugoslavia,Fantasy,1,13.0,4.076923076923077,1.0,1.0
+Yugoslavia,Romance,1,,,1.0,1.0
+Yugoslavia,Sci-Fi,1,,,1.0,1.0

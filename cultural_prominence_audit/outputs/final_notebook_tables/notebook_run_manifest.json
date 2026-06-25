@@ -1,0 +1,206 @@
+{
+  "config": {
+    "FULL_RUN": false,
+    "SAMPLE_USERS": 400,
+    "CV_FOLDS": 3,
+    "CV_SAMPLE_USERS": 240,
+    "FEEDBACK_SAMPLE_USERS": 180,
+    "MAX_RATINGS_FOR_DESCRIPTIVE": 1000000,
+    "MAX_CANDIDATE_ITEMS": 1200,
+    "K_VALUES": [
+      5,
+      10,
+      20,
+      50
+    ],
+    "MAIN_K": 20,
+    "MIN_COUNTRY_ITEMS": 30,
+    "MIN_LANGUAGE_ITEMS": 30,
+    "MIN_GROUP_INTERACTIONS": 500,
+    "FEEDBACK_ITERATIONS": 10,
+    "LAMBDAS": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "RUN_WIKIDATA_ENRICHMENT": false,
+    "RUN_CROSS_VALIDATION": true,
+    "RUN_FEEDBACK_LOOP": true
+  },
+  "runtime_info": [
+    {
+      "field": "python",
+      "value": "3.11.8"
+    },
+    {
+      "field": "platform",
+      "value": "macOS-27.0-arm64-arm-64bit"
+    },
+    {
+      "field": "project_root",
+      "value": "/Users/maxpriessnitz/Desktop/DS AI 2"
+    },
+    {
+      "field": "run_mode",
+      "value": "bounded local run"
+    },
+    {
+      "field": "figures_dir",
+      "value": "/Users/maxpriessnitz/Desktop/DS AI 2/cultural_prominence_audit/outputs/final_notebook_figures"
+    },
+    {
+      "field": "tables_dir",
+      "value": "/Users/maxpriessnitz/Desktop/DS AI 2/cultural_prominence_audit/outputs/final_notebook_tables"
+    }
+  ],
+  "tables_dir": "cultural_prominence_audit/outputs/final_notebook_tables",
+  "figures_dir": "cultural_prominence_audit/outputs/final_notebook_figures",
+  "model_run_ledger": [
+    {
+      "model": "Popularity",
+      "status": "executed",
+      "reason": "",
+      "dependency_or_data_issue": "",
+      "included_in_final_comparison": true
+    },
+    {
+      "model": "ItemKNN",
+      "status": "executed",
+      "reason": "",
+      "dependency_or_data_issue": "",
+      "included_in_final_comparison": true
+    },
+    {
+      "model": "SVD",
+      "status": "executed",
+      "reason": "",
+      "dependency_or_data_issue": "",
+      "included_in_final_comparison": true
+    },
+    {
+      "model": "MPNet-content",
+      "status": "executed",
+      "reason": "",
+      "dependency_or_data_issue": "",
+      "included_in_final_comparison": true
+    },
+    {
+      "model": "CLIP-image-content",
+      "status": "executed",
+      "reason": "",
+      "dependency_or_data_issue": "",
+      "included_in_final_comparison": true
+    },
+    {
+      "model": "Hybrid",
+      "status": "executed",
+      "reason": "",
+      "dependency_or_data_issue": "",
+      "included_in_final_comparison": true
+    },
+    {
+      "model": "BPR-MF",
+      "status": "not run in final notebook",
+      "reason": "Deep variants are documented in separate feedback script; final notebook keeps runtime bounded.",
+      "dependency_or_data_issue": "runtime/dependency scope",
+      "included_in_final_comparison": false
+    },
+    {
+      "model": "LightGCN-style",
+      "status": "not run in final notebook",
+      "reason": "Deep variants are documented in separate feedback script; final notebook keeps runtime bounded.",
+      "dependency_or_data_issue": "runtime/dependency scope",
+      "included_in_final_comparison": false
+    },
+    {
+      "model": "NeuMF-lite",
+      "status": "not run in final notebook",
+      "reason": "Deep variants are documented in separate feedback script; final notebook keeps runtime bounded.",
+      "dependency_or_data_issue": "runtime/dependency scope",
+      "included_in_final_comparison": false
+    },
+    {
+      "model": "MultiVAE-lite",
+      "status": "not run in final notebook",
+      "reason": "Deep variants are documented in separate feedback script; final notebook keeps runtime bounded.",
+      "dependency_or_data_issue": "runtime/dependency scope",
+      "included_in_final_comparison": false
+    }
+  ],
+  "filter_threshold_ledger": [],
+  "sanity_checks": [
+    {
+      "check": "unique movieId in movie_db",
+      "passed": true,
+      "details": "0 duplicate movieId rows"
+    },
+    {
+      "check": "ratings movieIds exist in movie table",
+      "passed": true,
+      "details": "MovieLens rating movieIds checked against movie table"
+    },
+    {
+      "check": "unknown country preserved",
+      "passed": true,
+      "details": "Unknown country appears as explicit label when metadata is missing"
+    },
+    {
+      "check": "unknown language preserved",
+      "passed": true,
+      "details": "Unknown language appears as explicit label when metadata is missing"
+    },
+    {
+      "check": "fractional country shares sum correctly",
+      "passed": true,
+      "details": "country share sum=1.000000"
+    },
+    {
+      "check": "fractional language shares sum correctly",
+      "passed": true,
+      "details": "language share sum=1.000000"
+    },
+    {
+      "check": "evaluated users have train interactions",
+      "passed": true,
+      "details": "Every evaluated user has train interactions"
+    },
+    {
+      "check": "evaluated users have test interactions",
+      "passed": true,
+      "details": "Every evaluated user has test candidate interactions"
+    },
+    {
+      "check": "no test data used for training",
+      "passed": true,
+      "details": "train/test item overlap after filtering=0"
+    },
+    {
+      "check": "exposure values between 0 and 1 in toy example",
+      "passed": true,
+      "details": "toy exposure=0.35195904451706733"
+    },
+    {
+      "check": "PACPG toy example computed",
+      "passed": true,
+      "details": "toy PACPG=-0.14804095548293267"
+    },
+    {
+      "check": "recommendation list length is correct",
+      "passed": true,
+      "details": "Top-K lists bounded by max K"
+    },
+    {
+      "check": "seen items excluded from recommendations",
+      "passed": true,
+      "details": "Popularity recommendations checked for seen item exclusion"
+    }
+  ]
+}
