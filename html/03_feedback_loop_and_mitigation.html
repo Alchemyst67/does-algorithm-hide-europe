@@ -7946,50 +7946,6 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2ab9315d">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Pitch-slide-implementation-checklist">Pitch-slide implementation checklist<a class="anchor-link" href="#Pitch-slide-implementation-checklist">¶</a></h2><table>
-<thead>
-<tr>
-<th>Pitch requirement</th>
-<th>Implemented as</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Load -&gt; Enrich -&gt; Train -&gt; Audit -&gt; Mitigate</td>
-<td>Main pipeline plus this dynamic feedback-loop extension</td>
-</tr>
-<tr>
-<td>Cultural labels</td>
-<td>European origin, non-English original language, long-tail, US origin, US-company involvement, co-production and multilingual flags</td>
-</tr>
-<tr>
-<td>Models and metrics</td>
-<td>Pop, ItemKNN, BPR-MF, LightGCN-style, NeuMF-lite, MultiVAE-lite; shifts and JSD miscalibration</td>
-</tr>
-<tr>
-<td>PACPG / prominence framing</td>
-<td>Static Top-K audit still reports PACPG; feedback loop adds profile drift and country/language JSD</td>
-</tr>
-<tr>
-<td>Visual audit design</td>
-<td>Representation dynamics, JSD heatmap, final shift chart, country/language panels</td>
-</tr>
-<tr>
-<td>Re-ranking</td>
-<td>Still handled in the main Top-K audit; this notebook clarifies the dynamic risk before mitigation</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f9f9876d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">

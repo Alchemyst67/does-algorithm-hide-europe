@@ -14,7 +14,7 @@ Course: Data Science and Artificial Intelligence II: Data and Algorithmic Govern
 This project asks whether movie recommender systems trained on real interaction data under-expose European, non-English and long-tail films in Top-K recommendations, and whether multimodal features or transparent re-ranking can reduce this visibility gap without destroying recommendation utility.
 
 
-The central thesis is: **cultural diversity is not only a catalogue question; it is a ranking visibility problem.**
+The central argument is: **cultural diversity is not only a catalogue question; it is a ranking visibility problem.**
 
 
 ## Repository Architecture
@@ -28,11 +28,9 @@ The central thesis is: **cultural diversity is not only a catalogue question; it
 
 - `notebooks/03_feedback_loop_and_mitigation.ipynb` — feedback-loop stress test and mitigation logic.
 
-- `notebooks/04_final_research_story_executed.ipynb` — main thesis-like notebook with executed outputs and interpretations.
+- `notebooks/04_final_research_story_executed.ipynb` — main research-story notebook with executed outputs and interpretations.
 
 - `html/` — HTML exports of the notebooks with saved output state.
-
-- `scripts/` — reproducible pipeline scripts.
 
 - `cultural_prominence_audit/outputs/` — derived tables, figures and final-submission assets.
 
@@ -45,7 +43,7 @@ The central thesis is: **cultural diversity is not only a catalogue question; it
 ## Required Data
 
 
-Raw MovieLens and M3L/Binge Watch files are not redistributed. To reproduce from scratch, place the required local files under `data/raw/` or use the extracted folders expected by the scripts:
+Raw MovieLens and M3L/Binge Watch files are not redistributed. To reproduce from scratch, place the required local files under `data/raw/` or in the extracted local folders described in `data/README_data.md`:
 
 
 - M3L-20M / Binge Watch interaction and multimodal features
@@ -78,24 +76,15 @@ If `uv` is not available, use a Python 3.12 virtual environment and install the 
 ## Reproduction Order
 
 
-```bash
+This public repository is notebook-first. The executed notebooks and HTML exports contain the analysis path, saved outputs and interpretations. To review the project, open the notebooks in this order:
 
-python scripts/build_movies_db.py
+1. `notebooks/00_project_roadmap_and_final_answers.ipynb`
+2. `notebooks/01_data_foundation_movies_db.ipynb`
+3. `notebooks/02_model_pipeline_and_user_fold_robustness.ipynb`
+4. `notebooks/03_feedback_loop_and_mitigation.ipynb`
+5. `notebooks/04_final_research_story_executed.ipynb`
 
-python scripts/run_full_cultural_prominence_audit.py
-
-python scripts/run_recommender_cross_validation.py
-
-python scripts/run_schedl_style_feedback_loop.py
-
-python scripts/build_visibility_dna_enrichment.py
-
-python scripts/build_final_submission_assets.py
-
-```
-
-
-The main notebook can then be executed with:
+The main notebook can be re-executed after placing the raw datasets locally:
 
 
 ```bash
@@ -147,7 +136,7 @@ Key sources include Klimashevskaia et al. (2023), Abdollahpouri et al. (2019), W
 ## AI Use
 
 
-Generative AI was used for code scaffolding, notebook structuring, documentation wording, visualization/UI drafting and presentation drafting. All research claims are tied to executed outputs or cited sources. No synthetic data was generated. Details are in `AI_USE_DISCLOSURE.md`.
+Generative AI was used selectively for language polishing, code-review support, small refactoring suggestions and documentation checks. All research claims are tied to executed outputs or cited sources. No synthetic data was generated. Details are in `AI_USE_DISCLOSURE.md`.
 
 
 ## Licence and Raw-Data Policy
@@ -157,4 +146,4 @@ This repository does not redistribute raw MovieLens or M3L data. Users must down
 
 ## Presentation Material
 
-Presentation files are intentionally not included in this GitHub repository. The final slide design will be handled separately, while this repository remains the reproducible analysis/code package.
+Presentation design files are handled separately. This repository remains the reproducible analysis package with notebooks, HTML exports, derived tables, figures and documentation.

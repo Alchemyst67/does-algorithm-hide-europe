@@ -23,4 +23,4 @@ Raw MovieLens and M3L files are not included in this submission package and shou
 ## Wikidata Cache
 
 
-Wikidata is CC0. The scripts cache query results under `data/interim/` during reproduction. The submitted derived outputs document query-based metadata coverage and missingness.
+Wikidata is CC0. Query results are cached under `data/interim/` during local reproduction. The submitted derived outputs document query-based metadata coverage and missingness.

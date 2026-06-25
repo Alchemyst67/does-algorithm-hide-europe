@@ -29,7 +29,7 @@ The roadmap page additionally shows:
 
 - a seven-step audit roadmap from governance framing to mitigation,
 - an eighth research-extension step for European Film Visibility DNA,
-- country-risk findings with scorecard, target-vs-exposure plot and approximate geo map,
+- country-risk findings with scorecard, target-vs-exposure plot and country-border choropleth,
 - a compact model metric explorer,
 - final supported research-question answers,
 - technique-choice cards for methods, metrics and governance framing.
@@ -58,25 +58,11 @@ The dataset-foundation section is extracted from:
 
 - `/Users/maxpriessnitz/Downloads/dataset_exploration_and_combination.ipynb`
 
-Regenerate those derived exploration outputs before rebuilding the UI data:
-
-```bash
-.venv/bin/python scripts/build_movies_db.py
-.venv/bin/python scripts/extract_dataset_exploration_for_ui.py
-```
-
-Regenerate the embedded UI data after rerunning the audit:
-
-```bash
-.venv/bin/python scripts/build_movies_db.py
-.venv/bin/python scripts/extract_dataset_exploration_for_ui.py
-.venv/bin/python scripts/run_schedl_style_feedback_loop.py
-.venv/bin/python scripts/build_interactive_ui_data.py
-```
+The public repository includes the executed UI data bundle. For course review, open the HTML pages directly after cloning the repository; raw MovieLens/M3L files are not needed for the UI layer.
 
 The feedback-loop panel follows Lesota, Geiger, Walder, Kowald and Schedl (2024) in spirit: recommend, simulate one accepted item, append it to the user profile, retrain and repeat. MovieLens/M3L has no user-country field, so the UI phrases this as user-history calibration rather than literal local-country representation.
 
-The storyline section is intentionally strict about evidence. It distinguishes supported outputs from partial or not-yet-claimed analyses, especially for granular country/region exposure, the Spain case study and religion/theme exploration.
+The storyline section is intentionally strict about evidence. It distinguishes supported outputs from partial or not-yet-claimed analyses, especially for granular country/region exposure, the Spain case study and theme exploration.
 
 ## Run Locally
 

@@ -7540,8 +7540,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="2.-Reproducible-Pipeline-Contract">2. Reproducible Pipeline Contract<a class="anchor-link" href="#2.-Reproducible-Pipeline-Contract">¶</a></h2><p>The implementation lives in <code>scripts/run_recommender_cross_validation.py</code>. Keeping the heavy model code in a script gives us a reliable rerun path, while this notebook keeps the reasoning, outputs and interpretation readable.</p>
-<p>The script performs these steps per fold:</p>
+<h2 id="2.-Reproducible-Pipeline-Contract">2. Reproducible Pipeline Contract<a class="anchor-link" href="#2.-Reproducible-Pipeline-Contract">¶</a></h2><p>This notebook documents the model-evaluation pipeline and the bounded user-fold robustness check. For each fold, the analysis follows these steps:</p>
 <ol>
 <li>Load real M3L interactions and cached processed movie metadata.</li>
 <li>Select eligible users with at least five train interactions and at least one test interaction.</li>

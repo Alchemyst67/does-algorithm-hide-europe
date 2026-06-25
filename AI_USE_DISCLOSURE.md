@@ -1,21 +1,20 @@
 # Generative AI Use Disclosure
 
 
-We used generative AI tools, including OpenAI Codex/ChatGPT, as a coding and writing assistant during the project.
+We used generative AI tools, including OpenAI Codex/ChatGPT, selectively as a support tool during the project.
 
 
 ## What AI Was Used For
 
 
-- Scaffolding Python scripts and Jupyter notebook sections.
+- Language polishing for selected notebook explanations and README documentation.
 
-- Refactoring the analysis into a clearer thesis-like storyline.
+- Code-review support for notebook cells, metric definitions and reproducibility checks.
 
-- Drafting markdown explanations, figure interpretations and README documentation.
+- Small refactoring suggestions where the analysis became difficult to follow.
 
-- Drafting interactive UI and presentation structure.
+- Help with wording caveats around country, language, production-company and feedback-loop methodology.
 
-- Helping formulate caveats around country, language, production-company and feedback-loop methodology.
 
 
 ## What AI Was Not Used For
@@ -31,4 +30,4 @@ We used generative AI tools, including OpenAI Codex/ChatGPT, as a coding and wri
 ## Human Responsibility
 
 
-Max Priessnitz and Nico [surname] remain responsible for the project framing, interpretation, source selection, validation and final submission. Code and text were reviewed and adapted to match our project language and university requirements.
+Max Priessnitz and Nico [surname] remain responsible for the project framing, implementation choices, interpretation, source selection, validation and final submission. Code and text were reviewed and adapted to match our project language and university requirements.

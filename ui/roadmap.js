@@ -75,7 +75,7 @@
       why: "A Europe-wide label can hide intra-European concentration. The governance question becomes stronger when we can point to country-level gaps.",
       technique: "Country-level Exposure@20 and PACPG@20. The target is max(user-history share, relevant-test share), so underexposure is judged relative to observed user interest.",
       outcome: "United Kingdom is the most visible support-passing country. France has the lowest mean PACPG@20; Poland, Netherlands, Switzerland, Sweden and Austria are near-invisible despite a target signal.",
-      evidence: "Country geo outcome table, scorecard, target-vs-exposure plot and approximate geo risk map.",
+      evidence: "Country scorecard, target-vs-exposure plot and country-border choropleth.",
       figure: "12_country_geo_scorecard.png",
       caption: "The scorecard turns country-level PACPG into an easy presentation result."
     },

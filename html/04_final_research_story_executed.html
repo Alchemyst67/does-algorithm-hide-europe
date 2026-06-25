@@ -7933,7 +7933,7 @@ a.anchor-link {
 <li>What should platforms report for governance?</li>
 </ol>
 <p>The notebook first answers simple descriptive questions before moving to models: how many films, countries, languages, Spanish films, Spanish-language films and low-support groups exist in the local data.</p>
-<p><strong>Thesis storyline.</strong> The argument is built like a small empirical thesis:</p>
+<p><strong>Project storyline.</strong> The argument is built like a compact empirical research story:</p>
 <ol>
 <li><strong>Data foundation:</strong> what catalogue, interaction, feature and metadata coverage exists?</li>
 <li><strong>Operationalisation:</strong> how do we define Europe, countries, language and Spain without hiding proxy risk?</li>
@@ -11600,7 +11600,7 @@ a.anchor-link {
     <span class="n">model_run_ledger</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s2">"model"</span><span class="p">:</span> <span class="s2">"Hybrid"</span><span class="p">,</span> <span class="s2">"status"</span><span class="p">:</span> <span class="s2">"skipped"</span><span class="p">,</span> <span class="s2">"reason"</span><span class="p">:</span> <span class="s2">"Requires SVD, MPNet and CLIP scores"</span><span class="p">,</span> <span class="s2">"dependency_or_data_issue"</span><span class="p">:</span> <span class="s2">"missing component scores"</span><span class="p">,</span> <span class="s2">"included_in_final_comparison"</span><span class="p">:</span> <span class="kc">False</span><span class="p">})</span>
 
 <span class="k">for</span> <span class="n">optional</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">"BPR-MF"</span><span class="p">,</span> <span class="s2">"LightGCN-style"</span><span class="p">,</span> <span class="s2">"NeuMF-lite"</span><span class="p">,</span> <span class="s2">"MultiVAE-lite"</span><span class="p">]:</span>
-    <span class="n">model_run_ledger</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s2">"model"</span><span class="p">:</span> <span class="n">optional</span><span class="p">,</span> <span class="s2">"status"</span><span class="p">:</span> <span class="s2">"not run in final notebook"</span><span class="p">,</span> <span class="s2">"reason"</span><span class="p">:</span> <span class="s2">"Deep variants are documented in separate feedback script; final notebook keeps runtime bounded."</span><span class="p">,</span> <span class="s2">"dependency_or_data_issue"</span><span class="p">:</span> <span class="s2">"runtime/dependency scope"</span><span class="p">,</span> <span class="s2">"included_in_final_comparison"</span><span class="p">:</span> <span class="kc">False</span><span class="p">})</span>
+    <span class="n">model_run_ledger</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s2">"model"</span><span class="p">:</span> <span class="n">optional</span><span class="p">,</span> <span class="s2">"status"</span><span class="p">:</span> <span class="s2">"not run in final notebook"</span><span class="p">,</span> <span class="s2">"reason"</span><span class="p">:</span> <span class="s2">"Deep variants are documented in the separate feedback-loop notebook; the final notebook keeps runtime bounded."</span><span class="p">,</span> <span class="s2">"dependency_or_data_issue"</span><span class="p">:</span> <span class="s2">"runtime/dependency scope"</span><span class="p">,</span> <span class="s2">"included_in_final_comparison"</span><span class="p">:</span> <span class="kc">False</span><span class="p">})</span>
 
 <span class="n">model_run_ledger_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">model_run_ledger</span><span class="p">)</span>
 <span class="n">save_table</span><span class="p">(</span><span class="n">model_run_ledger_df</span><span class="p">,</span> <span class="s2">"model_run_ledger.csv"</span><span class="p">)</span>
@@ -16366,7 +16366,7 @@ a.anchor-link {
             <span class="s2">"rows"</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">dna_extra</span><span class="p">),</span>
             <span class="s2">"priority_movies_requested"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
             <span class="s2">"coverage_of_priority_movies"</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">,</span>
-            <span class="s2">"notes"</span><span class="p">:</span> <span class="s2">"Run scripts/build_visibility_dna_enrichment.py to fetch the optional deep-Wikidata cache."</span><span class="p">,</span>
+            <span class="s2">"notes"</span><span class="p">:</span> <span class="s2">"Optional deeper Wikidata metadata can be rebuilt locally through the documented SPARQL enrichment workflow."</span><span class="p">,</span>
         <span class="p">},</span>
         <span class="p">{</span>
             <span class="s2">"source"</span><span class="p">:</span> <span class="s2">"TMDb details/watch providers"</span><span class="p">,</span>
@@ -17763,6 +17763,21 @@ a.anchor-link {
 </table>
 </div>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=66703b1a">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Supplementary-country-border-choropleths">Supplementary country-border choropleths<a class="anchor-link" href="#Supplementary-country-border-choropleths">¶</a></h2><p>The table and heatmap views above show the country-level pattern numerically. For presentation and review, we also export two real country-border choropleths:</p>
+<p><img alt="Country visibility gap choropleth" src="../cultural_prominence_audit/outputs/final_notebook_figures/23_europe_country_visibility_gap_choropleth.png"/></p>
+<p><strong>Interpretation.</strong> Red countries are below the user-adjusted prominence target, blue countries are above it, and grey countries are context or below the scorecard support threshold. This map makes the main country-level result easier to read geographically: the negative visibility gap is not evenly distributed across Europe.</p>
+<p><img alt="Mean exposure choropleth" src="../cultural_prominence_audit/outputs/final_notebook_figures/24_europe_country_exposure_choropleth.png"/></p>
+<p><strong>Interpretation.</strong> This second map shows average discounted Top-20 exposure by production-country proxy. It separates absolute visibility from the gap metric: a country can receive some recommendation exposure and still be under-exposed relative to observed user interest.</p>
 </div>
 </div>
 </div>
