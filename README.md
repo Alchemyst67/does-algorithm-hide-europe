@@ -30,6 +30,8 @@ The central argument is: **cultural diversity is not only a catalogue question; 
 
 - `notebooks/05_research_answers_and_roadmap.ipynb` — direct answers to the research questions and evidence map.
 
+- `scripts/` — plain Python support scripts for the core reproducibility steps: M3L-to-MovieLens bridge reconstruction, Wikidata metadata querying and optional visibility-DNA enrichment.
+
 - `html/` — HTML exports of the notebooks with saved output state.
 
 - `cultural_prominence_audit/outputs/` — derived tables, figures and final-submission assets.
@@ -108,6 +110,18 @@ The main notebook can be re-executed after placing the raw datasets locally:
 jupyter nbconvert --to notebook --execute notebooks/04_final_research_story_executed.ipynb --output rerun_final_story.ipynb --ExecutePreprocessor.timeout=1200
 
 ```
+
+## Supporting Scripts
+
+The notebooks show the full analysis path. The scripts expose the central data-foundation steps as plain Python for easier inspection and reruns:
+
+```bash
+python scripts/build_m3l_movielens_bridge.py --project-root .
+python scripts/query_wikidata_metadata.py --project-root .
+python scripts/build_visibility_dna_enrichment.py --project-root .
+```
+
+These scripts write local caches under `data/interim/` and small diagnostics under `data/processed/`. They do not create synthetic data and do not redistribute raw MovieLens or M3L files.
 
 
 ## Models

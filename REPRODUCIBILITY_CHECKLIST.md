@@ -9,6 +9,8 @@
 
 - [x] Multiple notebooks included with a clear reading order.
 
+- [x] Core data-foundation scripts included for source bridge and Wikidata enrichment.
+
 - [x] HTML exports included with saved outputs.
 
 - [x] Models, metrics and caveats explained in markdown.

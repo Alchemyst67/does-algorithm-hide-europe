@@ -50,3 +50,12 @@ The `*_from_notebook.csv` files are small diagnostics written by `notebooks/01_d
 
 
 Wikidata is CC0. Query results are cached under `data/interim/` during local reproduction. The submitted derived outputs document query-based metadata coverage and missingness.
+
+The same enrichment logic is also available as plain Python:
+
+```bash
+python ../scripts/query_wikidata_metadata.py --project-root ..
+python ../scripts/build_visibility_dna_enrichment.py --project-root ..
+```
+
+The scripts query Wikidata directly from MovieLens IMDb identifiers. They write cache files locally and never invent missing labels.

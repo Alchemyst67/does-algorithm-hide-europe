@@ -16,6 +16,11 @@
     "04_final_research_story_executed.html",
     "05_research_answers_and_roadmap.html"
   ],
+  "scripts": [
+    "build_m3l_movielens_bridge.py",
+    "query_wikidata_metadata.py",
+    "build_visibility_dna_enrichment.py"
+  ],
   "raw_data_included": false,
   "note": "Raw MovieLens/M3L data are excluded; derived CSV tables are included under data/processed. Data links and reproduction instructions are in data/README_data.md.",
   "presentations_included": false,
